@@ -95,7 +95,7 @@ console.log(Math.random()) // 0 to 0.9999999999
 console.log(Math.round(Math.random()*10));
 
 let i;
-
+let j=0;
 for(let i=0;i<=10;i++)
 {
     // console.log(` now ${i} * ${i} = ${i*i} `);
