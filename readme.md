@@ -11,7 +11,7 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnod
 - Learnt about various tags and it's use cases.
 - Built TimeTable using table tag and used iframe tag.
 - GitHub Repo Link - [Repo Link for Class 1,2](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-1%2C2-Basics-HTML_6%2C7Nov22/Basics_HTML "Repo Link") <br>
-- GitHub Repo Link - <a href="https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-1%2C2-Basics-HTML_6%2C7Nov22/Basics_HTML" data-toggle = "tooltip" title = "Repo Link" target="_blank">Repo Link for Class 1,2</a>
+<!-- - GitHub Repo Link - <a href="https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-1%2C2-Basics-HTML_6%2C7Nov22/Basics_HTML" data-toggle = "tooltip" title = "Repo Link" target="_blank">Repo Link for Class 1,2</a> -->
 
 ## Class 3,4
 - Leant about basics of CSS and it's usage.
@@ -35,9 +35,9 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnod
 
 ## Class 8
 - Learnt about CSS Framework - Tailwind
-- Deep dived into Tailwind and built VS Code Clone Project Landing Pagev(non-responsive).
+- Deep dived into Tailwind and built VS Code Clone Landing Page(non-responsive).
 - GitHub Repo Link - [Repo Link for Class 8](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-8-Tailwind_27Nov2022 "Repo Link")
-- Repo Link for VS Code Clone Landing page - [Repo Link for Proejct](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-8-Tailwind_27Nov2022/VSCode_Clone_Tailwind "Repo Link")
+- GitHub Repo Link for VS Code Clone Landing page - [Repo Link for Project](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-8-Tailwind_27Nov2022/VSCode_Clone_Tailwind "Repo Link")
 - Live Link - [Live Project VS Code Landing Page](https://madhavsahi-vscode-clone-tailwind.netlify.app/ "Live Link")
 
 ## Class 9
@@ -48,9 +48,24 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnod
 
 ## Class 10,11
 - Learnt about basics of JavaScript.
-- Learnt about Variable declaration in JS.
-- Learnt about if-else , Ternary statement, switch-case , loops in JavaScript.
+- Learnt about Variable declaration in JavaScript.
+- Learnt about if-else , Ternary condition, switch-case , loops in JavaScript.
 - Learnt about Math and Random.
-- Learnt about date functions.
-- Learnt about Min, Max, Floor, Ceil etc.
+- Learnt about Date methods.
+- Learnt about Round, Min, Max, Floor, Ceil etc.
 - GitHub Repo Link - [Repo Link for Class 10,11](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-10-JavaScript_10Dec2022 "Repo Link")
+
+## HTML , CSS Projects
+- VS Code Landing page - [Repo Link for Project](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-8-Tailwind_27Nov2022/VSCode_Clone_Tailwind "Repo Link")
+- Project 1 - [Digital Marketing Landing Page]("Repo Link")
+- Project 2 - [Space Landing Page]("Repo Link")
+- Project 3 - [Trend Landing Page]("Repo Link")
+- Project 4 - [Healtcare Landing Page]("Repo Link")
+- Project 5 - [Headphone Landing Page]("Repo Link")
+- Project 6 - [Justice Site Landing Page]("Repo Link")
+- Project 7 - [Credit Card Landing Page]( "Repo Link")
+- Project 8 - [Hosting Site Landing Page]("Repo Link")
+- Project 9 - [Gaming Site Landing Page]("Repo Link")
+- Project 10 - [Real Estate Landing Page]("Repo Link")
+- Project 11 - [Beats Landing Page]("Repo Link")
+- Project 12 - [Data Analytics Landing Page]("Repo Link")
