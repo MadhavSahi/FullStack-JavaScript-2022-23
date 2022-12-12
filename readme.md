@@ -1,6 +1,6 @@
 # FullStack JavaScript 
 ### This repository will contain HTML, CSS, JavaScript files and projects which will be built over time. <br>
-My LinkedIn - [LinkedIN - Madhav Sahi](https://www.linkedin.com/in/madhav-sahi-6a2305161/) <br>
+My LinkedIn - [LinkedIN - Madhav Sahi](https://www.linkedin.com/in/madhav-sahi-6a2305161/?target=_blank)<br>
 My GitHub - [GitHub - Madhav Sahi](https://github.com/MadhavSahi) <br>
 My Twitter - [Twitter - Madhav Sahi](https://twitter.com/Madhavvv_)<br>
 My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/)<br>
@@ -10,7 +10,7 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/)<br>
 - Learnt about Emmet and various VS Code extensions.
 - Learnt about various tags and it's use cases.
 - Built TimeTable using table tag and used iframe tag.
-- GitHub Repo Link - [Repo Link for Class 1,2](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-1%2C2-Basics-HTML_6%2C7Nov22/Basics_HTML "Repo Link")
+- GitHub Repo Link - [Repo Link for Class 1,2](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-1%2C2-Basics-HTML_6%2C7Nov22/Basics_HTML?target=_blank "Repo Link")
 
 ## Class 3,4
 - Leant about basics of CSS and it's usage.
