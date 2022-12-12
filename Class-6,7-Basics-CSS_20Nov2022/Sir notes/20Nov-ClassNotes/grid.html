@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRID CSS</title>
+    <style>
+        .container{
+            background-color: #808080;
+            height: 100vh;
+            /* width: 100vh; */
+            display: grid;
+            /* FR: 1 fraction of Entrie Width */
+            grid-template-columns: repeat(3, 1fr);
+            /* grid-template-rows: ; */
+            /* row-gap: 100px;
+            column-gap: 200px ; */
+            color: white;
+        }
+        .items{
+            background-color: #242323;
+            /* height: 70px;
+            width: 70px; */
+            margin: 10px;
+        }
+        .item1{
+            /* grid-column-start: 1;
+            grid-column-end: 3; */
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+        - HTML
+        - CSS
+            - Selector
+            - Pseudo
+            - Marigin
+            - padding
+            - border
+            - background
+            - height
+            - width 
+            - media query 
+            - flex
+            - grid
+            - nth- child
+            - postions
+            - display 
+            - text
+     -->
+     <!-- 
+        - Tailwind
+        - BootStrap
+        - Git and Github
+        - Markdoown
+      -->
+    <div class="container">
+        <div class="items item1">One</div>
+        <div class="items">Two</div>
+        <div class="items">three</div>
+        <div class="items">four</div>
+        <div class="items">five</div>
+        <div class="items">six</div>
+        <div class="items">seven</div>
+        <div class="items">eight</div>
+        <div class="items">nine</div>
+    </div>
+</body>
+</html>
