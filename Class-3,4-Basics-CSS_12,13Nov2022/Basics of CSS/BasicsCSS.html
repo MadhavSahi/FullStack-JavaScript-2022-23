@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basics CSS</title>
+    <style>
+        
+        h2{
+            background-color: blue;
+        }
+        h2.hello2{
+            background-color: yellow;
+        }
+        .hello2.hello3{
+            background-color: pink;
+        }
+        .sibling~p{
+            background-color: cyan;
+        }
+        span:hover:after{   
+            content: '';
+            display: block;
+            background-color: aqua;
+            height: 20px;
+            width: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="jjj" class="hello">
+        <p>hi madhav</p>
+        <h2 class="hello2">hi madhav 2</h2>
+        <h2 class="hello2 hello3">hi madhav 3</h2>
+    </div>
+    <p >hi</p>
+    <p>hi2</p>
+    <h3 class="sibling">hi3</h3>
+    <p>ookkk</p>
+    <p>ookkk</p>
+    <p>hi5</p>
+    <h3>hi4</h3>
+    <div>
+        <p>okay</p>
+    </div>
+    <span class="cricket">
+        Hi this a random Lorem ipsum dolor sit amet.
+    </span>
+    <p>hi5</p>
+    
+</body>
+</html>
