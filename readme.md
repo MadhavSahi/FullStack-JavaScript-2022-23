@@ -40,8 +40,9 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/)<br>
 - Live Link - [Live Project VS Code Landing Page](https://madhavsahi-vscode-clone-tailwind.netlify.app/ "Live Link")
 
 ## Class 9
-- Learnt about markdown and it's importance.
-- Learnt various syntax and how to embed links and images and various other things.
+- Learnt about Git, GitHub, Markdown and it's importance.
+- Learnt how to configure Git and GitHub.
+- Learnt various syntax and how to embed links and images and various other things in "readme.md" file.
 - GitHub Repo Link - [Repo Link for Class 9](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-9-Markdown_3Dec2022 "Repo Link")
 
 ## Class 10,11
