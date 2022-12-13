@@ -51,18 +51,18 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnod
 - Learnt about Variable declaration in JavaScript.
 - Learnt about if-else , Ternary condition, switch-case , loops in JavaScript.
 - Learnt about Math and Random.
-- Learnt about Date methods.
+- Learnt about Date and it's methods.
 - Learnt about Round, Min, Max, Floor, Ceil etc.
 - GitHub Repo Link - [Repo Link for Class 10,11](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-10-JavaScript_10Dec2022 "Repo Link")
 
 ## HTML , CSS Projects
-- VS Code Landing page - [Repo Link for Project](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-8-Tailwind_27Nov2022/VSCode_Clone_Tailwind "Repo Link")
-- Project 1 - [Digital Marketing Landing Page]("Repo Link")
-- Project 2 - [Space Landing Page]("Repo Link")
-- Project 3 - [Trend Landing Page]("Repo Link")
-- Project 4 - [Healtcare Landing Page]("Repo Link")
-- Project 5 - [Headphone Landing Page]("Repo Link")
-- Project 6 - [Justice Site Landing Page]("Repo Link")
+- VS Code Landing page using Tailwind - [Repo Link for Project](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-8-Tailwind_27Nov2022/VSCode_Clone_Tailwind "Repo Link")
+- Project 1 - [Digital Marketing Landing Page](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Projects-Sols/20Nov-Project_Sols%20-%20HTML%2CCSS/Project-1-Sol "Repo Link")
+- Project 2 - [Space Landing Page](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Projects-Sols/20Nov-Project_Sols%20-%20HTML%2CCSS/Project-2-Sol "Repo Link")
+- Project 3 - [Trend Landing Page](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Projects-Sols/20Nov-Project_Sols%20-%20HTML%2CCSS/Project-3-Sol "Repo Link")
+- Project 4 - [Headphone Landing Page](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Projects-Sols/26%20Nov%20Project%20Sols%20-%20Tailwind/Project-1-Sol "Repo Link")
+- Project 5 - [Healthcare Landing Page](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Projects-Sols/26%20Nov%20Project%20Sols%20-%20Tailwind/Project-2-Sol "Repo Link")
+- Project 6 - [Justice Site Landing Page](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Projects-Sols/26%20Nov%20Project%20Sols%20-%20Tailwind/Project-3-Sol "Repo Link")
 - Project 7 - [Credit Card Landing Page]( "Repo Link")
 - Project 8 - [Hosting Site Landing Page]("Repo Link")
 - Project 9 - [Gaming Site Landing Page]("Repo Link")
