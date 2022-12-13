@@ -55,7 +55,7 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnod
 - Learnt about Math and Random.
 - Learnt about Date and it's methods.
 - Learnt about Round, Min, Max, Floor, Ceil etc.
-- GitHub Repo Link - [Repo Link for Class 10,11](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-10-JavaScript_10Dec2022 "Repo Link")
+- GitHub Repo Link - [Repo Link for Class 10,11](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-10%2C11-JavaScript_10%2C11Dec2022 "Repo Link")
 
 ## HTML , CSS Projects
 - VS Code Landing page using Tailwind - [Repo Link for Project](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-08-Tailwind_27Nov2022/VSCode_Clone_Tailwind "Repo Link")
