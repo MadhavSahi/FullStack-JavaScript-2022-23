@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        *{
+            margin: 20px;
+        }
+        .container{
+            display: flex;
+            border: 2px solid black;
+            height: 1500px;
+            width: 1400px;
+            /* position: relative;
+            top: 0px; */
+        }
+        .one{
+            border: 2px solid red;
+            height: 200px;
+            width: 200px;
+            font-size: 30px;
+            text-align: center;
+        }
+        .two{
+            border: 2px solid purple;
+            height: 200px;
+            font-size: 30px;
+            text-align: center;
+            width: 200px;
+            position: relative;
+            top: 200px;     
+            /*             
+            Jab relative use krte hai toh jis element pr relative lagate hai toh vo jagh khali hee rehti hai
+            ...koi fill nhi krta and vo overlap krleta hai jaha bhi jata hai..*/
+            /* position: relative;
+            top: -30px;
+            left: 0px;  */
+        }
+        .three{            
+            border: 2px solid brown;
+            height: 200px;
+            width: 200px;
+            font-size: 30px;
+            text-align: center;
+            /* 
+            Jab Fixed use krte hai..tabh bhi jis pr fix lagate hai toh vo jo jis pr use krte hai toh 
+            vo body ke according size leta hai..and uski space agla element leleta hai and overlap krta hai */
+            position: fixed;
+            top: 0px;
+            left: 0px;
+        }
+        .four{            
+            border: 2px solid skyblue;
+            height: 200px;
+            width: 200px;
+            font-size: 30px;
+            text-align: center;
+            
+            /* 
+            - Agar float ja absolute use krte hai toh vo 
+            jo space khali hoti hai toh vaha pr agla element ghusne ki koshish krta hai puri. */
+            position: fixed;
+            top: 30px;
+            left: 0px;
+        }
+        .five{
+            border: 2px solid forestgreen;
+            height: 200px;
+            width: 200px;
+            font-size: 30px;
+            text-align: center;
+            position: relative;
+            top: 30px;
+
+            /* sticky doesnt displace anyone...its just for scrolling purpose..
+            thats why only top bottom is imp */
+            /* position: sticky;
+            top: 10px; */
+        }
+        p{
+            margin-top: 70px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positions 2</title>
+</head>
+<body>
+    <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, nihil.</p>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, expedita.</div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, sed odio quaerat ratione ullam hic dolorum. Quibusdam expedita eligendi soluta.</p> -->
+        <div class="container">
+            <div class="one"><p>Box1</p></div>
+            <div class="two"><p>Box2</p></div>
+            <div class="three"><p>Box3</p></div>
+            <div class="four"><p>Box4</p></div>
+            <div class="five"><p>Box5</p></div>
+        </div>
+</body>
+</html>
