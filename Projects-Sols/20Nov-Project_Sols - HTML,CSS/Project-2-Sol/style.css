@@ -1,0 +1,106 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+*{
+    /* background-color:black; */
+    color: white;
+    margin: 0px;
+}
+/* this is to apply the bg image */
+.hero{
+    background-image: url(./assets/bg.png);
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+/* this is for the top black navbar to align it L to R */
+.navbar{
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-left: 40px;
+    margin: 0px;
+    display: flex;
+    background-color: black;
+}
+
+/* for that small arrow after Apps */
+.navbar > .grow-list > .list > li:first-child::after{
+    content: "\0002C7";
+    position: relative;
+    bottom: -10px;
+    left: 10px;
+    /* font-family: 'montserrat'; */
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+/* This is for that vertical line after logo */
+.line{
+    /* content: "|"; */
+    margin-left: 100px;
+    margin-right: 30px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    border-right:  solid white;
+    height: 60px;
+
+}
+/* This is for the UL items to display them in row and remove that style */
+.list{
+    display: flex;
+    margin-left: -60px;
+    margin-top: 20px;
+    list-style-type: none;
+}
+.list-item{
+    margin-left: 70px;
+    font-size: 20px;
+}
+/* this is for styling the Submit button and positioning it to the right */
+.button-small{
+    background-color:#E03B8B;
+    position: absolute;
+    top: 30px;
+    border-radius: 5px;
+    right: 90px;
+    width: 150px;
+    height: 40px;
+}
+
+/*this is for the bigger text  */
+.hero-heading{
+    margin-top:-140px;
+    margin-left: 170px;
+    margin-right: 170px;
+    font-weight: 700;
+    font-size: 98px;
+    text-align: center;
+}
+
+/*this is for the small text  */
+.hero-description{
+    font-stretch: ultra-expanded;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* this is for styling the larger button */
+.button-large{
+    margin-top: 50px;
+    border-radius: 5px;
+    background-color:#E03B8B;
+    text-align: center;
+    border: 1px solid #E03B8B;
+    height: 50px;
+    width: 320px;
+    font-size: 25px;
+    font-weight:bolder;
+}
+/* this is for the image logo */
+.navbar img{
+    margin-left: 10px;
+}

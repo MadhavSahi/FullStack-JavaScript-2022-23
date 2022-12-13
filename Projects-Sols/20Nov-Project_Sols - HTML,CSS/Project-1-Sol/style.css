@@ -1,0 +1,82 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+*{
+    background-color: white;
+    font-family: Poppins;
+}
+.container{
+    margin-top: 40px;
+    margin-left: 150px;
+}
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    margin-top: -10px;
+}
+.list-item{
+    margin: 30px;
+    list-style-type: none;
+    font-size: 20px;
+    color: gray ;
+}
+.list-item:hover{
+    color: black;
+}
+.button-group{
+    position: relative;
+    right: -300px;
+    top:0px
+}
+.nav-button{
+    background-color: #5737D6;
+    border: 1px solid;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    height: 45px;
+    width: 120px;
+}
+.banner-container{
+    display: flex;
+    margin: 0px;
+}
+.heading-text{
+    /* margin: auto; */
+    margin-top: 80px;
+    font-size: 70px;
+    text-align: left;
+    color: #120E43;
+    font-weight: 500;
+    line-height: 80px;    
+}
+/* .h1{
+    line-height: 0px;
+} */
+span{
+    color: #5A20CB;
+}
+.description{
+    color: grey;
+    font-size: 17px;
+    margin-top: -30px;
+}
+.nav-button.btn{
+    background-color: #5737D6;
+    text-align: center;
+    width: 200px;
+    height: 60px;
+    margin-top: 30px;
+    font-size: 15px;
+}
+.banner-container div{
+    margin: 0px;
+}
+.banner-container > div > img{
+    /* background-color: red; */
+    height: 500px;
+    width: 850px;
+}
