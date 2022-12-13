@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo Selectors</title>
+    <style>
+      body {
+        background-color: #414141;
+        color: #fff;
+      }
+      /* before */
+      .imp-label:hover::before{
+        content: 'Enter Your';
+        display: inline;
+        width: 20px;
+        height: 20px;
+        border-radius: 10px;
+        background-color: red;
+      }
+      .imp-label2::after{
+        content: 'Plz';
+        display: inline;
+        width:20px;
+        color: black;
+        height: 20px;
+        border-radius: 10px;
+        background-color: cyan;
+      }
+      .button:hover{
+        background-color: green;
+      }
+      /* after :: part of label */
+    </style>
+  </head>
+  <body>
+    <h2>Enter the form:</h2>
+    <div>
+      <form action="">
+        
+        <label class="imp-label" for="name">Name</label>
+        <input type="text" name="name" /><br><br>
+
+        <label class="imp-label2" for="email">Email</label>
+        <input type="text" name="email"/><br><br>
+
+        <button class="button" data-tooltip="Tooltip" type="submit">Submit</button>
+
+      </form>     
+      
+    </div>
+  </body>
+</html>
