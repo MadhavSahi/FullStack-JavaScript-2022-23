@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid CSS</title>
+    <style>
+        .container{
+            display:grid;
+            background-color: #808080;
+            /* height: 2000px; */
+            /* height: 100vh;
+            width: 100vh; */
+            grid-template-columns: repeat(3,1fr) ;
+            /* grid-template-rows: 100px 100px 100px ; */
+        }
+        .items{
+            background-color: black;
+            /* height: 100px; */
+            /* width: 70px;  */
+            margin: 10px;
+        }
+        #one{
+            /* grid-row-start: 1; */
+            grid-row-start: 3;
+
+            /* grid-column-start: 2; */
+            /* grid-column-end:3; */
+        }
+        p{
+            color: white;
+            text-align: center;
+        }
+        .hello{
+            background-color: black;
+        }
+        .hello>div{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="items" id="one">
+            <p>Hi 1</p>
+        </div>
+        <div class="items">
+            <p>Hi 2</p>
+        </div>
+        <div class="items">
+            <p>Hi 3</p>
+        </div>
+        <div class="items">
+            <p>Hi 4</p>
+        </div>
+        <div class="items">
+            <p>Hi 5</p>
+        </div>
+        <div class="items">
+            <p>Hi 6</p>
+        </div>
+        <div class="items">
+            <p>Hi 7</p>
+        </div>
+        
+    </div>
+<!-- <div class="hello">
+    <div>
+        <h3>hello</h3>
+    </div>
+    <div class="hi">
+        asa
+    </div>
+</div> -->
+</body>
+</html>
