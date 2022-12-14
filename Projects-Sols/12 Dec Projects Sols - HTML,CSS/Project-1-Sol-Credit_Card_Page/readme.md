@@ -1,14 +1,21 @@
 # Credit Card Landing Page
 
-### ⭕ The site is not responsive yet. <br>
+<br>
+
+### ⭕ The site is not responsive yet. 
+
+<br>
+
 <br> 
 
-# 📌Live Site : [Visit Here]("Live Link")
+# 📌Live Site : [Visit Here](https://credit-card-html-css-madhavsahi.netlify.app/ "Live Link")
+
 <br>
 
 # 📌 Tech Stack
 - HTML
 - CSS 
+
 <br>
 
 # 📌 Overview
