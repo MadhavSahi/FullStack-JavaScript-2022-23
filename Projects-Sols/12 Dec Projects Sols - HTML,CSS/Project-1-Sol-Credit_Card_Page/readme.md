@@ -12,8 +12,9 @@
 <br>
 
 # 📌 Tech Stack
-- HTML5
-- CSS
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
 <br>
 
@@ -46,7 +47,13 @@
 - My LinkedIn - [LinkedIn - Madhav Sahi](https://www.linkedin.com/in/madhav-sahi-6a2305161/ "LinkedIn")<br>
 - My GitHub - [GitHub - Madhav Sahi](https://github.com/MadhavSahi "GitHub") <br>
 - My Twitter - [Twitter - Madhav Sahi](https://twitter.com/Madhavvv_ "Twitter")<br>
-- My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnode")<br>
+- My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnode")
+
+<br>
+
+# 📌 Acknowledgements
+
+- Icons used for Tech Stack section :- [shields.io](https://img.shields.io)
 
 
 
