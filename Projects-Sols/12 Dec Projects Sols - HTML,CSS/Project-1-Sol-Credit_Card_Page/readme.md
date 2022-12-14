@@ -1,8 +1,7 @@
 # Credit Card Landing Page
-
 <br>
 
-### ⭕ The site is not responsive yet. 
+### ⭕ The site is NOT responsive yet. ⭕
 
 <br>
 
@@ -13,8 +12,8 @@
 <br>
 
 # 📌 Tech Stack
-- HTML
-- CSS 
+- HTML5
+- CSS
 
 <br>
 
@@ -25,22 +24,29 @@
 
 # 📌 My process
 - At first I made a basic layout of what can be done to achieve the output.
-- Then thought of what HTML , CSS elements would be best to use to achieve the output.
-- It took me 6 hours to build this landing page.
+- Then thought of what HTML , CSS elements and properties would be best to use to achieve the output.
+- It took me 5 hours to build this landing page.
 
 <br>
 
 # 📌 Learnings
 - Learnt how to make such complicated pages using just HTML and plain CSS.
 - Learnt about CSS Positions - Relative , Absolute and used them.
-- Learnt about CSS Selector and how to use them to trigger elements.
+- Learnt about CSS Selectors and how to use them to trigger elements.
 - Learnt how to use CSS Flexbox.
-- Learnt about Z-index usage.
+- Explored about Flexbox parent and child properties.
+- Learnt about Z-index and it's usage.
 - Learn how to build fluid layouts using FlexBox.
-- Learn hover prooperty of CSS and apply it to the elements.
+- Learn hover property of CSS and applied it to the elements.
 - Learnt how to develop full fledged landing page.
 
+<br>
 
+# 📌 Connect with Me
+- My LinkedIn - [LinkedIn - Madhav Sahi](https://www.linkedin.com/in/madhav-sahi-6a2305161/ "LinkedIn")<br>
+- My GitHub - [GitHub - Madhav Sahi](https://github.com/MadhavSahi "GitHub") <br>
+- My Twitter - [Twitter - Madhav Sahi](https://twitter.com/Madhavvv_ "Twitter")<br>
+- My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnode")<br>
 
 
 
