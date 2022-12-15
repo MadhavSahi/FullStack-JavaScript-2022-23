@@ -7,7 +7,7 @@
 
 <br> 
 
-# 📌Live Site : [Visit Here]( "Live Link")
+# 📌Live Site : [Visit Here](https://hosting-site-html-css-madhavsahi.netlify.app/ "Live Link")
 
 <br>
 
@@ -46,9 +46,10 @@
 <br>
 
 # 📌 Connect with Me
+- My Gmail - madhavsahi16@gmail.com
 - My LinkedIn - [LinkedIn - Madhav Sahi](https://www.linkedin.com/in/madhav-sahi-6a2305161/ "LinkedIn")<br>
 - My GitHub - [GitHub - Madhav Sahi](https://github.com/MadhavSahi "GitHub") <br>
-- My Twitter - [Twitter - Madhav Sahi](https://twitter.com/Madhavvv_ "Twitter")<br>
+- My Twiiter - [Twitter - Madhav Sahi](https://twitter.com/Madhavvv_ "Twitter") <br>
 - My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnode")
 
 <br>
