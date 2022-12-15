@@ -7,7 +7,7 @@
 
 <br> 
 
-# 📌Live Site : [Visit Here](https://credit-card-html-css-madhavsahi.netlify.app/ "Live Link")
+# 📌Live Site : [Visit Here](https://credit-card-page-html-css-madhavsahi.netlify.app/ "Live Link")
 
 <br>
 
