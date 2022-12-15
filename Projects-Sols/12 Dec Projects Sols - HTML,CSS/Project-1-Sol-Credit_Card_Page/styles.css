@@ -8,21 +8,24 @@
 .nav-1{
     background-color: #151515;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     padding-inline: 50px;
     padding-top: 20px;
 }
-.nav-1 > .unl-1{
+.unl-1{
     display: flex;
+    flex-direction: row;
     color: white;
-    list-style: none;
+    /* list-style: none; */
     padding-top: 20px;
+    cursor: pointer;
 }
-.nav-1 > .unl-2{
+.unl-2{
     display: flex;
     justify-content: center;
     color: white;
-    list-style: none;    
+    /* list-style: none;     */
     padding-top: 20px;
 }
 .arrow{
@@ -37,16 +40,24 @@
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
 }
-.nav-1 > .unl-1 > .list{
+.list-1{
     padding-inline: 30px;
 }
-.list:hover{
+.list-1:hover{
+    /* padding-inline: 30px; */
+    /* text-decoration: underline; */
+    cursor: pointer;
+}
+.eng{
+    padding-inline: 50px;
+    /* cursor: pointer; */
+}
+.eng:hover{
+    /* padding-inline: 50px; */
+    cursor: pointer;
     text-decoration: underline;
 }
-.nav-1 > .unl-2 > .eng{
-    padding-inline: 50px;
-}
-.nav-1 > .unl-2 > .contact-us{
+.contact-us{
   position: relative;
   top: -8px;
 }
@@ -78,13 +89,13 @@
     width: 750px;
 }
 .first > .first-3 > .get-started{
-
     padding-top: 70px;
     font-weight: bold;
     font-size: x-large;
     position: relative;
     font-weight: 500;
     left: 30px;
+    cursor: pointer;
 }
 .first > .first-3 > .pink-btn-2{
     position: relative;
@@ -115,7 +126,6 @@
     font-size: 20px;
     width: 130px;
 }
-
 .first > .first-4 > .vline{
     position: relative;
     top: -10px;
@@ -282,12 +292,12 @@
 }
 .fifth > .fifth-1{
     padding-inline: 220px;
-    font-size: 60px;
+    font-size: 72px;
     font-weight: 600;
 }
 .the-features{
     color: #f637ec;
-    padding-left: 70px;
+    padding-left: 90px;
 }
 .fifth > .fifth-2{
     padding-top: 50px;
@@ -430,7 +440,10 @@
     color: white;
     font-size: 25px;
     font-weight: 500;
-    z-index: 10;
+    z-index: 10;   
+}
+.again-get:hover{
+    cursor: pointer;
 }
 .sixth-arrow{
     position: relative;
@@ -486,4 +499,8 @@
 }
 .li-footer{
     padding-inline: 30px;
+}
+.li-footer:hover{
+    cursor: pointer;
+    text-decoration: underline;
 }
