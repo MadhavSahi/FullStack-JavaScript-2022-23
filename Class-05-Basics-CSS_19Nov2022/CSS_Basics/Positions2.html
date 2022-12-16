@@ -26,14 +26,15 @@
             font-size: 30px;
             text-align: center;
             width: 200px;
-            position: relative;
-            top: 200px;     
+            /* position: relative;
+            top: 200px;      */
             /*             
             Jab relative use krte hai toh jis element pr relative lagate hai toh vo jagh khali hee rehti hai
             ...koi fill nhi krta and vo overlap krleta hai jaha bhi jata hai..*/
-            /* position: relative;
+            position: absolute;
             top: -30px;
-            left: 0px;  */
+            left: 250px;
+            height: 400px; 
         }
         .three{            
             border: 2px solid brown;
@@ -44,9 +45,9 @@
             /* 
             Jab Fixed use krte hai..tabh bhi jis pr fix lagate hai toh vo jo jis pr use krte hai toh 
             vo body ke according size leta hai..and uski space agla element leleta hai and overlap krta hai */
-            position: fixed;
-            top: 0px;
-            left: 0px;
+            /* position: fixed; */
+            /* top: 0px;
+            left: 0px; */
         }
         .four{            
             border: 2px solid skyblue;
@@ -58,9 +59,9 @@
             /* 
             - Agar float ja absolute use krte hai toh vo 
             jo space khali hoti hai toh vaha pr agla element ghusne ki koshish krta hai puri. */
-            position: fixed;
+            /* position: fixed;
             top: 30px;
-            left: 0px;
+            left: 0px; */
         }
         .five{
             border: 2px solid forestgreen;
@@ -68,8 +69,8 @@
             width: 200px;
             font-size: 30px;
             text-align: center;
-            position: relative;
-            top: 30px;
+            /* position: relative;
+            top: 30px; */
 
             /* sticky doesnt displace anyone...its just for scrolling purpose..
             thats why only top bottom is imp */
