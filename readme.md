@@ -1,9 +1,10 @@
 # FullStack JavaScript 
-### This repository will contain HTML, CSS, JavaScript files and projects which will be built over time. <br>
+### This repository will contain HTML, CSS, JavaScript files and projects which will be built over time. <br> <br>
+My email : madhavsahi16@gmail.com <br>
 My LinkedIn - [LinkedIn - Madhav Sahi](https://www.linkedin.com/in/madhav-sahi-6a2305161/ "LinkedIn")<br>
 My GitHub - [GitHub - Madhav Sahi](https://github.com/MadhavSahi "GitHub") <br>
 My Twitter - [Twitter - Madhav Sahi](https://twitter.com/Madhavvv_ "Twitter")<br>
-My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnode")<br>
+My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnode")<br><br>
 
 ## Class 1,2
 - Learnt about basics of HTML and it's structure.
@@ -60,8 +61,8 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnod
 ## HTML , CSS Projects
 - Project - [VS Code Landing page using Tailwind](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-08-Tailwind_27Nov2022/VSCode_Clone_Tailwind "Repo Link")
 - Project - [Credit Card Landing Page](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Projects-Sols/12%20Dec%20Projects%20Sols%20-%20HTML%2CCSS/Project-1-Sol-Credit_Card_Page "Repo Link")
-- Project - [Hosting Site Landing Page]("Repo Link")
-- Project - [Gaming Site Landing Page]("Repo Link")
+- Project - [Hosting Site Landing Page](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Projects-Sols/12%20Dec%20Projects%20Sols%20-%20HTML%2CCSS/Project-2-Sol-Hosting_Site_Page "Repo Link")
+- Project - [Gaming Site Landing Page](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Projects-Sols/12%20Dec%20Projects%20Sols%20-%20HTML%2CCSS/Project-3-Sol-Gaming_Landing_Page "Repo Link")
 - Project - [Real Estate Landing Page]("Repo Link")
 - Project - [Beats Landing Page]("Repo Link")
 - Project - [Data Analytics Landing Page]("Repo Link")
