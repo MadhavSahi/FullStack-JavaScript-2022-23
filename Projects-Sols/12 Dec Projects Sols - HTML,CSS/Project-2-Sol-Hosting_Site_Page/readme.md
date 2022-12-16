@@ -38,9 +38,9 @@
 - Explored about Flexbox parent and child properties.
 - Explored more about justify-content and align-items properties.
 - Learnt about CSS Hover effects.
-- Learnt how to make vertical and horizontal lines just using CSS.
-- Learn how to build fluid layouts using FlexBox.
-- Learn hover property of CSS and applied it to the elements.
+- Learnt how to make circle, vertical and horizontal lines just using CSS.
+- Learnt how to build fluid layouts using FlexBox.
+- Learnt hover,transform properties of CSS and applied it to the elements.
 - Learnt how to develop full fledged landing page.
 
 <br>

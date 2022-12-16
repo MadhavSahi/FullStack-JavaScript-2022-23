@@ -35,10 +35,10 @@
 - Learnt about CSS Positions - Relative , Absolute and used them.
 - Learnt about CSS Selectors and how to use them to trigger elements.
 - Learnt how to use CSS Flexbox.
-- Explored about Flexbox parent and child properties.
+- Explored more about Flexbox parent and child properties.
 - Learnt about Z-index and it's usage.
-- Learn how to build fluid layouts using FlexBox.
-- Learn hover property of CSS and applied it to the elements.
+- Learnt how to build fluid layouts using FlexBox.
+- Learnt Hover,Transform Scale properties of CSS and applied it to the elements.
 - Learnt how to develop full fledged landing page.
 
 <br>
