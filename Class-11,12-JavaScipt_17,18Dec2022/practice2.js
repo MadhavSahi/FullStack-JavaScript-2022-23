@@ -136,3 +136,5 @@ let array20 = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 array20.fill('Madhav', 2, 1);
 console.log(array20);
 
+// the above is for understandsing...in real life production,it's different.
+
