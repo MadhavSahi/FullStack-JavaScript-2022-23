@@ -19,7 +19,7 @@
 <br>
 
 # 📌 Overview
-![First page screenshot](./assets/Screenshot/firstpage-screenshot.PNGr.PNG)
+![First page screenshot](./assets/Screenshot/firstpage-screenshot.PNG)
 
 <br>
 
