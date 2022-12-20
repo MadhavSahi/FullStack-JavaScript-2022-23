@@ -41,7 +41,7 @@
 - Learnt about CSS background-image properties and used them.
 - Learnt how to Blur background using backdrop-filter.
 - Learnt CSS Transform property to scale the element on hover.
-- Learnt about CSS Filter property to adjust brightness,contrast,greysclae etc of element. 
+- Learnt about CSS Filter property to adjust brightness,contrast,greyscale etc of element. 
 - Learnt about CSS Hover effects.
 - Learnt how to make circle, vertical and horizontal lines just using CSS.
 - Learnt how to build fluid layouts using FlexBox.
