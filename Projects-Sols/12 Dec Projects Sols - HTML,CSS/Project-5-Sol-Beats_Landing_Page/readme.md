@@ -7,7 +7,7 @@
 
 <br> 
 
-# 📌Live Site : [Visit Here]( "Live Link")
+# 📌Live Site : [Visit Here](https://beats-html-css-madhavsahi.netlify.app/ "Live Link")
 
 <br>
 
@@ -19,7 +19,7 @@
 <br>
 
 # 📌 Overview
-![First page screenshot](./assets/Screenshot/beats-firstpage-screenshot.PNG.PNG)
+![First page screenshot](./assets/Screenshot/beats-firstpage-screenshot.PNG)
 
 <br>
 
