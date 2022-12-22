@@ -7,7 +7,7 @@
 
 <br> 
 
-# 📌Live Site : [Visit Here]( "Live Link")
+# 📌Live Site : [Visit Here](https://data-analytics-html-css-madhavsahi.netlify.app/ "Live Link")
 
 <br>
 
@@ -19,7 +19,7 @@
 <br>
 
 # 📌 Overview
-![First page screenshot](./assets/Screenshot/)
+![First page screenshot](./assets/Screenshot/data-analytics-landingpage.PNG)
 
 <br>
 
@@ -27,7 +27,7 @@
 - At first I made a basic layout of what can be done to achieve the output.
 - Then thought of what HTML , CSS elements and properties would be best to use to achieve the output.
 - Thought of where to use image as background-image or directly.
-- It took me 7 hours to build this landing page.
+- It took me 5 hours to build this landing page.
 
 <br>
 
@@ -36,6 +36,8 @@
 - Learnt about CSS Positions - Relative , Absolute and used them.
 - Learnt about CSS Selectors and how to use them to trigger elements.
 - Learnt how to use CSS Flexbox.
+- Learnt how to use Linear Gradient.
+- Learnt how to rotate a div and elements.
 - Explored about Flexbox parent and child properties.
 - Explored more about justify-content and align-items properties.
 - Learnt how to Blur background using backdrop-filter.
