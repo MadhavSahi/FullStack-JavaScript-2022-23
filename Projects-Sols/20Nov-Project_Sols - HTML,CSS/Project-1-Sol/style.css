@@ -25,6 +25,9 @@
 }
 .list-item:hover{
     color: black;
+    cursor: pointer;
+    transform: scale(0.9);
+    text-decoration: underline;
 }
 .button-group{
     position: relative;
@@ -39,6 +42,10 @@
     padding: 10px;
     height: 45px;
     width: 120px;
+}
+.nav-button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
 }
 .banner-container{
     display: flex;
@@ -71,6 +78,10 @@ span{
     height: 60px;
     margin-top: 30px;
     font-size: 15px;
+}
+.nav-button.btn:hover{
+    cursor: pointer;
+    transform: scale(1.1);
 }
 .banner-container div{
     margin: 0px;

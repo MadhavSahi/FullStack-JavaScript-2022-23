@@ -60,6 +60,11 @@
     margin-left: 70px;
     font-size: 20px;
 }
+.list-item:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    transform: scale(0.9);
+}
 /* this is for styling the Submit button and positioning it to the right */
 .button-small{
     background-color:#E03B8B;
@@ -69,6 +74,10 @@
     right: 90px;
     width: 150px;
     height: 40px;
+}
+.button-small:hover{
+    cursor: pointer;
+    transform: scale(0.9);
 }
 
 /*this is for the bigger text  */
@@ -99,6 +108,10 @@
     width: 320px;
     font-size: 25px;
     font-weight:bolder;
+}
+.button-large:hover{
+    cursor: pointer;
+    transform: scale(0.9);
 }
 /* this is for the image logo */
 .navbar img{
