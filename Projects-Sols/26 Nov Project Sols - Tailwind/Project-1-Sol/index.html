@@ -6,15 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project 1</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
 </head>
 <body>
     
     <nav>
-        <ul class="flex flex-row ml-40 pl-2 space-x-16 pt-7 font-serif text-sm font-light">
+        <ul class="flex flex-row ml-40 pl-2 space-x-16 pt-7 font-Poppins text-md font-normal">
             <li class="-mt-2"><img src="./assets/logo.png"> </li>
-            <li class="mt-1">Blog</li>
-            <li class="mt-1">Calm Playlist</li>
-            <li class="mt-1">Join Calm</li>
+            <li class="mt-1 hover:font-medium hover:underline hover:cursor-pointer">Blog</li>
+            <li class="mt-1 hover:underline hover:font-medium hover:cursor-pointer">Calm Playlist</li>
+            <li class="mt-1 hover:underline hover:font-medium hover:cursor-pointer">Join Calm</li>
         </ul>
     </nav>
 
@@ -30,7 +36,9 @@
 
             <p class="mt-8">Not just an ordinary headphones. It's designed for meditation.</p>
 
-            <button class="bg-green-600 text-white rounded-lg w-28 h-12 mt-8" >Learn More</button>
+            <button class="bg-green-600 text-white rounded-lg w-28 h-12 mt-8 hover:cursor-pointer
+            hover:scale-125">
+            Learn More</button>
             
         </div>
 
