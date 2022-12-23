@@ -2,7 +2,6 @@
 
 ### This file will contain HTML, CSS, Tailwind projects which will be built over time.
 <br>
-<hr>
 <br>
 
 ## HTML, CSS, Tailwind Projects -->
@@ -13,7 +12,6 @@
 - [Repo Link](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-08-Tailwind_27Nov2022/VSCode_Clone_Tailwind "Repo Link")
 - [Live Link](https://madhavsahi-vscode-clone-tailwind.netlify.app/ "Live Link")
 
-<hr>
 <br>
 
 ### Credit Card Landing Page
