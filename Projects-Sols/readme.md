@@ -2,7 +2,6 @@
 
 ### This file will contain HTML, CSS, Tailwind projects which will be built over time.
 <br>
-<br>
 
 ## HTML, CSS, Tailwind Projects -->
 
