@@ -12,7 +12,7 @@
 - [Repo Link](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-08-Tailwind_27Nov2022/VSCode_Clone_Tailwind "Repo Link")
 - [Live Link](https://madhavsahi-vscode-clone-tailwind.netlify.app/ "Live Link")
 
-<br>
+<hr>
 
 ### Credit Card Landing Page
 - [Repo Link](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Projects-Sols/12%20Dec%20Projects%20Sols%20-%20HTML%2CCSS/Project-1-Sol-Credit_Card_Page "Repo Link")
