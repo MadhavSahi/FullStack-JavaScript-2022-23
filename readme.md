@@ -58,6 +58,17 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnod
 - Learnt about Round, Min, Max, Floor, Ceil etc.
 - GitHub Repo Link - [Repo Link for Class 10,11](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-10%2C11-JavaScript_10%2C11Dec2022 "Repo Link")
 
+## Class 12,13
+- Learnt about more of basics of JavaScript.
+- Learnt about various array methods and how to use them.
+- Learnt about how to declare function, old way and using arrow too.
+- Learnt about how to make basic calculator app using js.
+- Learnt about definition, calling of function with and without arguments.
+- Learnt about array methods - concat, splice, slice, inlcudes, indexOf, map, pop, shift etc.
+- Learnt about "for of" loop to access elements of array.
+- Learnt about object declaration and how to access keys and values.
+- Learnt about "for in" loop to access keys and values of objects.
+
 ## HTML , CSS Projects
 - Project - [VS Code Landing page using Tailwind](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-08-Tailwind_27Nov2022/VSCode_Clone_Tailwind "Repo Link")
 - Project - [Credit Card Landing Page](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Projects-Sols/12%20Dec%20Projects%20Sols%20-%20HTML%2CCSS/Project-1-Sol-Credit_Card_Page "Repo Link")
