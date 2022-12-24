@@ -7,7 +7,7 @@
 
 <br> 
 
-# 📌Live Site : [Visit Here](https://credit-card-page-html-css-madhavsahi.netlify.app/ "Live Link")
+# 📌Live Site : [Visit Here](https://credit-card-html-css-madhavsahi.netlify.app/ "Live Link")
 
 <br>
 
@@ -19,7 +19,7 @@
 <br>
 
 # 📌 Overview
-![First page screenshot](./assets/Screenshots/creditcrad-landingpage.PNG)
+![First page screenshot](./assets/Screenshots/screenshot-fullpage-creditcard-landingpage.png)
 
 <br>
 

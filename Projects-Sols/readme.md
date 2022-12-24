@@ -15,7 +15,7 @@
 
 ### Credit Card Landing Page
 - [Repo Link](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Projects-Sols/12%20Dec%20Projects%20Sols%20-%20HTML%2CCSS/Project-1-Sol-Credit_Card_Page "Repo Link")
-- [Live Link](https://credit-card-page-html-css-madhavsahi.netlify.app/ "Live Link")
+- [Live Link](https://credit-card-html-css-madhavsahi.netlify.app/ "Live Link")
 
 <hr>
 
