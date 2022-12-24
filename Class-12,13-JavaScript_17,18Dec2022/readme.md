@@ -1,4 +1,4 @@
-## Class 12,13 - JavaScript Basics
+# Class 12,13 - JavaScript Basics
 - Learnt about more of basics of JavaScript.
 - Learnt about various array methods and how to use them.
 - Learnt about how to declare function, old way and using arrow too.
