@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VS Code Clone Tailwind</title>
+    <link rel = "icon" href = "./assets/vscode-logo.png" 
+        type = "image/png">
     <script src="https://cdn.tailwindcss.com"></script>
     <script sr="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"></script>
 </head>
@@ -13,13 +15,13 @@
         <img class="ml-3 h-6 mt-3" src="./assets/vscode-logo.png" alt="logo">
         <a href="#" target="_blank" class="text-white ml-3 py-2 font-semibold font-normal text-xl">Visual Studio Code</a>
         <ul class="flex space-x-5 ml-8 py-3 font-semibold text-gray-400">
-            <li class="hover:text-white">Docs</li>
-            <li class="hover:text-white">Updates</li>
-            <li class="hover:text-white">Blog</li>
-            <li class="hover:text-white">API</li>
-            <li class="hover:text-white">Extensions</li>
-            <li class="hover:text-white">FAQ</li>
-            <li class="hover:text-white">Learn</li>
+            <li class="hover:text-white hover:cursor-pointer">Docs</li>
+            <li class="hover:text-white hover:cursor-pointer">Updates</li>
+            <li class="hover:text-white hover:cursor-pointer">Blog</li>
+            <li class="hover:text-white hover:cursor-pointer">API</li>
+            <li class="hover:text-white hover:cursor-pointer">Extensions</li>
+            <li class="hover:text-white hover:cursor-pointer">FAQ</li>
+            <li class="hover:text-white hover:cursor-pointer">Learn</li>
         </ul>
         <!-- <button class="bg-[#3d3d42] ml-52 w-44 text-white font-extralight pr-8 text-sm"> <p class="mt-1">Search Docs</p><img class="h-6 w-4 -mt-6 ml-3" src="./assets/search.svg"> </img></button> -->
         <input type="text" class="bg-[#3d3d42] hover:bg-gray-600 hover:border-gray-400 ml-52 w-44 -mx-4 text-white font-normal pr-0 text-sm text-center"  placeholder="Search Docs"><img class="h-4 w-4 relative right-36 top-4" src="./assets/search.svg" alt=""></input>
@@ -50,21 +52,21 @@
     <!-- div for next section -->
     <div class="bg-white mt-8 h-40">
         <ul class="flex space-x-44 justify-center -mt-2">
-            <li class="">
-                <img class="h-16 w-16 ml-3" src="./assets/bulb.PNG" alt="logo">
-                <p class="text-center mt-3 text-xl">IntelliSense</p>
+            <li class="hover:cursor-pointer">
+                <img class="hover:scale-110 h-16 w-16 ml-3" src="./assets/bulb.PNG" alt="logo">
+                <p class="hover:font-semibold hover:underline text-center mt-3 text-xl">IntelliSense</p>
             </li>
-            <li class="hover:bg-gray-300">
-                <img class="h-16 w-16 ml-8" src="./assets/run-debug.PNG" alt="logo">
-                <p class="text-center mt-3 text-xl">Run and Debug</p>
+            <li class="hover:cursor-pointer">
+                <img class="hover:scale-110 h-16 w-16 ml-8" src="./assets/run-debug.PNG" alt="logo">
+                <p class="hover:font-semibold hover:underline text-center mt-3 text-xl">Run and Debug</p>
             </li>
-            <li class="hover:bg-gray-300">
-                <img class="h-16 w-16 ml-4" src="./assets/git-merge.PNG" alt="logo">
-                <p class="text-center mt-3 text-xl">Built-in Git</p>
+            <li class="hover:cursor-pointer">
+                <img class="hover:scale-110 h-16 w-16 ml-4" src="./assets/git-merge.PNG" alt="logo">
+                <p class="hover:font-semibold hover:underline text-center mt-3 text-xl">Built-in Git</p>
             </li>
-            <li class="hover:bg-gray-300">
-                <img class="h-16 w-16 ml-4" src="./assets/extensions.PNG" alt="logo">
-                <p class="text-center mt-3 text-xl">Extensions</p>
+            <li class="hover:cursor-pointer">
+                <img class="hover:scale-110 h-16 w-16 ml-4" src="./assets/extensions.PNG" alt="logo">
+                <p class="hover:font-semibold hover:underline text-center mt-3 text-xl">Extensions</p>
             </li>
         </ul>
     </div>
@@ -76,15 +78,15 @@
         
         <div class="flex justify-center space-x-3 mx-60 -mt-7">
 
-            <img class="h-40 w-10 mt-12 relative right-20" src="./assets/chevron-left-solid.svg" alt="right arrow">
+            <img class="hover:cursor-pointer hover:scale-75 h-40 w-10 mt-12 relative right-20" src="./assets/chevron-left-solid.svg" alt="right arrow">
 
             <div class="flex justify-start mt-20">
 
-                <img class="h-20 w-80 bg-white rounded-full mr-10" src="./assets/person-solid.svg" alt="person">
+                <img class="h-20 w-96 bg-white rounded-full mr-10" src="./assets/Screenshots/madhavsahipic.jpg" alt="person">
                 
                 <div class="-ml-5">
-                    <p class="text-black font-semibold">
-                        Una Kravets @Una
+                    <p class="text-black font-semibold hover:text-blue-600 hover:cursor-pointer">
+                        Madhav Sahi @madhavsahi
                     </p>
 
                     <p class="text-[#626262] font-normal">
@@ -95,11 +97,11 @@
             </div>
             <div class="flex justify-start mt-20">
 
-                <img class="h-20 w-80 bg-white rounded-full mr-10" src="./assets/person-solid.svg" alt="person">
+                <img class="h-20 w-96 bg-white rounded-full mr-10" src="./assets/Screenshots/madhavsahipic.jpg" alt="person">
                 
                 <div class="-ml-5">
-                    <p class="text-black font-semibold">
-                        Jonathan Dunlap @jadbox
+                    <p class="text-black font-semibold hover:text-blue-600 hover:cursor-pointer">
+                        Madhav Sahi @madhavsahi
                     </p>
 
                     <p class="text-[#626262] font-normal">
@@ -110,11 +112,11 @@
             </div>
             <div class="flex justify-start mt-20">
 
-                <img class="h-20 w-80 bg-white rounded-full mr-10" src="./assets/person-solid.svg" alt="person">
+                <img class="h-20 w-96 bg-white rounded-full mr-10" src="./assets/Screenshots/madhavsahipic.jpg" alt="person">
                 
                 <div class="-ml-5">
-                    <p class="text-black font-semibold -mx-2">
-                        Pavithra Kodmad @PKodmad
+                    <p class="text-black font-semibold -mx-2 hover:text-blue-600 hover:cursor-pointer">
+                        Madhav Sahi@madhavsahi
                     </p>
 
                     <p class="text-[#626262]">
@@ -124,7 +126,7 @@
 
             </div>
 
-            <img class="h-40 w-10 mt-12 relative left-20" src="./assets/chevron-right-solid.svg" alt="right arrow">
+            <img class="hover:cursor-pointer hover:scale-75 h-40 w-10 mt-12 relative left-20" src="./assets/chevron-right-solid.svg" alt="right arrow">
 
         </div>
 
