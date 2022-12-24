@@ -9,7 +9,7 @@
 
 ### VS Code Landing Page using Tailwind
 - [Repo Link](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-08-Tailwind_27Nov2022/VSCode_Clone_Tailwind "Repo Link")
-- [Live Link](https://madhavsahi-vscode-clone-tailwind.netlify.app/ "Live Link")
+- [Live Link](https://vscode-html-tailwind-madhavsahi.netlify.app/ "Live Link")
 
 <hr>
 

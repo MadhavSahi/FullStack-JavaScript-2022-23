@@ -7,7 +7,7 @@
 
 <br> 
 
-# 📌Live Site : [Visit Here](https://madhavsahi-vscode-clone-tailwind.netlify.app/ "Live Link")
+# 📌Live Site : [Visit Here](https://vscode-html-tailwind-madhavsahi.netlify.app/ "Live Link")
 
 <br>
 

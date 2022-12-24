@@ -7,7 +7,7 @@
 
 <br> 
 
-# 📌Live Site : [Visit Here](https://madhavsahi-vscode-clone-tailwind.netlify.app/ "Live Link")
+# 📌Live Site : [Visit Here](https://vscode-html-tailwind-madhavsahi.netlify.app/ "Live Link")
 
 <br>
 
@@ -37,6 +37,7 @@
 # 📌 Learnings
 - Learnt how to make such complicated pages using just HTML and Tailwind CSS.
 - Learnt how to use Tailwind CSS to develop this project.
+- Learnt how to add icons in title.
 - Learnt about CSS Positions - Relative, Absolute, Static, Fixed and used them.
 - Learnt about CSS Selectors and how to use them to trigger elements using Tailwind.
 - Learnt how to use CSS Flexbox using Tailwind.
