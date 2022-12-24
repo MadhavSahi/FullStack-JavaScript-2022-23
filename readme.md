@@ -68,6 +68,7 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnod
 - Learnt about "for of" loop to access elements of array.
 - Learnt about object declaration and how to access keys and values.
 - Learnt about "for in" loop to access keys and values of objects.
+- GitHub Repo Link - [Repo Link for Class 12,13](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-12%2C13-JavaScript_17%2C18Dec2022 "Repo Link")
 
 ## HTML , CSS Projects
 - Project - [VS Code Landing page using Tailwind](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-08-Tailwind_27Nov2022/VSCode_Clone_Tailwind "Repo Link")
