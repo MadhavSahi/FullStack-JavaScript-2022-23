@@ -38,6 +38,7 @@
 - Learnt how to make such complicated pages using just HTML and Tailwind CSS.
 - Learnt how to use Tailwind CSS to develop this project.
 - Learnt about CSS Positions - Relative, Absolute, Static, Fixed and used them.
+- Learnt how to add icons in title.
 - Learnt about CSS Selectors and how to use them to trigger elements using Tailwind.
 - Learnt how to use CSS Flexbox using Tailwind.
 - Explored about Flexbox parent and child properties.
