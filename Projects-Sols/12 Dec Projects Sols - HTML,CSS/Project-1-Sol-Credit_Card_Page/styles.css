@@ -47,6 +47,7 @@
     /* padding-inline: 30px; */
     /* text-decoration: underline; */
     cursor: pointer;
+    text-decoration: underline;
 }
 .eng{
     padding-inline: 50px;
@@ -96,6 +97,10 @@
     font-weight: 500;
     left: 30px;
     cursor: pointer;
+}
+.get-started:hover{
+    cursor: pointer;
+    /* color: yellow; */
 }
 .first > .first-3 > .pink-btn-2{
     position: relative;
@@ -201,6 +206,10 @@
     border: 1px solid white;
     background-color: #272727;
 }
+.img-dollar:hover,.img-cloud:hover,.img-lock:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+}
 .third > .third-2 > .img-cloud{
     height: 300px;
     width: 25%;
@@ -275,6 +284,7 @@
     left: 0px;
     padding-inline: 450px;
     color: #756f75;
+    text-align: center;
 }
 .vertical-cards{
     height: 800px;
@@ -291,13 +301,14 @@
     align-items: center;
 }
 .fifth > .fifth-1{
-    padding-inline: 220px;
-    font-size: 72px;
-    font-weight: 600;
+    padding-inline: 200px;
+    font-size: 70px;
+    font-weight: 500;
+    text-align: center;
 }
 .the-features{
     color: #f637ec;
-    padding-left: 90px;
+    /* padding-left: 90px; */
 }
 .fifth > .fifth-2{
     padding-top: 50px;
@@ -305,6 +316,7 @@
     font-weight: 400;
     color: #9d9d9d;
     width: 50%;
+    text-align: center;
 }
 .fifth > .fifth-3{
     padding-top: 80px;
@@ -342,6 +354,11 @@
     width: 350px;
     padding: 20px;
     font-size: 13px;
+}
+.fifth-3-1:hover,.fifth-3-2:hover,.fifth-4-1:hover,.fifth-4-2:hover{
+    cursor: pointer;
+    transform: scale(0.9);
+    /* background-color:#4e4c4b; */
 }
 .fifth > .fifth-4 > .fifth-4-1{
 
@@ -416,6 +433,7 @@
     flex-direction: row;
 }
 .start-custom{
+    /* margin-top: 350px; */
     font-size: 70px;
     color: white;
     font-weight: 600;
@@ -503,4 +521,5 @@
 .li-footer:hover{
     cursor: pointer;
     text-decoration: underline;
+    transform: scale(0.9);
 }
