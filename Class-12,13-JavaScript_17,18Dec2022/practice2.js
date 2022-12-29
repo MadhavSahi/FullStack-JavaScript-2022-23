@@ -36,11 +36,11 @@ console.log(array7);
 console.log(array5);
 console.log(array6);
 
-//include
+//includes -- .includes(value,start-index)
 // returns boolean
 let array8=['Madhav',"madhav sahi",9,22,"Madhav Sahi",'Sahi','madhav'];
-console.log(array8.includes(9,2)); // it checks whethere 9 i present at index 2 or not..it returns boolean
-console.log(array8.includes(9,3)); // it checks whethere 9 i present at index 3 or not..it returns boolean
+console.log(array8.includes(9,2)); // it checks whethere 9 is present from index 2 or not..it returns boolean
+console.log(array8.includes(9,3)); // it checks whethere 9 is present from index 3 or not..it returns boolean
 
 // indexOf()
 // it will find the index of that value inside the array
