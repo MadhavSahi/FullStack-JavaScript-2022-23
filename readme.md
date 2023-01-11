@@ -70,6 +70,17 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnod
 - Learnt about "for in" loop to access keys and values of objects.
 - GitHub Repo Link - [Repo Link for Class 12,13](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-12%2C13-JavaScript_17%2C18Dec2022 "Repo Link")
 
+## Class 14,15
+- Learnt about Objects and how everything in JS is type of an object.
+- Learnt about what are Prototypes and their usage.
+- Learnt about Prototypal Inheritance and chaining.
+- Learnt about how to set prototype to an objet or array or string.
+- Leant about how to add our own functions/properties to arrays or objects using prototype.
+- Learnt how to inherit properties of 1 object in other object using "___ _proto____" and __setPrototypeOf__ method.
+- Learnt how prototype chaining works.
+- Learnt about when the NULL comes in chaining. 
+- GitHub Repo Link - [Repo Link for Class 14,15](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-14%2C15-JS-Prototype_7%2C8-Jan_23 "Repo Link")
+
 ## HTML , CSS Projects
 - Project - [VS Code Landing page using Tailwind](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-08-Tailwind_27Nov2022/VSCode_Clone_Tailwind "Repo Link")
 - Project - [Credit Card Landing Page](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Projects-Sols/12%20Dec%20Projects%20Sols%20-%20HTML%2CCSS/Project-1-Sol-Credit_Card_Page "Repo Link")
