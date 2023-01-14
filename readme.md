@@ -80,6 +80,7 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnod
 - Learnt how prototype chaining works.
 - Learnt about when the NULL comes in chaining. 
 - GitHub Repo Link - [Repo Link for Class 14,15](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-14%2C15-JS-Prototype_7%2C8-Jan_23 "Repo Link")
+- GitHub Repo Link (Assignment) - [JavaScript Assignment_01](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/JavaScript_Assignment-7%2C8Jan "Repo Link")
 
 ## HTML , CSS Projects
 - Project - [VS Code Landing page using Tailwind](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-08-Tailwind_27Nov2022/VSCode_Clone_Tailwind "Repo Link")
@@ -95,3 +96,6 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnod
 - Project - [Headphone Landing Page](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Projects-Sols/26%20Nov%20Project%20Sols%20-%20Tailwind/Project-1-Sol "Repo Link")
 - Project - [Healthcare Landing Page](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Projects-Sols/26%20Nov%20Project%20Sols%20-%20Tailwind/Project-2-Sol "Repo Link")
 - Project - [Justice Site Landing Page](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Projects-Sols/26%20Nov%20Project%20Sols%20-%20Tailwind/Project-3-Sol "Repo Link")
+
+## JavaScript Assignments
+- GitHub Repo Link - [JavaScript Assignment_01](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/JavaScript_Assignment-7%2C8Jan "Repo Link")
