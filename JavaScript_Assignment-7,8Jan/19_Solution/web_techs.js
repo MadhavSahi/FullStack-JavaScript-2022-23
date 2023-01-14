@@ -1,0 +1,1 @@
+let webstacks=['MERN','DJANGO','ANGULAR','MEAN','MEVN'];
