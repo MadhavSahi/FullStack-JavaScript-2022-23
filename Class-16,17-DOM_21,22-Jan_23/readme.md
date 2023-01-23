@@ -1,4 +1,5 @@
 <h1>Class 16,17 - DOM Manipulation, eventListener, Browser events</h1>
+
 - Learnt about what is DOM and how to do DOM Manipulation.
 - Learnt about difference between window and document object.
 - Learnt how to target HTML elements using DOM.
