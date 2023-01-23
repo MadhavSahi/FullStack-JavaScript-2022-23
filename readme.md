@@ -82,6 +82,17 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnod
 - GitHub Repo Link - [Repo Link for Class 14,15](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-14%2C15-JS-Prototype_7%2C8-Jan_23 "Repo Link")
 - GitHub Repo Link (Assignment) - [JavaScript Assignment_01](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/JavaScript_Assignment-7%2C8Jan "Repo Link")
 
+## Class 16,17
+- Learnt about what is DOM and how to do DOM Manipulation.
+- Learnt about difference between window and document object.
+- Learnt how to target HTML elements using DOM.
+- Learnt how to create new elements using DOM.
+- Learnt how to style elements using style property.
+- Learnt about eventListener and various events.
+- Learnt about querySelector, getElementbyId, getElementbyClassName, createElement, appendChild etc.
+- Made mini projects - Color Changer, Random text display using eventListener and DOM Manipulation.
+- GitHub Repo Link - [Repo Link for Class 16,17](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-16%2C17-DOM_21%2C22-Jan_23 "Repo Link")
+
 ## HTML , CSS Projects
 - Project - [VS Code Landing page using Tailwind](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-08-Tailwind_27Nov2022/VSCode_Clone_Tailwind "Repo Link")
 - Project - [Credit Card Landing Page](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Projects-Sols/12%20Dec%20Projects%20Sols%20-%20HTML%2CCSS/Project-1-Sol-Credit_Card_Page "Repo Link")
