@@ -88,7 +88,7 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnod
 - Learnt how to target HTML elements using DOM.
 - Learnt how to create new elements using DOM.
 - Learnt how to style elements using style property.
-- Learnt about eventListener and various events.
+- Learnt about eventListener and various browser events.
 - Learnt about querySelector, getElementbyId, getElementbyClassName, createElement, appendChild etc.
 - Made mini projects - Color Changer, Random text display using eventListener and DOM Manipulation.
 - GitHub Repo Link - [Repo Link for Class 16,17](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-16%2C17-DOM_21%2C22-Jan_23 "Repo Link")
