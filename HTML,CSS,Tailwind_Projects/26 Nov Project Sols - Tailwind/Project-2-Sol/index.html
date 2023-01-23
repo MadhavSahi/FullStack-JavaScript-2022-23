@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+    <!-- navbar -->
+    <nav class="flex flex-row justify-between pt-5">
+
+        <ul class="flex flex-row ml-28">
+            <li> <img src="./assets/logo.png" alt="logo"> </li>
+        </ul>
+
+        <ul class="flex flex-row space-x-14 mr-44 py-5">
+            <li class=" hover:text-green-800 hover:scale-110 hover:cursor-pointer">Home</li>
+            <li class=" hover:text-green-800 hover:scale-110 hover:cursor-pointer">About Us</li>
+            <li class=" hover:text-green-800 hover:scale-110 hover:cursor-pointer">Our services</li>
+            <li class=" hover:text-green-800 hover:scale-110 hover:cursor-pointer">Contact us</li>
+        </ul>
+
+    </nav>
+
+    <!-- hero section -->
+    <div class="flex flex-row bg-[url('./assets/stethoscope.png')] pl-18 ">
+
+        <!-- for left section -->
+        <div class="flex flex-col pl-28 mt-24 w-10/12">
+
+            <img class="h-6 w-6" src="./assets/topAngle.png" alt="top-angle">
+            <p class="text-7xl font-bold leading-normal">Complete Health <br> Care Solutions for <br> Everyone</p>
+            <p class="text-gray-600 font-medium text-2xl mt-5">We're always available for our Patients with emergen <br> problems. You can easily reach us 24/7. 
+                We focused on highest quality.</p>
+            <button class="hover:scale-105 text-white bg-green-700 w-72 h-16 rounded-full mt-5"> <p class="text-2xl font-bold"> Make Appointment </p></button>
+            <img class="h-6 w-6 relative left-3/4 -top-14" src="./assets/bottomAngle.png" alt="bottomAngle">
+            <img class="h-8 w-8 relative left-[720px] -top-12" src="./assets/mouse.png" alt="mouse">
+                
+        </div>
+
+        <!-- for images right(right section) -->
+        <div>
+
+            <img class="relative top-0 z-20" src="./assets/doctor.png" alt="doctor">
+            <img class="absolute top-64 right-7 z-10 w-96" src="./assets/yellowBox.png" alt="yellowBox">
+            <img class="absolute top-56 right-4 w-4/12" src="./assets/greenBox.png" alt="greenBox">
+
+        </div>
+
+    </div>
+
+</body>
+</html>
