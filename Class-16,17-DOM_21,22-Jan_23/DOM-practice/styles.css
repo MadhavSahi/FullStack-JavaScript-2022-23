@@ -1,0 +1,26 @@
+body{
+    background-color: goldenrod;
+}
+
+ /* .first{
+    background-color: red;
+}  */
+.btn{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    position: relative;
+    left: 500px;
+    top: 200px;
+    background-color: gray;
+    cursor: pointer;
+    color: pink;
+    font-size: 20px;
+}
+.newww{
+    position: relative;
+    left: 500px;
+    top: 80px;
+    /* color: pink; */
+    font-size: 40px;
+}

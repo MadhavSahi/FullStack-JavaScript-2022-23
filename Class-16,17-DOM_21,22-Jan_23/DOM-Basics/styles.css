@@ -1,0 +1,14 @@
+body{
+    background-color: cyan;
+}
+.first{
+    margin: 50px;
+    background-color: yellow;
+    width: 250px;
+    padding: 50px;
+}
+.first-1{
+    /* padding: 210px; */
+    text-align: center;
+    color: red;
+}
