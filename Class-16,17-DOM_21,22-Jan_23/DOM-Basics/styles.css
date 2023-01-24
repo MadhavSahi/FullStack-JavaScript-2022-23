@@ -1,0 +1,10 @@
+body{
+    background-color: red;
+}
+.first{
+    background-color: yellow;
+}
+.second{
+    background-color:pink;
+    font-size: 40px;
+}
