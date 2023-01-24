@@ -51,5 +51,5 @@ wholebody.addEventListener('click',(e)=>{
 
 //making a button to reload the whole page
 btn2.addEventListener('click',()=>{
-    location.reload();
+    window.location.reload();
 })
