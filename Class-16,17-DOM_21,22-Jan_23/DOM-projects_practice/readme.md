@@ -7,4 +7,3 @@
 - Used setTimeout(event,seconds) function to vanish the emoji after some time.
 - Learnt about window.document.location.reload() to refresh the page.
 - Random Emoji Generator - [Project Repo Link](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-16%2C17-DOM_21%2C22-Jan_23/DOM-projects_practice "Project Repo Link")
-- <iframe width="560" height="315" src="https://www.google.com ></iframe>
