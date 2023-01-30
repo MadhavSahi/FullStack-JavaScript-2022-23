@@ -12,4 +12,6 @@
 - Made Mini Projects - Color Changer, Random Emoji Generator using JavaScript.
 - Class Repo - [Repo for Class 16,17](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-16%2C17-DOM_21%2C22-Jan_23 "Repo Link")
 - Project Repo - [Random Emoji Generator](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-16%2C17-DOM_21%2C22-Jan_23/DOM-projects_practice "Project Repo Link")
+- Live Link - [Random Emoji Generator](https://emojigenerator-madhavsahi.netlify.app/ "Live Link")
 - Project Repo - [Color Changer](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-16%2C17-DOM_21%2C22-Jan_23/DOM-practice "Project Repo Link")
+- Live Link - [Color Changer](https://colorchanger-madhavsahi.netlify.app/ "Live Link")

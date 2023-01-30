@@ -13,7 +13,7 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnod
 - Learnt about Emmet and various VS Code extensions.
 - Learnt about various tags and it's use cases.
 - Built TimeTable using table tag and used iframe tag.
-- GitHub Repo Link - [Repo Link for Class 1,2](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-01%2C02-Basics-HTML_6%2C7Nov22/Basics_HTML "Repo Link") <br>
+- Class Repo - [Repo Link for Class 1,2](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-01%2C02-Basics-HTML_6%2C7Nov22/Basics_HTML "Repo Link") <br>
 <!-- - GitHub Repo Link - <a href="https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-1%2C2-Basics-HTML_6%2C7Nov22/Basics_HTML" data-toggle = "tooltip" title = "Repo Link" target="_blank">Repo Link for Class 1,2</a> -->
 
 <hr>
@@ -23,7 +23,7 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnod
 - Leant how to style elements using inline, internal and external CSS.
 - Learnt about various CSS Selectors and their specificity.
 - Learnt about margins, paddings, borders.
-- GitHub Repo Link - [Repo Link for Class 3,4](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-03%2C04-Basics-CSS_12%2C13Nov2022/Basics%20of%20CSS "Repo Link")
+- Class Repo - [Repo Link for Class 3,4](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-03%2C04-Basics-CSS_12%2C13Nov2022/Basics%20of%20CSS "Repo Link")
 
 <hr>
 
@@ -31,7 +31,7 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnod
 - Learnt more about CSS positions and flexbox.
 - Deep dived more into CSS positions and their use cases.
 - Learnt more of FlexBox and it's child and parent properties.
-- GitHub Repo Link - [Repo Link for Class 5](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-05-Basics-CSS_19Nov2022/CSS_Basics "Repo Link")
+- Class Repo - [Repo Link for Class 5](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-05-Basics-CSS_19Nov2022/CSS_Basics "Repo Link")
 
 <hr>
 
@@ -40,7 +40,7 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnod
 - Learnt about CSS Media queries and it's use cases.
 - Learnt about On Hover effects.
 - Learnt how to set width for different size devices.
-- GitHub Repo Link - [Repo Link for Class 6,7](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-06%2C07-Basics-CSS_20Nov2022/CSS_basics "Repo Link")
+- Class Repo - [Repo Link for Class 6,7](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-06%2C07-Basics-CSS_20Nov2022/CSS_basics "Repo Link")
 
 <hr>
 
@@ -48,9 +48,9 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnod
 ## Class 8
 - Learnt about CSS Framework - Tailwind
 - Deep dived into Tailwind and built VS Code Clone Landing Page(non-responsive).
-- GitHub Repo Link - [Repo Link for Class 8](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-08-Tailwind_27Nov2022 "Repo Link")
-- GitHub Repo Link for VS Code Clone Landing page - [Repo Link for Project](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-08-Tailwind_27Nov2022/VSCode_Clone_Tailwind "Repo Link")
-- Live Link - [Live Project VS Code Landing Page](https://madhavsahi-vscode-clone-tailwind.netlify.app/ "Live Link")
+- Class Repo - [Repo for Class 8](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-08-Tailwind_27Nov2022 "Repo Link")
+- GitHub Repo - [VS Code Clone Landing page](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-08-Tailwind_27Nov2022/VSCode_Clone_Tailwind "Repo Link")
+- Live Link - [VS Code Landing Page](https://madhavsahi-vscode-clone-tailwind.netlify.app/ "Live Link")
 
 <hr>
 
@@ -58,7 +58,7 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnod
 - Learnt about Git, GitHub, Markdown and it's importance.
 - Learnt how to configure Git and GitHub.
 - Learnt various syntax and how to embed links and images and various other things in "readme.md" file.
-- GitHub Repo Link - [Repo Link for Class 9](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-09-Markdown_3Dec2022 "Repo Link")
+- Class Repo - [Repo for Class 9](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-09-Markdown_3Dec2022 "Repo Link")
 <hr>
 
 ## Class 10,11
@@ -70,7 +70,7 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnod
 - Learnt about Math and Random.
 - Learnt about Date and it's methods.
 - Learnt about Round, Min, Max, Floor, Ceil etc.
-- GitHub Repo Link - [Repo Link for Class 10,11](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-10%2C11-JavaScript_10%2C11Dec2022 "Repo Link")
+- Class Repo - [Repo for Class 10,11](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-10%2C11-JavaScript_10%2C11Dec2022 "Repo Link")
 
 <hr>
 
@@ -84,7 +84,7 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnod
 - Learnt about "for of" loop to access elements of array.
 - Learnt about object declaration and how to access keys and values.
 - Learnt about "for in" loop to access keys and values of objects.
-- GitHub Repo Link - [Repo Link for Class 12,13](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-12%2C13-JavaScript_17%2C18Dec2022 "Repo Link")
+- Class Repo - [Repo for Class 12,13](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-12%2C13-JavaScript_17%2C18Dec2022 "Repo Link")
 
 <hr>
 
@@ -97,8 +97,8 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnod
 - Learnt how to inherit properties of 1 object in other object using "___ _proto____" and __setPrototypeOf__ method.
 - Learnt how prototype chaining works.
 - Learnt about when the NULL comes in chaining. 
-- GitHub Repo Link - [Repo Link for Class 14,15](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-14%2C15-JS-Prototype_7%2C8-Jan_23 "Repo Link")
-- GitHub Repo Link (Assignment) - [JavaScript Assignment_01](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/JavaScript-Assignments/Assignment_01-JS-Basics-7%2C8Jan "Assignment Repo Link")
+- Class Repo - [Repo for Class 14,15](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-14%2C15-JS-Prototype_7%2C8-Jan_23 "Repo Link")
+- JavaScript Assignment - [Assignment_01](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/JavaScript-Assignments/Assignment_01-JS-Basics-7%2C8Jan "Assignment Repo Link")
 
 <hr>
 
@@ -111,26 +111,26 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnod
 - Learnt about eventListener and various browser events.
 - Learnt about querySelector, getElementbyId, getElementbyClassName, createElement, appendChild etc.
 - Made mini projects - Color Changer, Random text display using eventListener and DOM Manipulation.
-- GitHub Repo Link - [Repo Link for Class 16,17](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-16%2C17-DOM_21%2C22-Jan_23 "Repo Link")
+- Class Repo - [Repo for Class 16,17](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-16%2C17-DOM_21%2C22-Jan_23 "Repo Link")
 - Project Repo - [Random Emoji Generator](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-16%2C17-DOM_21%2C22-Jan_23/DOM-projects_practice "Project Repo Link")
 - Project Repo - [Background Color Changer](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-16%2C17-DOM_21%2C22-Jan_23/DOM-practice "Project Repo Link")
 
 <hr>
 
 ## HTML , CSS , Tailwind Projects
-- Project - [VS Code Landing page using Tailwind](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-08-Tailwind_27Nov2022/VSCode_Clone_Tailwind "Repo Link")
-- Project - [Credit Card Landing Page](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/HTML%2CCSS%2CTailwind_Projects/12%20Dec%20Projects%20Sols%20-%20HTML%2CCSS/Project-1-Sol-Credit_Card_Page "Repo Link")
-- Project - [Hosting Site Landing Page](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/HTML%2CCSS%2CTailwind_Projects/12%20Dec%20Projects%20Sols%20-%20HTML%2CCSS/Project-2-Sol-Hosting_Site_Page "Repo Link")
-- Project - [Gaming Site Landing Page](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/HTML%2CCSS%2CTailwind_Projects/12%20Dec%20Projects%20Sols%20-%20HTML%2CCSS/Project-3-Sol-Gaming_Landing_Page "Repo Link")
-- Project - [Real Estate Landing Page](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/HTML%2CCSS%2CTailwind_Projects/12%20Dec%20Projects%20Sols%20-%20HTML%2CCSS/Project-4-Sol_Real_Estate_Page "Repo Link")
-- Project - [Beats Landing Page](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/HTML%2CCSS%2CTailwind_Projects/12%20Dec%20Projects%20Sols%20-%20HTML%2CCSS/Project-5-Sol-Beats_Landing_Page "Repo Link")
-- Project - [Data Analytics Landing Page](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/HTML%2CCSS%2CTailwind_Projects/12%20Dec%20Projects%20Sols%20-%20HTML%2CCSS/Project-6-Sol-Data_Analytics_Page "Repo Link")
-- Project - [Digital Marketing Landing Page](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/HTML%2CCSS%2CTailwind_Projects/20Nov-Project_Sols%20-%20HTML%2CCSS/Project-1-Sol "Repo Link")
-- Project - [Space Landing Page](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/HTML%2CCSS%2CTailwind_Projects/20Nov-Project_Sols%20-%20HTML%2CCSS/Project-2-Sol "Repo Link")
-- Project - [Trend Landing Page](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/HTML%2CCSS%2CTailwind_Projects/20Nov-Project_Sols%20-%20HTML%2CCSS/Project-3-Sol "Repo Link")
-- Project - [Headphone Landing Page](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/HTML%2CCSS%2CTailwind_Projects/26%20Nov%20Project%20Sols%20-%20Tailwind/Project-1-Sol "Repo Link")
-- Project - [Healthcare Landing Page](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/HTML%2CCSS%2CTailwind_Projects/26%20Nov%20Project%20Sols%20-%20Tailwind/Project-2-Sol "Repo Link")
-- Project - [Justice Site Landing Page](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/HTML%2CCSS%2CTailwind_Projects/26%20Nov%20Project%20Sols%20-%20Tailwind/Project-3-Sol "Repo Link")
+- Project Repo - [VS Code Landing page using Tailwind](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-08-Tailwind_27Nov2022/VSCode_Clone_Tailwind "Repo Link")
+- Project Repo - [Credit Card Landing Page](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/HTML%2CCSS%2CTailwind_Projects/12%20Dec%20Projects%20Sols%20-%20HTML%2CCSS/Project-1-Sol-Credit_Card_Page "Repo Link")
+- Project Repo - [Hosting Site Landing Page](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/HTML%2CCSS%2CTailwind_Projects/12%20Dec%20Projects%20Sols%20-%20HTML%2CCSS/Project-2-Sol-Hosting_Site_Page "Repo Link")
+- Project Repo - [Gaming Site Landing Page](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/HTML%2CCSS%2CTailwind_Projects/12%20Dec%20Projects%20Sols%20-%20HTML%2CCSS/Project-3-Sol-Gaming_Landing_Page "Repo Link")
+- Project Repo - [Real Estate Landing Page](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/HTML%2CCSS%2CTailwind_Projects/12%20Dec%20Projects%20Sols%20-%20HTML%2CCSS/Project-4-Sol_Real_Estate_Page "Repo Link")
+- Project Repo - [Beats Landing Page](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/HTML%2CCSS%2CTailwind_Projects/12%20Dec%20Projects%20Sols%20-%20HTML%2CCSS/Project-5-Sol-Beats_Landing_Page "Repo Link")
+- Project Repo - [Data Analytics Landing Page](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/HTML%2CCSS%2CTailwind_Projects/12%20Dec%20Projects%20Sols%20-%20HTML%2CCSS/Project-6-Sol-Data_Analytics_Page "Repo Link")
+- Project Repo - [Digital Marketing Landing Page](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/HTML%2CCSS%2CTailwind_Projects/20Nov-Project_Sols%20-%20HTML%2CCSS/Project-1-Sol "Repo Link")
+- Project Repo - [Space Landing Page](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/HTML%2CCSS%2CTailwind_Projects/20Nov-Project_Sols%20-%20HTML%2CCSS/Project-2-Sol "Repo Link")
+- Project Repo - [Trend Landing Page](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/HTML%2CCSS%2CTailwind_Projects/20Nov-Project_Sols%20-%20HTML%2CCSS/Project-3-Sol "Repo Link")
+- Project Repo - [Headphone Landing Page](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/HTML%2CCSS%2CTailwind_Projects/26%20Nov%20Project%20Sols%20-%20Tailwind/Project-1-Sol "Repo Link")
+- Project Repo - [Healthcare Landing Page](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/HTML%2CCSS%2CTailwind_Projects/26%20Nov%20Project%20Sols%20-%20Tailwind/Project-2-Sol "Repo Link")
+- Project Repo - [Justice Site Landing Page](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/HTML%2CCSS%2CTailwind_Projects/26%20Nov%20Project%20Sols%20-%20Tailwind/Project-3-Sol "Repo Link")
 
 <hr>
 
@@ -143,7 +143,8 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnod
 
 ## JavaScript Assignments
 
-- JavaScript assignments - [Assignments Repo Link](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/JavaScript_Assignments "Repo Link")
-- Assignment 7,8 Jan_23 - [JavaScript Assignment_01](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/JavaScript_Assignments/Assignment_01-JS-Basics-7%2C8Jan "Assignment Repo Link")
+- JavaScript Assignments - [Assignments Repo](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/JavaScript_Assignments "Repo Link")
+- JavaScript Assignment 7,8 Jan_23 - [Assignment_01](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/JavaScript_Assignments/Assignment_01-JS-Basics-7%2C8Jan "Assignment Repo Link")
+- JavaScript Assignment 28,29 Jan_23 - [Assignment_02]( "Assignment Repo Link")
 
 <hr>
