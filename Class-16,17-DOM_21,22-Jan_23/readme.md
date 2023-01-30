@@ -1,4 +1,4 @@
-<h1>Class 16,17 - DOM Manipulation, eventListener, Browser events</h1>
+<h1>Class 16,17 - DOM Manipulation, eventListener, Browser events, Mini Projects</h1>
 
 - Learnt about what is DOM and how to do DOM Manipulation.
 - Learnt about difference between window and document object.
@@ -10,6 +10,6 @@
 - Learnt about setTimeout() and location.reload().
 - Learnt about querySelector, getElementbyId, getElementbyClassName, createElement, appendChild,removeChild etc.
 - Made Mini Projects - Color Changer, Random Emoji Generator using JavaScript.
-- GitHub Repo Link - [Repo Link for Class 16,17](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-16%2C17-DOM_21%2C22-Jan_23 "Repo Link")
-- Random Emoji Generator - [Project Repo Link](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-16%2C17-DOM_21%2C22-Jan_23/DOM-projects_practice "Project Repo Link")
-- Color Changer - [Project Repo Link](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-16%2C17-DOM_21%2C22-Jan_23/DOM-practice "Project Repo Link")
+- Class Repo - [Repo for Class 16,17](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-16%2C17-DOM_21%2C22-Jan_23 "Repo Link")
+- Project Repo - [Random Emoji Generator](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-16%2C17-DOM_21%2C22-Jan_23/DOM-projects_practice "Project Repo Link")
+- Project Repo - [Color Changer](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-16%2C17-DOM_21%2C22-Jan_23/DOM-practice "Project Repo Link")
