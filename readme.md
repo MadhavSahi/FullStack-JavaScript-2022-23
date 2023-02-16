@@ -98,7 +98,7 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnod
 - Learnt how prototype chaining works.
 - Learnt about when the NULL comes in chaining. 
 - Class Repo - [Repo for Class 14,15](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-14%2C15-JS-Prototype_7%2C8-Jan_23 "Repo Link")
-- JavaScript Assignment - [Assignment_01](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/JavaScript-Assignments/Assignment_01-JS-Basics-7%2C8Jan "Assignment Repo Link")
+- JavaScript Assignment - [Assignment_01_Basics](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/JavaScript-Assignments/Assignment_01-JS-Basics-7%2C8Jan "Assignment Repo Link")
 
 <hr>
 
@@ -143,8 +143,8 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnod
 
 ## JavaScript Assignments
 
-- JavaScript Assignments - [Assignments Repo](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/JavaScript_Assignments "Repo Link")
-- JavaScript Assignment 7,8 Jan_23 - [Assignment_01](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/JavaScript_Assignments/Assignment_01-JS-Basics-7%2C8Jan "Assignment Repo Link")
-- JavaScript Assignment 28,29 Jan_23 - [Assignment_02]( "Assignment Repo Link")
+- JavaScript Assignments - [All Assignments](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/JavaScript_Assignments "Repo Link")
+- JavaScript Assignment 7,8 Jan_23 - [Assignment_01-Basics](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/JavaScript_Assignments/Assignment_01-JS-Basics-7%2C8Jan "Assignment Repo Link")
+- JavaScript DOM Assignment 28,29 Jan_23 - [Assignment_02-DOM](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/JavaScript_Assignments/Assignment_02-JS-DOM-28%2C29Jan "Assignment Repo Link")
 
 <hr>
