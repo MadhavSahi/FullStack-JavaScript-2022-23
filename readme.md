@@ -115,6 +115,27 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnod
 - Project Repo - [Random Emoji Generator](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-16%2C17-DOM_21%2C22-Jan_23/DOM-projects_practice "Project Repo Link")
 - Project Repo - [Background Color Changer](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-16%2C17-DOM_21%2C22-Jan_23/DOM-practice "Project Repo Link")
 
+## Class 18,19
+- Learnt about what is HOF and callback.
+- Learnt about Spread and Rest operators and their use cases.
+- Learnt about Try Catch Block and how to use it.
+- Learnt about Promises in JS.
+- Learnt about setInterval() and setTimeout() and their uses.
+- Learnt about how we can use Destructuring.
+- Learnt about Error types in JS.
+- Class Repo - [Repo for Class 18,19]( "Class Repo Link 28,29Jan")
+- JavaScript Assignment - [Assignment_02_DOM](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/JavaScript_Assignments/Assignment_02-JS-DOM-28%2C29Jan "Assignment Link")
+
+<hr>
+
+## Class 20,21
+- Class Repo - [Repo for Class 20,21]( "Class Repo Link(4,5Feb)")
+
+<hr>
+
+## Class 22,23
+- Class Repo - [Repo for Class 22,23]( "Class Repo Link(11,12Feb)")
+
 <hr>
 
 ## HTML , CSS , Tailwind Projects
