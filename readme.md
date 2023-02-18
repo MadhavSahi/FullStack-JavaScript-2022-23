@@ -144,7 +144,7 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnod
 - Learnt about difference between let, var, const.
 - Learnt about lexical scope, scope chaining, closure, temporal dead zone,execution context.
 - Learnt about difference in where to use ()=>() and ()=>{}.
-- Class Repo - [Repo for Class 20,21]( "Class Repo Link(4,5Feb)")
+- Class Repo - [Repo for Class 20,21](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-20%2C21-JS_Revision_3%2C4-Feb_23 "Class Repo Link(4,5Feb)")
 
 <hr>
 
