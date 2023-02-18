@@ -1,4 +1,4 @@
-## Spread, Rest, EvetLoop, Promises, Try-Catch-Finally, Error Types - 29 Jan_23
+## Spread, Rest, EventLoop, Promises, Try-Catch-Finally, Error Types - 29 Jan_23
 
 <hr>
 
