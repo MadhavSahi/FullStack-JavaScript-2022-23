@@ -21,7 +21,7 @@ const search=async (e)=>{
     const cityname=text[0].value;
     //value is for the text which we will enter..so we have to grab it using DOM.
     console.log(cityname);
-    const datafetch=await fetch(`https://api.weatherapi.com/v1/current.json?key=f5e36e01d13c473c836173105231802&q=${cityname}`);
+    const datafetch=await fetch(`https://api.weatherapi.com/v1/forecast.json?key=f5e36e01d13c473c836173105231802&q=${cityname}`);
     const data=await datafetch.json();
     //see this is now compulsory to add await on both of the lines bcz think as of then then catch block....
     // it's necessary to add otherwise it will show as promise pending.
@@ -30,7 +30,7 @@ const search=async (e)=>{
     // we are seeing the use case scenario of promise...we can also do with fetch(url).then().then().catch();
     //..but we are doing with async await await
     // when we have to use fetch/API req..then async await await are used compulsory
-    console.log(data);
+    console.log(data.forecast.forecastday[0].date);
 
     //I was just writing logic for if we don't find a valid city.
     // if(data){
