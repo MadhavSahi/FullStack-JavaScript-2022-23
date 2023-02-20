@@ -144,6 +144,10 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnod
 - Learnt about difference between let, var, const.
 - Learnt about lexical scope, scope chaining, closure, temporal dead zone,execution context.
 - Learnt about difference in where to use ()=>() and ()=>{}.
+- Learnt about fetch method and the 2 then and catch blocks.
+- It returns a promise that resolves to a Response object.
+- Learnt about fetch().then().then().catch().
+- Learnt about async await await when we have to do API call.
 - Class Repo - [Repo for Class 20,21](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-20%2C21-JS_Revision_3%2C4-Feb_23 "Class Repo Link (4th ,5th Feb)")
 
 <hr>
@@ -151,8 +155,13 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnod
 ## Class 22
 
 - Made a project using JavaScript - Weather APP.
-- Class Repo - [Repo for Class 22]( "Class Repo Link (11th Feb)")
-- Project - [Weather APP]( "Project Repo Link")
+- Used basics of HTML,CSS to make the web app.
+- Used DOM manipulation to target HTML elements.
+- Used publicweather API to get the data about city.
+- Used fetch method along with async await await to get the data from API.
+- Learnt about event.preventDefault() and importance of async await.
+- Project/Class Repo Repo - [Repo for Class 22]( "Project/Class Repo Link (11th Feb)")
+- Live Link - [Weather APP using JavaScript](https://weather-js-madhavsahi.netlify.app/ "Project Live Link")
 
 <hr>
 
