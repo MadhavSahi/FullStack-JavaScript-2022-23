@@ -189,7 +189,7 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnod
 
 - Project Repo - [Random Emoji Generator](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-16%2C17-DOM_21%2C22-Jan_23/DOM-projects_practice "Project Repo Link")
 - Project Repo - [Background Color Changer](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-16%2C17-DOM_21%2C22-Jan_23/DOM-practice "Project Repo Link")
-- Project Repo - [Weather APP](https://weather-js-madhavsahi.netlify.app/ "Project Repo Link")
+- Project Repo - [Weather APP](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-22-JS_WeatherAPI_Project-11Feb_23 "Project Repo Link")
 
 <hr>
 
