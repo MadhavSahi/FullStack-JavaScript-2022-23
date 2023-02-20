@@ -122,7 +122,7 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnod
 - Learnt about when to use "()=>{}" and when to use "()=>".
 - Learnt about what is Destructuring in JS and a bit of Spread and Rest operators.
 - 1st is for when we need to return a statement and 2nd is when we don't want to write return.
-- Class Repo - [Repo for Class 18](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-18-HOF%2CCallback%2CDestructuring_28-Jan_23 "Class Repo Link 28 Jan")
+- Class Repo - [Repo for Class 18](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-18-HOF%2CCallback%2CDestructuring_28-Jan_23 "Class Repo Link 28th Jan")
 - JavaScript DOM Assignment - [Assignment_02_DOM](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/JavaScript_Assignments/Assignment_02-JS-DOM-28%2C29Jan "Assignment Link")
 
 <hr>
@@ -134,7 +134,7 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnod
 - Learnt about Eventloop concept of JS.
 - Learnt about async await.
 - Learnt about Error types in JS.
-- Class Repo - [Repo for Class 19](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-19-Spread%2CRest%2CPromises%2CTryCatch_29-Jan_23 "Class Repo Link 29 Jan")
+- Class Repo - [Repo for Class 19](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-19-Spread%2CRest%2CPromises%2CTryCatch_29-Jan_23 "Class Repo Link 29th Jan")
 - JavaScript DOM Assignment - [Assignment_02_DOM](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/JavaScript_Assignments/Assignment_02-JS-DOM-28%2C29Jan "Assignment Link")
 
 <hr>
@@ -144,14 +144,20 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnod
 - Learnt about difference between let, var, const.
 - Learnt about lexical scope, scope chaining, closure, temporal dead zone,execution context.
 - Learnt about difference in where to use ()=>() and ()=>{}.
-- Class Repo - [Repo for Class 20,21](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-20%2C21-JS_Revision_3%2C4-Feb_23 "Class Repo Link(4,5Feb)")
+- Class Repo - [Repo for Class 20,21](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-20%2C21-JS_Revision_3%2C4-Feb_23 "Class Repo Link (4th ,5th Feb)")
 
 <hr>
 
-## Class 22,23
-- Class Repo - [Repo for Class 22,23]( "Class Repo Link(11,12Feb)")
+## Class 22
+
+- Made a project using JavaScript - Weather APP.
+- Class Repo - [Repo for Class 22]( "Class Repo Link (11th Feb)")
+- Project - [Weather APP]( "Project Repo Link")
 
 <hr>
+
+## Class 23
+- Class Repo - [Repo for Class 23]( "Class Repo Link(12thFeb)")
 
 ## HTML , CSS , Tailwind Projects
 - Project Repo - [VS Code Landing page using Tailwind](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-08-Tailwind_27Nov2022/VSCode_Clone_Tailwind "Repo Link")
@@ -174,6 +180,7 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnod
 
 - Project Repo - [Random Emoji Generator](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-16%2C17-DOM_21%2C22-Jan_23/DOM-projects_practice "Project Repo Link")
 - Project Repo - [Background Color Changer](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-16%2C17-DOM_21%2C22-Jan_23/DOM-practice "Project Repo Link")
+- Project Repo - [Weather APP]( "Project Repo Link")
 
 <hr>
 

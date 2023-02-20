@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather APP</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+    <div class="main">
+        <h2>WEATHER WEB APP</h2>
+        <br>
+        <form onsubmit="search(event)" class="form" action="">
+            <input class="text" type="text" value="" placeholder="ENTER CITY NAME">
+            <button onclick="search(event)" class="search">SEARCH</button>
+            <!-- onclick="search(val)" -->
+        </form>
+        <br>
+
+        <div class="first-row row">
+            <div class="col">
+                <p class="cname bold">Country Name</p>
+                <p class="coname-v">-</p>
+            </div>
+            <div class="col">
+                <p class="cname bold">State Name</p>
+                <p class="sname-v">-</p>
+            </div>
+            <div class="col">
+                <p class="cname bold">City Name</p>
+                <p class="ciname-v">-</p>
+            </div>
+        </div>
+
+        <div class="second-row row">
+            <div class="col">
+                <p class="humidity bold">Humidity</p>
+                <p class="humidity-v">-</p>
+            </div>
+            <div class="col">
+                <p class="bold windspeed">Wind Speed</p>
+                <p class="windspeed-v">-</p>
+            </div>
+            <div class="col">
+                <p class="temp bold">Temperature</p>
+                <p class="temp-v">-</p>
+            </div>
+            <div class="col">
+                <img class="img" src="" alt="logo" srcset="">
+                <p class="img-v">-</p>
+            </div>
+        </div>
+
+        <!-- <ul class="row">
+            <li class="row-1">Country Name</li>
+            <li class="row-1">State Name</li>
+            <li class="row-1">City Name</li>
+        </ul>
+        <ul class="row row-ans">
+            <li class="row-1 coname">_</li>
+            <li class="row-1 sname">_</li>
+            <li class="row-1 cname">_</li>
+        </ul>
+        <ul class="row">
+            <li class="row-1">Humidity</li>
+            <li class="row-1">Wind Speed</li>
+            <li class="row-1">Temperature</li>
+            <img class="img" src="">           
+        </ul>
+        <ul class="row row-ans">
+            <li class="row-1 hdity">_</li>
+            <li class="row-1 wspeed">_</li>
+            <li class="row-1 temp">_</li>
+            <li class="row-1 image">_</li>            
+        </ul> -->
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
