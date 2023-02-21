@@ -10,5 +10,6 @@
 - Learnt about how to install REACT globally and locally.
 - Learnt about folder structure of REACT and the necessary files required to run REACT app.
 - Learnt about how to run react app on localhost.
+- Class Repo - [Repo for Class 23](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-23-React_Basics-12Feb_23 "Class Repo Link(12th Feb)")
 
 <hr>
