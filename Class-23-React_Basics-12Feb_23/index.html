@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REACT BASICS</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .header{
+            color:blue;
+            background-color: cyan;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="root">Hello</div>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.24.0/babel.js"></script>  -->
+    <script type="text/babel">
+        const target=document.querySelector(".root");
+        // const value=
+        // <>
+        // <span>Heyy</span>
+        // <p>Hi React</p>
+        // <p>Madhav is learning React</p>
+        // </>
+        // React.render(what to display(HTML) , where to display(area))
+
+
+        //For using CSS ..we do this...{{}}
+        //- IF we see {{}} ....then it means that...1st is for inserting the JSX expression...2nd is for treating inside thing as object.
+        //When using css..we use this way only.
+        const css={border:"2px solid red"};
+        const head=
+            <header className="header">
+                <p>Hi REACT I m header</p>
+            </header>
+
+        const hero=
+            <div>
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eius maxime quo error sit aspernatur quae nihil. A, ducimus atque.</h2>
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eius maxime quo error sit aspernatur quae nihil. A, ducimus atque.</h2>
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eius maxime quo error sit aspernatur quae nihil. A, ducimus atque.</h2>
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eius maxime quo error sit aspernatur quae nihil. A, ducimus atque.</h2>
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eius maxime quo error sit aspernatur quae nihil. A, ducimus atque.</h2>
+            </div>
+
+        const foot=
+            <footer>
+                <p>Hi REACT I m footer.</p>
+            </footer>
+        
+        //to include any JSX expression inside JS element...we need to use {}.
+        //here we are inserting 3 JSX expressions inside 1 JS element.
+        // we can add multiple like below by adding how much we want.
+        //we can resuse the expressions also
+        const value=
+            <>
+                {head}
+                {hero}
+                {foot}
+                {head}
+                {head}
+                {head}
+                {hero}
+                {foot}
+            </>
+
+        ReactDOM.render(value,target);
+    </script>
+    <!-- <script src="./script.js"></script> -->
+</body>
+</html>

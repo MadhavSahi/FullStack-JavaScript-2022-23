@@ -115,6 +115,8 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnod
 - Project Repo - [Random Emoji Generator](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-16%2C17-DOM_21%2C22-Jan_23/DOM-projects_practice "Project Repo Link")
 - Project Repo - [Background Color Changer](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-16%2C17-DOM_21%2C22-Jan_23/DOM-practice "Project Repo Link")
 
+<hr>
+
 ## Class 18
 - Learnt about what is HOF and Callback.
 - Learnt about setInterval() and setTimeout() HOFs and their uses.
@@ -166,7 +168,32 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnod
 <hr>
 
 ## Class 23
+
+<hr>
+
+- Learnt about history and basics of REACT.
+- Leant about what is Babel and JSX.
+- Learnt about how to use REACT via CDN Links.
+- Learnt about difference between npm and npx.
+- Learnt about create-react-app.
+- Learnt about how to install REACT globally and locally.
+- Learnt about folder structure of REACT and the necessary files required to run REACT app.
+- Learnt about how to run react app on localhost.
 - Class Repo - [Repo for Class 23]( "Class Repo Link(12thFeb)")
+
+<hr>
+
+## Class 24
+
+- Class Repo - [Repo for Class 24]( "Class Repo Link(18thFeb)")
+
+<hr>
+
+## Class 25
+
+- Class Repo - [Repo for Class 25]( "Class Repo Link(19thFeb)")
+
+<hr>
 
 ## HTML , CSS , Tailwind Projects
 - Project Repo - [VS Code Landing page using Tailwind](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-08-Tailwind_27Nov2022/VSCode_Clone_Tailwind "Repo Link")
