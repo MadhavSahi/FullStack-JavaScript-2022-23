@@ -185,12 +185,23 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnod
 
 ## Class 24
 
-- Class Repo - [Repo for Class 24]( "Class Repo Link(18th Feb)")
+<hr>
+
+- Learnt about React States and Hooks and what problem do they solve.
+- Made a basic counter App using states.
+- Learnt about useState.
+- Class Repo - [Repo for Class 24](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-24-React_Basics_02-18thFeb_23 "Class Repo Link(18th Feb)")
 
 <hr>
 
 ## Class 25
 
+- Learnt more of React Statesa and Hooks and used them.
+- Learnt about Axiom and used it.
+- Learnt about API calling uing Axiom.
+- Made web request and captured data from API.
+- Learnt about useEffect hook.
+- Learnt about React.StrictMode and it's pros and cons.
 - Class Repo - [Repo for Class 25]( "Class Repo Link(19th Feb)")
 
 <hr>
