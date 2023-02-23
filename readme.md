@@ -196,7 +196,7 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnod
 
 ## Class 25
 
-- Learnt more of React Statesa and Hooks and used them.
+- Learnt more of React States and Hooks and used them.
 - Learnt about Axiom and used it.
 - Learnt about API calling uing Axiom.
 - Made web request and captured data from API.
