@@ -30,10 +30,11 @@ function App() {
     <>
       <h3>This is a counter App</h3>
       <p>Count is {count}</p>
-      <button className="btn" onClick={add} >INCREASE THE COUNT</button>
-      <button className="btn" onClick={sub} >DECREASE THE COUNT</button>
+      <button className="btn" onClick={()=>add()} >INCREASE THE COUNT</button>
+      <button className="btn" onClick={()=>{sub()}} >DECREASE THE COUNT</button>
       <button className="btn" onClick={reset} >RESET THE COUNT</button>
       {/* whens using state...we have to put setCount inside a function and not use it */}
+      {/* - The hooks are non-persistant in React functional components...means that if the user refreshes or leaves the the page then the useState variable gets to the default value...the state value is not saved by default...it can be only achieved by LocalStorage concept or retrieve from database. */}
     </>
    )
 };
