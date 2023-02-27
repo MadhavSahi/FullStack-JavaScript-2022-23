@@ -197,6 +197,8 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnod
 ## Class 25
 
 - Learnt more of React States and Hooks and used them.
+- Learnt about props.
+- Learnt about major differences between class based and function based components in React.
 - Learnt about Axios and used it.
 - Learnt about API calling uing Axios.
 - Made web request and captured data from API.
@@ -207,6 +209,13 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnod
 - Made a basic Tic-Tac-Toe App as homework to get more handson and practice of states.
 - Explored more of react from official documentation.
 - Class Repo - [Repo for Class 25](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-25-React_States-Hooks-API_19Feb_23 "Class Repo Link(19th Feb)")
+
+<hr>
+
+## Class 26,27
+
+- Revision of React JS.
+- Revised basic concepts about React JS.
 
 <hr>
 

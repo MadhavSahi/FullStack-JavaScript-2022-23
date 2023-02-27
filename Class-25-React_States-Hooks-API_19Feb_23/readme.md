@@ -3,6 +3,8 @@
 <hr>
 
 - Learnt more of React States and Hooks and used them.
+- Learnt about props and used them.
+- Learnt about major differences between class based and function based components in React.
 - Learnt about Axios and used it.
 - Learnt about API calling uing Axios.
 - Made web request and captured data from API.
