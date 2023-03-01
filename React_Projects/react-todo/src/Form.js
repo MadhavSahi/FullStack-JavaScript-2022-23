@@ -115,7 +115,7 @@ function Form() {
                         <li className={`li ${classs}`}>{val}</li>
                         {/* <button onClick={()=>handleedit(i)} className='edit'>Edit</button> */}
                         {/* <button onClick={()=>handlecomplete(i)} className='completed'>Completed</button> */}
-                        <button onClick={()=>handledelete(i)} className='deleted'>Delete</button>
+                        {/* <button onClick={()=>handledelete(i)} className='deleted'>Delete</button> */}
                     </div>
                 )
             })}
