@@ -6,17 +6,31 @@ function Form() {
 
   const [text,setText]=useState("");
   const [todos,setTodos]=useState([]);
+  // const [classs,setClasss]=useState("xyz");
   // const [tellcomplete,setTellComplete]=useState("Completed");
+
+  const classs = {
+    color: "white",
+    backgroundColor: "DodgerBlue",
+    padding: "10px",
+    fontFamily: "Arial"
+  };
 
   const changetext=(event)=>{
     setText(event.target.value);
   };
 
   const handlesubmit=()=>{
-      setTodos([...todos,text]);//it will work asynchronously
+      // setTodos([...todos,text]);//it will work asynchronously
     //   console.log([todos]);
-      setText("");
-  }
+      // setText("");
+      setTodos((todos)=>{
+        const newtodos=[...todos,text];
+        setText("");
+        return newtodos;
+
+      });
+  };
 
   const handlecomplete=(i)=>{
 
@@ -98,9 +112,9 @@ function Form() {
             {todos!==[] && todos.map((val,i)=>{
                 return (
                     <div key={i} className='ul-li'>
-                        <li className='li'>{val}</li>
+                        <li className={`li ${classs}`}>{val}</li>
                         {/* <button onClick={()=>handleedit(i)} className='edit'>Edit</button> */}
-                        <button onClick={()=>handlecomplete(i)} className='completed'>Completed</button>
+                        {/* <button onClick={()=>handlecomplete(i)} className='completed'>Completed</button> */}
                         <button onClick={()=>handledelete(i)} className='deleted'>Delete</button>
                     </div>
                 )

@@ -42,8 +42,6 @@
 
 <br>
 
-<br>
-
 ## 📌 Acknowledgements
 
 - Icons used for Tech Stack section :- [shields.io](https://img.shields.io)
