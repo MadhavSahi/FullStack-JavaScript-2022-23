@@ -32,24 +32,24 @@ function Form() {
       });
   };
 
-  const handlecomplete=(i)=>{
+  // const handlecomplete=(i)=>{
 
-    const neww=document.querySelectorAll(".li");
-    // console.log(neww);
-    neww[i].classList.toggle("crossed-line");//for strikethrough
-    const btn=document.querySelectorAll(".completed");
-    // btn[i].innerHTML="kk"
-    // console.log(btn[i]);
-    // setTellComplete(tellcomplete=>(btn[i].innerHTML === "Completed" ? "Not Completed" : "Completed" ));
-    if(btn[i].innerHTML==="Completed"){
-      btn[i].innerHTML = "Not Completed";
-    }
-    else{
-      btn[i].innerHTML = "Completed";
-    }
-    // setTellComplete(tellcomplete=>(tellcomplete === "Completed" ? "Not Completed" : "Completed" ));
+  //   const neww=document.querySelectorAll(".li");
+  //   // console.log(neww);
+  //   neww[i].classList.toggle("crossed-line");//for strikethrough
+  //   const btn=document.querySelectorAll(".completed");
+  //   // btn[i].innerHTML="kk"
+  //   // console.log(btn[i]);
+  //   // setTellComplete(tellcomplete=>(btn[i].innerHTML === "Completed" ? "Not Completed" : "Completed" ));
+  //   if(btn[i].innerHTML==="Completed"){
+  //     btn[i].innerHTML = "Not Completed";
+  //   }
+  //   else{
+  //     btn[i].innerHTML = "Completed";
+  //   }
+  //   // setTellComplete(tellcomplete=>(tellcomplete === "Completed" ? "Not Completed" : "Completed" ));
 
-  };
+  // };
   const handledelete=(i)=>{
     const newtodos=todos.filter((val,id)=>{
         return (i!==id);
