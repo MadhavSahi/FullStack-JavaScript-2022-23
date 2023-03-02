@@ -18,7 +18,7 @@
 <br>
 
 ## 📌 Overview
-![First page screenshot](./assets/screenshot/todo-ss.PNG)
+![First page screenshot](./assets/screenshot/todo-ss-2.PNG)
 
 <br>
 
