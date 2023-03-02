@@ -2,7 +2,7 @@
 <br>
 <br> 
 
-## 📌Live Site : [Visit Here]( "Live Link")
+## 📌Live Site : [Visit Here](https://react-todo-madhavsahi.netlify.app/ "Live Link")
 
 <br>
 
@@ -39,6 +39,7 @@
 - Learnt about how to add any HTML and CSS based on our logic.
 - Used concept of React States to define and update variables.
 - Learnt about how to handle multiple functionality inside ReactJS project.
+- Learnt how to delete a particular ToDo item and how to delete all the ToDos at once.
 
 <br>
 
