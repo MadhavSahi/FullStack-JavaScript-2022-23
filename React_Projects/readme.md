@@ -1,4 +1,6 @@
-# React Projects 
+# React Projects
+
+<hr>
 
 ## 1. ToDo App using ReactJS
 <br>
