@@ -1,5 +1,4 @@
-# React Projects
-
+<h1 align = "center">React Projects</h1>
 <hr>
 
 ## 1. ToDo App using ReactJS
