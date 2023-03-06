@@ -1,0 +1,16 @@
+.btn-ud{
+    cursor: pointer;
+    height: 30px;
+    font-weight: 600;
+    /* color: blueviolet; */
+    width: 10vh;
+    /* margin-top: -50px; */
+}
+.text-p{
+    /* color: black; */
+    font-weight:600;
+    color: black;
+}
+span{
+    color: brown;
+}

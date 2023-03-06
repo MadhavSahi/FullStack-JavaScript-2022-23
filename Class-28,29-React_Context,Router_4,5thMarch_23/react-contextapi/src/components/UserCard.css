@@ -1,0 +1,20 @@
+.div-usercard{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+}
+.usercard-div{
+    font-size: 19px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: cyan;
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 55vh;
+    height: 50vh;
+
+}
