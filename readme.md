@@ -219,6 +219,20 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnod
 
 <hr>
 
+## Class 28,29
+
+- Learnt about Prop Drilling and what problem it creates when dealing with multiple components.
+- Learnt about ContextAPI and it's purpose when dealing with Props for multiple components.
+- Learnt about how variables, States can be sent from a component to other multiple components using ContextAPI.
+- Learnt about React Router Basics.
+- Learnt about what is importance of Routing in React.
+- Learnt about Browser Module and Outlet.
+- Class Repo - [Repo for Class 28,29](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-28%2C29-React_Context%2CRouter_4%2C5thMarch_23 "Class Repo Link 4,5thMarch")
+- Class Repo - [React ContextAPI](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-28%2C29-React_Context%2CRouter_4%2C5thMarch_23/react-contextapi "ContextAPI Folder")
+- Class Repo- [React Router]( "React Router Folder")
+
+<hr>
+
 ## HTML , CSS , Tailwind Projects
 - Project Repo - [VS Code Landing page using Tailwind](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-08-Tailwind_27Nov2022/VSCode_Clone_Tailwind "Repo Link")
 - Project Repo - [Credit Card Landing Page](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/HTML%2CCSS%2CTailwind_Projects/12%20Dec%20Projects%20Sols%20-%20HTML%2CCSS/Project-1-Sol-Credit_Card_Page "Repo Link")
@@ -251,3 +265,7 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnod
 - JavaScript DOM Assignment 28,29 Jan_23 - [Assignment_02-DOM](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/JavaScript_Assignments/Assignment_02-JS-DOM-28%2C29Jan "Assignment Repo Link")
 
 <hr>
+
+## React JS Projects
+
+- Project Repo - [ToDo App](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/React_Projects/react-todo "Project Repo")
