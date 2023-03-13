@@ -3,7 +3,7 @@ import React from 'react'
 const App = () => {
   return (
     <>
-      <div>ToDo App using REDUX</div>
+      <div className="text-lime-400 font-bold">ToDo App using REDUX</div>
     </>
   )
 }
