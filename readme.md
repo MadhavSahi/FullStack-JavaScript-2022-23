@@ -227,12 +227,12 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnod
 - Learnt about 1 of the way to handle State Management - ContextAPI.
 - Learnt about how variables, States can be sent from a component to other multiple components using ContextAPI.
 - Learnt about how to install Tailwind using npm and how to do basic setup.
-- Learnt about React Router Basics.
+- Learnt about React Router Basics for v6.
 - Learnt about what is Routing in React.
 - Learnt about Route, Routes, Browser Module, Link To and Outlet in React.
 - Class Repo - [Repo for Class 28,29](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-28%2C29-React_Context%2CRouter_4%2C5thMarch_23 "Class Repo Link 4,5thMarch")
-- Class Repo - [React ContextAPI](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-28%2C29-React_Context%2CRouter_4%2C5thMarch_23/react-contextapi "ContextAPI Folder")
-- Class Repo- [React Router](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-28%2C29-React_Context%2CRouter_4%2C5thMarch_23/react-router "React Router Folder")
+- Topic Repo - [React ContextAPI](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-28%2C29-React_Context%2CRouter_4%2C5thMarch_23/react-contextapi "ContextAPI Folder")
+- Topic Repo- [React Router](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-28%2C29-React_Context%2CRouter_4%2C5thMarch_23/react-router "React Router Folder")
 
 <hr>
 
@@ -240,9 +240,13 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnod
 
 - Learnt about State Management and it's importance.
 - Learnt about various ways of handling State Management.
-- Various ways discussed were - REDUX, Context API, React Query, ZUSTAND, FLUX.
+- Various ways discussed were - REDUX, REDUX ToolKit, Context API, React Query, ZUSTAND, FLUX.
 - Learnt about REDUX in Depth.
-- Made a basic project using REDUX. 
+- Leart about Store, Action Function, Reducer, RootReducer, Slice, Immer Function
+- Made 2 projects using REDUX - Counter App and ToDo App using REDUX. 
+- Class Repo - [Repo for Class 30,31]( "Class Repo Link 11,12thMarch")
+- Topic Repo - [Counter App using REDUX]( "Couter App Folder")
+- Topic Repo- [ToDo App using REDUX]( "ToDo App Folder")
 
 <hr>
 
