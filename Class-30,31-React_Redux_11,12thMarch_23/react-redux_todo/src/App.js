@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
+import Todos from './components/Todos';
+
+
 
 const App = () => {
   return (
     <>
-      <div className="text-lime-400 font-bold">ToDo App using REDUX</div>
+      <div className="text-4xl mx-10 text-orange-400 font-bold">ToDo App using REDUX</div>
+      <Todos></Todos>
     </>
   )
 }
