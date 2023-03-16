@@ -18,7 +18,7 @@
 <br>
 
 ## 📌 Overview
-![First page screenshot](./assets/rock-paper-scissor-ss.PNG)
+![First page screenshot](./assets/rock-paper-scissor-ss2.PNG)
 
 <br>
 

@@ -4,6 +4,7 @@ import Hero2 from "./components/Hero2";
 // import { BsFillSunFill } from "react-icons/bs";
 import { RxSun } from "react-icons/rx";
 import "./DarkMode.css";
+import Footer from "./components/Footer";
 
 const App = () => {
   const [theme, setTheme] = useState("light"); //code logic for toggle theme
@@ -32,6 +33,7 @@ const App = () => {
 
         {/* <Hero></Hero> */}
         <Hero2></Hero2>
+        <Footer></Footer>
       </div>
     </>
   );
