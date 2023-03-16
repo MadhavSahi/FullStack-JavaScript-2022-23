@@ -18,7 +18,7 @@
 - Project Repo - [Rock Paper Scissor App Repo](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/React_Projects/react-rock_paper_scissor "Repo for Rock Paper Scissor Project")
 <br>
 
-- Live Link : [Rock Paper Scissor App Link]( "Live Link for Rock Paper Scissor App")
+- Live Link : [Rock Paper Scissor App Link](https://react-rock-paper-scissor-madhavsahi.netlify.app/ "Live Link for Rock Paper Scissor App")
 
 <br>
 <hr>

@@ -2,7 +2,7 @@
 <hr>
 <br> 
 
-## 📌Live Site : [Visit Here]( "Live Link")
+## 📌Live Site : [Visit Here](https://react-rock-paper-scissor-madhavsahi.netlify.app/ "Live Link")
 
 <br>
 
