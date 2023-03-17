@@ -1,9 +1,12 @@
-import React,{useState} from 'react';
+import React,{createContext, useState} from 'react';
 import Axios from 'axios';
-import Details from './Details';
+// import Details from './Details';
+import { Outlet, useNavigate } from 'react-router-dom';
 
+export const MyContext=createContext();
 const Hero = () => {
 
+  const navigate=useNavigate();
   const [dish,setDish]=useState("");
   const [details,setDetails]=useState({});
 
@@ -13,8 +16,7 @@ const Hero = () => {
 
   const handlesubmit=async(e)=>{
 
-    e.preventDefault();
-
+    // e.preventDefault();
     if(!dish){
       alert("Please enter Dish Name");
     }
@@ -22,13 +24,19 @@ const Hero = () => {
       alert("Please enter Text only");
     }
     const response=await Axios.get(`https://www.themealdb.com/api/json/v1/1/search.php?s=${dish}`);
+    console.log(response);
+    if(response.data.meals===null){//if no dish found from API
+      alert("No Dish Found.")
+    }
     console.log(response.data.meals[0]);
     const details=response.data.meals[0];
     setDetails(details);
+    navigate("/details");
 
   }
   return (
     <>  
+    <MyContext.Provider value={{details}}>
       <div className='flex flex-row justify-center gap-10 mt-32'>
         <input
         placeholder='Enter your favorite Dish...'
@@ -36,6 +44,7 @@ const Hero = () => {
         type="text"
         value={dish}
         onChange={handleinput}
+        onKeyDown={(e)=>{e.key==="Enter" && handlesubmit()}}//to use enter for submit
         />
         <button
         onClick={handlesubmit}
@@ -43,7 +52,8 @@ const Hero = () => {
         >SEARCH
         </button>
       </div>
-      <Details details={details}></Details>
+      <Outlet></Outlet>
+      </MyContext.Provider>
     </>
   )
 }

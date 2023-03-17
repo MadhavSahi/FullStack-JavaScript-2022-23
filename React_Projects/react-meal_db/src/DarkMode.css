@@ -7,3 +7,12 @@
     background-color: burlywood;
     color: #333;
   }
+  .body{
+    /* min-height: max-content; */
+    /* max-height: fit-content; */
+    /* max-height: min-content; */
+    /* max-height: none; */
+    /* box-sizing: content-box; */
+    min-height: 100%;
+    background-color: red;
+}
