@@ -1,0 +1,8 @@
+.dark {
+    background-color: gainsboro;
+    color: #fff;    
+  }
+  .light {
+    background-color: burlywood;
+    color: #333;
+  }
