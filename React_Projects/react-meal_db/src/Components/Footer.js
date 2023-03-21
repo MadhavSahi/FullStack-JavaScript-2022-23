@@ -5,7 +5,7 @@ import { SiHashnode } from "react-icons/si";
 const Footer = () => {
   return (
     <>
-        <div className='flex flex-row justify-around flex-wrap bg-black fixed bottom-0 w-full'>
+        <div className='flex flex-row justify-around flex-wrap bg-black sticky mt-[400px] bottom-0 w-full'>
             <p className='text-white text-3xl p-5'>Created with Love By : &copy; "Madhav Sahi"</p>
             <div className='flex flex-row justify-around '>
             <a target="_blank" rel="noreferrer"  href= "https://www.linkedin.com/in/madhav-sahi-6a2305161/" 

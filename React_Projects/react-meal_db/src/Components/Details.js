@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import { Outlet, useNavigate } from 'react-router-dom';
+// import Footer from './Footer';
 import { MyContext } from './Hero';
 
 // import { useOutletContext } from "react-router-dom";
@@ -7,6 +8,9 @@ import { MyContext } from './Hero';
 const Details = () => {
     const navigate= useNavigate();
     const {details}=useContext(MyContext);
+    window.onload = function () {
+        window.location = "/";
+      }
     // console.log({details});
     // if({details}){
     //     alert("Try Something else");
@@ -28,7 +32,9 @@ const Details = () => {
                 role="button"
                 onClick={()=>{navigate("moredetails")}}
                 className='rounded-lg border-black hover:border-2 hover:scale-110 cursor-pointer h-56 w-56' alt='dish' src={details.strMealThumb}/>
-                <p className='hover:scale-95 cursor-pointer text-3xl font-serif text-black'>{details.strMeal}</p>
+                <p 
+                onClick={()=>{navigate("moredetails")}}
+                className='hover:scale-95 cursor-pointer text-3xl font-serif text-black'>{details.strMeal}</p>
             </div>
             {/* <div className='flex flex-row justify-center gap-5'>
                 <p className='text-2xl text-black'>Dish Name</p>
@@ -57,6 +63,9 @@ const Details = () => {
         </div>
     }
     <Outlet></Outlet>
+    {/* for MoreDetails */}
+
+    {/* <Footer></Footer> */}
    </>
 
   )
