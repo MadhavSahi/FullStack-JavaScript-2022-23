@@ -260,6 +260,22 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnod
 
 <hr>
 
+## Class 32,33
+
+- Learnt about basics of Backend.
+- Learnt about how request is sent from frontend to backend server and database.
+- Learnt about basic Linux commands.
+- Learnt about how to decode a URL string.
+- Learnt about NodeJS architecture.
+- Learnt about EventQueue, EventLoop and ThreadPool.
+- Learnt about MVC architecture.
+- Learntabout bcrypt and how it used in password hashing.
+- Learnt about tools where we can host our backend.
+- Learnt about Port and which engine used which port number.
+- Class Repo - [Repo for Class 32,33]( "Class Repo Link 18,19thMarch")
+
+<hr>
+
 ## HTML , CSS , Tailwind Projects
 - Project Repo - [VS Code Landing page using Tailwind](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-08-Tailwind_27Nov2022/VSCode_Clone_Tailwind "Repo Link")
 - Project Repo - [Credit Card Landing Page](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/HTML%2CCSS%2CTailwind_Projects/12%20Dec%20Projects%20Sols%20-%20HTML%2CCSS/Project-1-Sol-Credit_Card_Page "Repo Link")
@@ -297,3 +313,4 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnod
 
 - Project Repo - [ToDo App](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/React_Projects/react-todo "Project Repo")
 - Project Repo - [Rock Paper Scissor App](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/React_Projects/react-rock_paper_scissor "Project Repo")
+- Project Repo - [The Meal DB]( "Project Repo")
