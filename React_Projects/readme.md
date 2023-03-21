@@ -37,7 +37,7 @@
 ## 4. Pokémon API
 <br>
 
-- Project Repo - [Pokémon API App Repo]( "Repo for Pokémon API Project")
+- Project Repo - [Pokémon API App Repo](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/React_Projects/react-pokemon_api "Repo for Pokémon API Project")
 <br>
 
 - Live Link : [Pokémon API App Link]( "Live Link for Pokémon API App")
