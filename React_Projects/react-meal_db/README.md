@@ -26,13 +26,15 @@
 
 - Made a basic layout of how to add functionality using flowchart.
 - Thought about how to structure the WebPage of project.
-- Used useState hook to store the dyanmic values of Player option and Computer option.
-- Used useState hook to store value of Result using logic of how the game will be won by computer or player or  will be drawn.
-- Added Submit and Reload buttons so that user doesn't need to reload the page again and again.  
+- Used useState hook to store the dyanmic values of input value.
+- Used React-Router-DOM to navigate user from 1 component to other.
+- Used Axios to get the data from Meal API.
+- Used Nesting Router concept to use Outlet Module and have sub-routes.
+- Used ContextAPI to send Props from 1 component to other.
+- Used React-icons for more enhancement.
 - Added Toggle Theme button so that user can switch from Light mode to Dark mode.
-- Wrote logic for how the User can select 1 option on its own and Computer will select any 1 random option.
 - Thought about which buttons to add and what logic should be implemented so that user experience is enhanced.
-- Wrote CSS using Tailwind and added Icons from various libraries to beautify the WebPage.
+- Wrote CSS using Tailwind and added React-Icons from various libraries to beautify the WebPage.
 
 <br>
 
