@@ -272,7 +272,7 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnod
 - Learntabout bcrypt and how it used in password hashing.
 - Learnt about tools where we can host our backend.
 - Learnt about Port and which engine used which port number.
-- Class Repo - [Repo for Class 32,33]( "Class Repo Link 18,19thMarch")
+- Class Repo - [Repo for Class 32,33](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-32%2C33-Backend_Basics_18%2C19thMarch_23 "Class Repo Link 18,19thMarch")
 
 <hr>
 
