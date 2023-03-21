@@ -48,7 +48,7 @@
 ## 5. Movie App
 <br>
 
-- Project Repo - [Movie App Repo]( "Repo for Movie Project")
+- Project Repo - [Movie App Repo](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/React_Projects/react-movie_api "Repo for Movie Project")
 <br>
 
 - Live Link : [ App Link]( "Live Link for Movie App")
