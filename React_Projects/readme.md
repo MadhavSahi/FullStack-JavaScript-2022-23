@@ -26,7 +26,7 @@
 ## 3. The Meal DB
 <br>
 
-- Project Repo - [The Meal DB App Repo]( "Repo for The Meal DB Project")
+- Project Repo - [The Meal DB App Repo](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/React_Projects/react-meal_db "Repo for The Meal DB Project")
 <br>
 
 - Live Link : [The Meal DB App Link]( "Live Link for The Meal DB App")
