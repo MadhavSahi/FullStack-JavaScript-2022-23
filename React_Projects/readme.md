@@ -40,7 +40,7 @@
 - Project Repo - [Pokémon API App Repo](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/React_Projects/react-pokemon_api "Repo for Pokémon API Project")
 <br>
 
-- Live Link : [Pokémon API App Link]( "Live Link for Pokémon API App")
+- Live Link : [Pokémon API App Link](https://react-pokemonapi-madhavsahi.netlify.app/ "Live Link for Pokémon API App")
 
 <br>
 <hr>
