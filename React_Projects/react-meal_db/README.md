@@ -18,7 +18,7 @@
 <br>
 
 ## 📌 Overview
-![First page screenshot]()
+![First page screenshot](./assets/meal-db-screenshot.PNG)
 
 <br>
 
