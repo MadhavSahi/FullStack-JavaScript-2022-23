@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { RxSun } from "react-icons/rx";
+// import { Outlet } from "react-router-dom";
 import "../DarkMode.css";
+// import SearchForm from "./SearchForm";
 
 const Home = () => {
   const [theme, setTheme] = useState("light"); //code logic for toggle theme
@@ -30,6 +32,11 @@ const Home = () => {
           <RxSun />
         </button>
       </div>
+
+      {/* <div className="mt-10">
+        <SearchForm></SearchForm>
+      </div> */}
+      {/* <Outlet></Outlet> */}
     </>
   );
 };
