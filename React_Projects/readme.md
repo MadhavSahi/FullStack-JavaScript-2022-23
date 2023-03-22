@@ -51,7 +51,7 @@
 - Project Repo - [Movie App Repo](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/React_Projects/react-movie_api "Repo for Movie Project")
 <br>
 
-- Live Link : [ App Link]( "Live Link for Movie App")
+- Live Link : [ App Link](https://react-movieapi-madhavsahi.netlify.app/ "Live Link for Movie App")
 
 <br>
 <hr>

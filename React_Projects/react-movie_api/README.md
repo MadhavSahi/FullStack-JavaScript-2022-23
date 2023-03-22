@@ -2,7 +2,7 @@
 <hr>
 <br> 
 
-## 📌Live Site : [Visit Here]( "Live Link")
+## 📌Live Site : [Visit Here](https://react-movieapi-madhavsahi.netlify.app/ "Live Link")
 
 <br>
 
@@ -28,7 +28,7 @@
 - Thought about how to structure the WebPage of project.
 - Used useState hook to store the dyanmic values of input value.
 - Used React-Router-DOM to navigate user from 1 component to other.
-- Used Axios to get the data from Meal API.
+- Used Axios to get the data from Movie API.
 - Used Nesting Router concept to use Outlet Module and have sub-routes.
 - Used ContextAPI to send Props from 1 component to other.
 - Used React-icons for more enhancement.
