@@ -20,7 +20,7 @@ const SearchForm = () => {
     // e.preventDefault();
 
     const response = await Axios.get(
-      ` http://www.omdbapi.com/?i=tt3896198&apikey=404a2bb7&t=${input}`
+      ` https://www.omdbapi.com/?i=tt3896198&apikey=404a2bb7&t=${input}`
     );
 
     // const image = await Axios.get(`http://img.omdbapi.com/?apikey=404a2bb7&t=${input}`);
