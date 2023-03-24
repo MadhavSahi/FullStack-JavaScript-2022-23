@@ -5,6 +5,8 @@ import MovieDetails from "./Components/MovieDetails";
 import SearchForm from "./Components/SearchForm";
 import MovieMoreDetails from "./Components/MovieMoreDetails";
 import ErrorPage from "./Components/ErrorPage";
+// import { ToastContainer } from "react-toastify";
+// import "react-toastify/dist/ReactToastify.css";
 
 const App = () => {
   return (
@@ -16,6 +18,7 @@ const App = () => {
           </Route>
         </Route>
         <Route path="*" element={<ErrorPage/>}></Route>
+        {/* <ToastContainer/> */}
       </Routes>
     </>
   );

@@ -1,12 +1,15 @@
 import React, { useContext } from "react";
 import { useNavigate } from "react-router-dom";
+// import { ToastContainer } from "react-toastify";
 import { MyContext2 } from "./MovieDetails";
 // import MovieDetails from "./MovieDetails";
 import { MyContext } from "./SearchForm";
+import {FaHome} from 'react-icons/fa';
 
 const MovieMoreDetails = () => {
   const navigate=useNavigate();
-  const { details } = useContext(MyContext);
+  const { details,SetMovieList,ref3 } = useContext(MyContext);
+  // const { moviedetails } = useContext(MyContext);
   const typemors = details.Type;
   console.log(typemors);
 
@@ -18,7 +21,13 @@ const MovieMoreDetails = () => {
 
   const handleless=()=>{
     navigate("/movie");
-    ref2.current?.scrollIntoView({ behavior: "smooth" });
+    ref2.current?.scrollIntoView({ behavior:  "smooth" });
+  }
+  const handlehome=()=>{
+    SetMovieList(true);
+    navigate("/");
+    ref3.current?.scrollIntoView({ behavior: "smooth" });
+    // ref2.current?.scrollIntoView({ behavior: "smooth" });
   }
 
   return (
@@ -98,7 +107,13 @@ const MovieMoreDetails = () => {
       className="bg-white text-2xl p-2 hover:scale-95 rounded-lg">
         LESS
       </button>
+      <button 
+      onClick={handlehome}
+      className="bg-white text-2xl p-2 ml-10 hover:scale-95 rounded-lg">
+        <FaHome/>
+      </button>
       </div>
+      {/* <ToastContainer></ToastContainer> */}
     </>
   );
 };

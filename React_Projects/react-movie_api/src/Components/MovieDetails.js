@@ -2,6 +2,9 @@ import React, { createContext, useContext, useRef } from "react";
 import { Outlet, useNavigate } from "react-router-dom";
 import { MyContext } from "./SearchForm";
 
+// import { toast, ToastContainer } from 'react-toastify';
+// import "react-toastify/dist/ReactToastify.css";
+
 export const MyContext2 = createContext();
 
 const MovieDetails = () => {
@@ -10,10 +13,12 @@ const MovieDetails = () => {
   const navigate = useNavigate();
 
   const { details } = useContext(MyContext);
+  // const { moviedetails } = useContext(MyContext);
 
   const handlemoredetails = () => {
     navigate("moviemoredetails");
     ref.current?.scrollIntoView({ behavior: "smooth" });
+    
   };
 
   window.onload = function () {
@@ -47,6 +52,7 @@ const MovieDetails = () => {
         <div ref={ref}>
           <Outlet></Outlet>
         </div>
+        {/* <ToastContainer/> */}
       </MyContext2.Provider>
     </>
   );
