@@ -219,13 +219,13 @@ const Hero = () => {
                 </button>
                 <button
                 onClick={handlepaper2}
-                className="bg-yellow-500 px-2 focus:outline-none focus:ring-2 focus:ring-opacity-100 focus:ring-purple-900 text-8xl visited:ring-2 visited:ring-2 visited:outline-none visited:ring-opacity-100 visited:ring-purple-900"
+                className="bg-yellow-500 px-2 focus:outline-none focus:ring-2 focus:ring-opacity-100 focus:ring-purple-900 text-8xl visited:outline-none visited:ring-opacity-100 visited:ring-purple-900"
                 >
                 <GiPaper />
                 </button>
                 <button
                 onClick={handlescissor2}
-                className="bg-orange-500 px-2 focus:outline-none focus:ring-2 focus:ring-opacity-100 focus:ring-purple-900 text-8xl visited:ring-2 visited:ring-2 visited:outline-none visited:ring-opacity-100 visited:ring-purple-900"
+                className="bg-orange-500 px-2 focus:outline-none focus:ring-2 focus:ring-opacity-100 focus:ring-purple-900 text-8xl visited:outline-none visited:ring-opacity-100 visited:ring-purple-900"
                 >
                 <GiScissors />
                 </button>
