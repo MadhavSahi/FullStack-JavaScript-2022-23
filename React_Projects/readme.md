@@ -62,7 +62,7 @@
 - Project Repo - [Shopping Cart App Repo](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/React_Projects/react-shoppingcart "Repo for Shopping Cart Project")
 <br> 
 
-- Live Link : [ App Link]( "Live Link for Shopping Cart Project")
+- Live Link : [Shopping Cart App Link](https://react-shoppingcart-madhavsahi.netlify.app/ "Live Link for Shopping Cart Project")
 
 <br>
 <hr>
