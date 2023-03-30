@@ -23,7 +23,7 @@
 <br>
 <hr>
 
-## 3. The Meal DB
+## 3. The Meal DB :
 <br>
 
 - Project Repo - [The Meal DB App Repo](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/React_Projects/react-meal_db "Repo for The Meal DB Project")
@@ -34,7 +34,7 @@
 <br>
 <hr>
 
-## 4. Pokémon API
+## 4. Pokémon API Project :
 <br>
 
 - Project Repo - [Pokémon API App Repo](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/React_Projects/react-pokemon_api "Repo for Pokémon API Project")
@@ -45,7 +45,7 @@
 <br>
 <hr>
 
-## 5. Movie App
+## 5. Movie App :
 <br>
 
 - Project Repo - [Movie App Repo](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/React_Projects/react-movie_api "Repo for Movie Project")
@@ -56,7 +56,7 @@
 <br>
 <hr>
 
-## 6. 
+## 6. Shopping Cart Project :
 <br>
 
 - Project Repo - [Shopping Cart App Repo](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/React_Projects/react-shoppingcart "Repo for Shopping Cart Project")

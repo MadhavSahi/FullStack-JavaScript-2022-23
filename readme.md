@@ -269,7 +269,7 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnod
 - Learnt about NodeJS architecture.
 - Learnt about EventQueue, EventLoop and ThreadPool.
 - Learnt about MVC architecture.
-- Learntabout bcrypt and how it used in password hashing.
+- Learnt about bcrypt and how it used in password hashing.
 - Learnt about tools where we can host our backend.
 - Learnt about Port and which engine used which port number.
 - Class Repo - [Repo for Class 32,33](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-32%2C33-Backend_Basics_18%2C19thMarch_23 "Class Repo Link 18,19thMarch")
@@ -279,6 +279,12 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnod
 ## Class 34,35
 
 - Learnt about more of basics of Backend.
+- Learnt about Schema/Design.
+- Learnt about how to make High Level Design for an E-Commerce App.
+- Learnt about flow : Project-->Database-->Tables-->Desin/Schema.
+- Learnt about Round Robin ALgo.
+- Basics of Normalisation, 1NF, 2NF, 3NF, BCNF(3.5NF)
+- 
 - Class Repo - [Repo for Class 34,35](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-34%2C35-Backend_Basics_25%2C26thMarch_23 "Class Repo Link 25,26thMarch")
 
 <hr>
