@@ -6,4 +6,8 @@
 - Learnt about flow : Project-->Database-->Tables-->Desin/Schema.
 - Learnt about Round Robin ALgo.
 - Basics of Normalisation, 1NF, 2NF, 3NF, BCNF(3.5NF)
-- 
+- Made Database design for E-Commerce and Social Media.
+- Learnt about how to store media in Database.
+- Learnt about services - Cloudinary, AWS S3 bucket are used to store media(Images, Videos, Audios).
+- Learnt about Basic Web Requests - GET,PUT,POST,DELETE.
+- Learnt about Status codes.

@@ -284,7 +284,11 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnod
 - Learnt about flow : Project-->Database-->Tables-->Desin/Schema.
 - Learnt about Round Robin ALgo.
 - Basics of Normalisation, 1NF, 2NF, 3NF, BCNF(3.5NF)
-- 
+- Made Database design for E-Commerce and Social Media.
+- Learnt about how to store media in Database.
+- Learnt about services - Cloudinary, AWS S3 bucket are used to store media(Images, Videos, Audios).
+- Learnt about Basic Web Requests - GET,PUT,POST,DELETE.
+- Learnt about Status codes.
 - Class Repo - [Repo for Class 34,35](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-34%2C35-Backend_Basics_25%2C26thMarch_23 "Class Repo Link 25,26thMarch")
 
 <hr>
