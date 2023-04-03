@@ -295,7 +295,7 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnod
 
 ## Class 36,37
 
-- Class Repo - [Repo for Class 36,37]( "Class Repo Link 1st,2nd April")
+- Class Repo - [Repo for Class 36,37](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-36%2C37-Backend_Express_1%2C2ndApril_23 "Class Repo Link 1st,2nd April")
 
 <hr>
 
