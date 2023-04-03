@@ -282,7 +282,7 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnod
 - Learnt about Schema/Design.
 - Learnt about how to make High Level Design for an E-Commerce App.
 - Learnt about flow : Project-->1 Database-->Many Tables-->Design/Schema.
-- Learnt about Round Robin ALgo.
+- Learnt about Round Robin Algorithm.
 - Basics of Normalisation, 1NF, 2NF, 3NF, BCNF(3.5NF)
 - Made Database design for E-Commerce and Social Media.
 - Learnt about how to store media in Database.
