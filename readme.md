@@ -304,6 +304,8 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnod
 - Learnt about how to add routes and send JSON data.
 - Learnt about which status codes to send.
 - Learnt about .get , .status and .json
+- Learnt about Process.env.Port
+- Learnt how to use postman to check localhost:PORT
 - Class Repo - [Repo for Class 36,37](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-36%2C37-Backend_Express_1%2C2ndApril_23 "Class Repo Link 1st,2nd April")
 
 <hr>

@@ -8,4 +8,6 @@
 - Learnt about how to listen to a Port and how to send request and receive response.
 - Learnt about how to add routes and send JSON data.
 - Learnt about which status codes to send.
-- Learnt about .get , .status and .json
+- Learnt about app.get , app.status, app.send and app.json
+- Learnt about Process.env.Port
+- Learnt how to use postman to check localhost:PORT
