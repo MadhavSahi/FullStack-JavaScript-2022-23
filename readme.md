@@ -295,6 +295,15 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnod
 
 ## Class 36,37
 
+- Learnt about how to start Backend App.
+- Learnt about how to use Express JS.
+- Learnt about nodemon.
+- Learnt about how to create Backend App.
+- Learnt about how to use Postman to send requests.
+- Learnt about how to listen to a Port and how to send request and receive response.
+- Learnt about how to add routes and send JSON data.
+- Learnt about which status codes to send.
+- Learnt about .get , .status and .json
 - Class Repo - [Repo for Class 36,37](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-36%2C37-Backend_Express_1%2C2ndApril_23 "Class Repo Link 1st,2nd April")
 
 <hr>
