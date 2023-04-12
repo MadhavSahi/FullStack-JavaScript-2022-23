@@ -33,7 +33,7 @@ app.get("/insta",(req,res)=>{
 });
 
 app.listen(PORT, ()=>{
-    console.log("Hey Backend");
+    console.log("Heyy Backend");
 });
 
 // const Express= request
