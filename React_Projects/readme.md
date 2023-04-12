@@ -73,7 +73,7 @@
 - Project Repo - [GitHub Firebase Auth Repo](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/React_Projects/react-github "Repo for GitHub Firebase Auth")
 <br> 
 
-- Live Link : [GitHub Firebase Auth Project Link]( "Live Link for GitHub Firebase Auth Project")
+- Live Link : [GitHub Firebase Auth Project Link](https://react-github-firebase-madhavsahi.netlify.app/ "Live Link for GitHub Firebase Auth Project")
 
 <br>
 <hr>
