@@ -362,3 +362,4 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnod
 - Project Repo - [Pokemon API](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/React_Projects/react-pokemon_api "Project Repo")
 - Project Repo - [Movie API](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/React_Projects/react-movie_api "Project Repo")
 - Project Repo - [Shopping Cart Project](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/React_Projects/react-shoppingcart "Project Repo")
+- Project Repo - [GitHub-Firebase Auth Project](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/React_Projects/react-github "Project Repo")

@@ -66,3 +66,14 @@
 
 <br>
 <hr>
+
+## 7. GitHub Firebase Auth Project :
+<br>
+
+- Project Repo - [GitHub Firebase Auth Repo](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/React_Projects/react-github "Repo for GitHub Firebase Auth")
+<br> 
+
+- Live Link : [GitHub Firebase Auth Project Link]( "Live Link for GitHub Firebase Auth Project")
+
+<br>
+<hr>
