@@ -11,7 +11,7 @@ const UserRepos = ({ user_repos, userdetails }) => {
   };
   useEffect(() => {
     handlerepos();
-  },[repos]); // this is because if we will keep it empty then only it will render on 1st time...and then if we search for next user..only the 1st time values will be displayed...not the newer ones....very big problem.
+  }); // this is because if we will keep it empty then only it will render on 1st time...and then if we search for next user..only the 1st time values will be displayed...not the newer ones....very big problem.
   //...or either we can keep skip this thing...then it will render on every reload.
 
   return (
