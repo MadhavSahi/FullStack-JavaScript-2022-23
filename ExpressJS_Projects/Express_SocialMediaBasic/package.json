@@ -1,0 +1,24 @@
+{
+  "name": "express_socialmediabasic",
+  "version": "1.0.0",
+  "description": "backend application for Social Media Basic GET request",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "expressjs",
+    "rest",
+    "api",
+    "backend"
+  ],
+  "author": "Madhav Sahi",
+  "license": "ISC",
+  "dependencies": {
+    "date-format": "^4.0.14",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
