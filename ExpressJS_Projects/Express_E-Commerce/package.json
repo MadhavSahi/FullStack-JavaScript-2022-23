@@ -1,0 +1,33 @@
+{
+  "name": "express_e-commerce",
+  "version": "1.0.0",
+  "description": "Backend setup for E-Commerce App.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "backend",
+    "e-commerce",
+    "express-js",
+    "api",
+    "models",
+    "mongodb",
+    "schema",
+    "mongoose",
+    "server",
+    "postman",
+    "javascript",
+    "mern"
+  ],
+  "author": "Madhav Sahi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
