@@ -311,6 +311,7 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnod
 - Learnt about app.js , server.js , Config , Routes , Controllers , Models , .env
 - Learnt about how a basic MERN-CRUD-APP is structured.
 - Class Repo - [Repo for Class 36,37](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-36%2C37-Backend_Express_1%2C2ndApril_23 "Class Repo Link 1st,2nd April")
+- Project Repo : [Social Media Routing Project](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/ExpressJS_Projects/Express_SocialMediaBasic "Repo Link for Social Media Routing Project 1st,2nd April")
 
 <hr>
 
