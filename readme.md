@@ -322,7 +322,16 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnod
 - Learnt about how to install MongoDB and Mongosh.
 - Learnt about Routing.
 - This Project will be built over time. The above points are the topic covered in that particular class for building this Project.
-- Project Repo (Building...) : [E-Commerce Repo](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/ExpressJS_Projects/Express_E-Commerce "Repo Link 8th,9th April")
+- Class Repo [Repo for Class 38,39](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-38%2C39_Backend_Project_8%2C9thAril_23 "Class Repo Link 8th,9th April")
+- Project Repo (Building...) : [E-Commerce Repo](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/ExpressJS_Projects/Express_E-Commerce "Project Repo Link")
+
+<hr>
+
+## Class 40,41
+
+- 
+- Class Repo [Repo for Class 40,41]( "Class Repo Link 15th,16th April")
+- Project Repo (Building...) : [E-Commerce Repo](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/ExpressJS_Projects/Express_E-Commerce "Project Repo Link")
 
 <hr>
 
