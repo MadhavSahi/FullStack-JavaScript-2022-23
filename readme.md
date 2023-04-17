@@ -330,7 +330,7 @@ My Hashnode - [Hashnode - Madhav Sahi](https://madhavsahi.hashnode.dev/ "Hashnod
 ## Class 40,41
 
 - 
-- Class Repo [Repo for Class 40,41]( "Class Repo Link 15th,16th April")
+- Class Repo [Repo for Class 40,41](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/Class-40%2C41_Backend_Project(Ctd)_15%2C16thApril_23 "Class Repo Link 15th,16th April")
 - Project Repo (Building...) : [E-Commerce Repo](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/ExpressJS_Projects/Express_E-Commerce "Project Repo Link")
 
 <hr>
