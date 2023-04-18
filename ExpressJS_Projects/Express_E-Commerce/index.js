@@ -32,7 +32,7 @@ import config from "./src/config/index.js";
         });
 
         const onListening=()=>{
-            console.log(`Listening on PORT ${config.PORT}`);
+            console.log(`Listening on PORT: ${config.PORT}`);
         }
 
         app.listen(config.PORT,onListening); //imp step...this should come at last when everything is ready.
