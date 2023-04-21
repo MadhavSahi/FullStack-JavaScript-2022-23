@@ -1,9 +1,9 @@
 import mongoose from "mongoose";
-import AuthRole from "../utils/authRoles.js";
 import bcrypt from "bcryptjs";
 import  JWT  from "jsonwebtoken";
 import config from "../config/index.js";
 import crypto from "crypto";
+import AuthRoles from "../utils/authRoles.js";
 
 
 const userSchema=new mongoose.Schema({
@@ -28,7 +28,7 @@ const userSchema=new mongoose.Schema({
     },
     role:{
         type:String,
-        enum: Object.values(AuthRole) , //enum means we have to select from these particular options only which we will write.... Object.values will make an array of the values of keys
+        enum: Object.values(AuthRoles) , //enum means we have to select from these particular options only which we will write.... Object.values will make an array of the values of keys
         default: AuthRole.USER, // if someone doesn't pass role...then default "User" will be selected
     },
 
@@ -69,7 +69,7 @@ userSchema.methods={
         return await bcrypt.compare(enteredPassword,this.password); //it will return true false depending upon whether password matched or not.
     },
 
-    //generate JWT token :- - JSON Web Token :- When the user successfully logins into our App..we give them a token that means they can roam around in our app...they are authenticated user....2 things are provided........JWT_SECRET and JWT_EXPIRY
+    //generate JWT token :- - JSON Web Token :- When the user successfully logins into our App..we give them a token in Cookies that means they can roam around in our app...they are authenticated user....2 things are provided........JWT_SECRET and JWT_EXPIRY
     getJWTtoken : function(){
         JWT.sign({ _id : this._id } , config.JWT_SECRET , { expiresIn : config.JWT_EXPIRY})
         //JWT.sign will generate a long encrypted string of _id...which can only be decrypted using JWT_SECRET.....so we decrypt that string using SECRET and we will have the access to _id....the only purpose of sending _id as payload was bcz then we can use this _id to retrieve data of that user and show it on frontend...This _id is from MongoDB document. JWT_EXPIRY is the time till token is valid....don't get into too much of rabbit hole...just read this para...enough
