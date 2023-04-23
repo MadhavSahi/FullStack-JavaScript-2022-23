@@ -23,7 +23,7 @@ export const signUp = asyncHandler(async (req, res) => {
 
   //now if we receive all the data properly...we have to store it in DB...
 
-  //it checks if user is already there with these fields...it's mongoose query.
+  //it checks if user is already there with these fields...it's mongoose query...it will find 1 user
   const existingUser = await User.findOne({ email });
   if (existingUser) {
     throw new CustomError("User already exists", 400); //throw is return basically.
@@ -67,7 +67,7 @@ export const login=asyncHandler(async(req,res)=>{
         throw new CustomError("Plz enter both fields", 400);  
     }
 
-    const user=await User.findOne({email}).select("+password"); //here first we find details from User DB of the user who's email is found...and also we are selecting password bcz we need to match it with current password for Login Check...hence we r doing like this...
+    const user=await User.findOne({email}).select("+password"); //here first we find details from User DB of the 1 user who's email is found...and also we are selecting password bcz we need to match it with current password for Login Check...hence we r doing like this...
 
     //findOne will select all the fields associated with the DB...and store it in user object made here.
 
