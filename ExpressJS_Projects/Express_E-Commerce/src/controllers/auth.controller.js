@@ -128,3 +128,22 @@ export const getProfile=asyncHandler(async(req,res)=>{
     });
 
 });
+
+//to implement forgotPassword fxnality...so 2 controllers will be used...forgotPassword and Reset Password
+export const forgotPassword=asyncHandler(async(req,res)=>{
+
+    const {email}=req.body;
+
+    //no email validation
+    if(!email){
+      throw new CustomError("No Email Received",400);
+    }
+
+    const user=await User.findOne({email}); //this user will hbe the document vala...we can do any operation with it and save it...nd that will be saved in DB. 
+
+    //no user found validation
+    if(!user){
+      throw new CustomError("User NOT Found",404);
+    }
+
+});

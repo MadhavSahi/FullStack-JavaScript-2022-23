@@ -12,4 +12,6 @@ router.get("/profile", isLoggedIn ,getProfile); //isloggedIn is middleware..in t
 
 
 
+
+
 export default router;
