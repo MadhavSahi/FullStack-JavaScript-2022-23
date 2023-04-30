@@ -1,6 +1,7 @@
 import User from "../models/user.schema.js";
 import asyncHandler from "../service/asyncHandler";
 import CustomError from "../utils/customError";
+import mailHelper from "../utils/mailHelper.js";
 
 export const cookieOptions = {
   //with this we make our cookie read-only for user...httpOnly flag is very imp.
@@ -24,7 +25,7 @@ export const signUp = asyncHandler(async (req, res) => {
   //now if we receive all the data properly...we have to store it in DB...
 
   //it checks if user is already there with these fields...it's mongoose query...it will find 1 user
-  const existingUser = await User.findOne({ email });
+  const existingUser = await User.findOne({ email:email });
   if (existingUser) {
     throw new CustomError("User already exists", 400); //throw is return basically.
   }
@@ -50,7 +51,7 @@ export const signUp = asyncHandler(async (req, res) => {
                                                 //user will be able to see the token..but can't change anything.
                                                 //these cookies are responsible for having JWT Token and hence Login...from server we will check this token in user cookies..which will help server to login activity.
 
-  res.status(200).json({ //we r not returning this...we have just created the user in mongoDB
+  res.status(200).json({ //we r not returning this...we have just created the user in mongoDB and sending as response
     success: true,
     token,
     user,
@@ -129,21 +130,98 @@ export const getProfile=asyncHandler(async(req,res)=>{
 
 });
 
-//to implement forgotPassword fxnality...so 2 controllers will be used...forgotPassword and Reset Password
+//to implement forgotPassword fxnality...so 2 controllers will be used...forgotPassword(it will send the link to user mail) and Reset Password(it will update the new password in DB)
 export const forgotPassword=asyncHandler(async(req,res)=>{
 
     const {email}=req.body;
 
-    //no email validation
+    //no email validation..means user didn't enter email when we said did u forgot password...
     if(!email){
       throw new CustomError("No Email Received",400);
     }
 
-    const user=await User.findOne({email}); //this user will hbe the document vala...we can do any operation with it and save it...nd that will be saved in DB. 
+    //when user will enter email when on forgot password screen...it will be searched in DB that if it actually exist or not. 
+    const user=await User.findOne({email}); //this user will be the document vala...we can do any operation with it and save it...nd that will be saved in DB. 
 
-    //no user found validation
+    //no user found validation...means the email entered by user didn't get find in DB..he entererd wrong email
     if(!user){
       throw new CustomError("User NOT Found",404);
     }
+
+    // we wrote the method in user schema...and r returning the token there...hence we can use it here...doing it will create the forgotToken and also update the fields in user document using "this" keyword...so if it's updating something..we need to save also...then only it will be saved in DB... using .save
+    const resetToken=user.generateForgotPasswordToken();
+
+    await user.save({validateBeforeSave:false}); //validateBeforeSave is used on .save if we dont wan;t to run through all the fields validations again...as we from backend are doing this token operation...so we don't need to check all the validations again...we have done validations when we are 1st time creating.
+
+    //now we just have to send email with the token url...so we will create our own url from req...and then send mail to user.
+    //protocol is HTTP or HTTPS...host will be either local host or the website name.
+    const resetUrl = `${req.protocol}://${req.get("host")}/api/v1/auth/password/reset/${resetToken}`;
+
+    const message=`Your password reset token is as follows \n \n ${resetUrl} \n \n.`;
+
+    //we have used try catch for mailhelper as it sometimes fails..
+    try {
+      // const options={
+      // these we havewritten directly inside mailHelper
+      // };
+
+      await mailHelper({
+        email:user.email,
+        subject:"Password RESET Mail",
+        message:message,
+      })
+    } catch (error) {
+
+      //see...here we have to do these 3 lines must..because..if email is not sent..then what's the purpose of storing those forgotPasswordToken and Expiry fields in DB(line 152)....hence we have to undo that thing...so to do that we will make those fields as undefined...and then save it in DB...hence it will be like previous..means without calling that fxn..
+
+      user.forgotPasswordToken=undefined;
+      user.forgotPasswordExpiry=undefined;
+
+      user.save({validateBeforeSave:false});
+
+      throw new CustomError(error.message || "EMAIL was not sent",500);
+
+    }
+});
+
+export const resetPassword = asyncHandler(async(req,res)=>{
+
+  const {token:resetToken}=req.params; //from URL we will get it.
+  const {newpassword,newconfirmPassword}=req.body; //user will enter these fields in UI
+
+  const resetPasswordToken = crypto
+  .createHash("sha256")
+  .update(resetToken)
+  .digest("hex")
+
+  const user = await User.findOne({
+    forgotPasswordToken:resetPasswordToken,//bcz in userSchema in methods we r returning the noraml token...not the crypto hashed one....so we have to hash it here...so the original hashed and this hash will be same...bcz the token we will receive from URL...will be the normal one...
+    forgotPasswordExpiry: { $gt : Date.now()}, //so to check if the expiry time of URL is passed or not.
+  })
+
+  if(!user){
+    throw new CustomError("Password RESET Token is INAVLID or EXPIRED",400);
+  }
+
+  if(newpassword!==newconfirmPassword){
+    throw new CustomError("Password DOESNOT Match",400);
+  }
+
+  user.password=newpassword; //everything fine...hence we will update the password field of user with new password
+
+  //now as new password is updated...we will have to make those token and expiry fields as undefined.
+
+  user.forgotPasswordToken=undefined;
+  user.forgotPasswordExpiry=undefined;
+
+  await user.save();
+
+  const token = user.getJWTtoken(); //in methods...it returns the long string
+  res.cookie("token",token,cookieOptions); //placing it in cookie for token access.
+
+  res.status(200).json({
+    success:true,
+    user,
+  });
 
 });
