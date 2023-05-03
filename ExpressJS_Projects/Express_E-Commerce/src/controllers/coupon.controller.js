@@ -43,3 +43,33 @@ export const getAllCoupons=asyncHandler(async(req,res)=>{
 });
 
 //similarly we can write for update coupon and delete coupon.
+
+//update coupon is for if we want to make it active or inactive...depending upon admin wish...
+//here update means we are either makeing it active or deactive.
+export const updateCoupon=asyncHandler(async(req,res)=>{
+
+        const {id:couponID}=req.params;
+        const {action}=req.body; //whether to make it T or F...in schema we have made this field..
+
+        const updatedCoupon = await Coupon.findByIdAndUpdate(//it takes 3 parameters...1st is which coupon to update,2nd is which field to update...3rd is whether to return nd run validations.
+
+            couponID,// which coupon to update
+        {
+            active:action //change the active field to whatever action(T or F) is being provided.
+        },
+        {  //3rd param is for return the new thing and to check for validations.
+                new:true,
+                runValidators:true
+        }
+        );
+
+        if(!updatedCoupon){
+            throw new CustomError("No Coupon Found",400);
+        }
+        res.status(200).json({
+            success:true,
+            message:"Coupon is UPDATED according to your action",
+            updatedCoupon,
+        });
+
+});
