@@ -16,7 +16,7 @@ app.use(express.urlencoded({extended:true}));
 app.use(cors()); // for cross-origin
 app.use(cookieParser()); // so that server can access user cookies on sending response...
 
-//for routes
+//for routes...the most imp line..it is getting all the routes
 app.use("/api/v1",routes);
 
 //so originally..our route will be :- https://localhost:3000/api/v1/auth/signUp

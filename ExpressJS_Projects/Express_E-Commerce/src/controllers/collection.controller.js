@@ -2,6 +2,8 @@ import Collection from "../models/collection.schema.js";
 import asyncHandler from "../service/asyncHandler";
 import CustomError from "../utils/customError";
 
+
+//create collection
 export const createCollection=asyncHandler(async(req,res)=>{
     const {name}=req.body;
     
@@ -45,6 +47,7 @@ export const updateCollection=asyncHandler(async(req,res)=>{
     })
 });
 
+//delete collection
 export const deleteCollection=asyncHandler(async(req,res)=>{
 
     const {id:collectionID} = req.params; //same concept...on deletion...we will be getting that field name from URL...hence getting it from there.
@@ -64,6 +67,7 @@ export const deleteCollection=asyncHandler(async(req,res)=>{
 
 });
 
+//get all collections
 export const getAllCollections=asyncHandler(async(req,res)=>{
 
     const collections = await Collection.find({}); //this will get all the collections name.

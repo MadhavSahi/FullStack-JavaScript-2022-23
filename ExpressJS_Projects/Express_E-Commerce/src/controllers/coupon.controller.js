@@ -73,3 +73,20 @@ export const updateCoupon=asyncHandler(async(req,res)=>{
         });
 
 });
+
+export const deleteCoupon=asyncHandler(async(req,res)=>{
+    
+    const {id:couponID}=req.params;
+
+    const deletedCoupon = await Coupon.findByIdAndDelete(couponID);
+
+    if(!deletedCoupon){
+        throw new CustomError("No Coupon Found",400);
+    }
+    res.status(200).json({
+        success:true,
+        message:"Coupon is Deleted",
+        deletedCoupon,
+    });
+
+});
