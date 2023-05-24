@@ -9,7 +9,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 <hr>
 
-## 📌 Live Site : [Calculator App]( "Live Link")
+## 📌 Live Site : [Calculator App](https://calculator-react-madhavsahi.netlify.app/ "Live Link")
 
 <hr>
 

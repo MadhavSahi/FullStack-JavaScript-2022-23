@@ -16,5 +16,5 @@
 
 ### Calculator App
 
-- Repo Link - [Calculator App]( "Repo Link")
-- Live Site - [Calculator App]( "Live Link")
+- Repo Link - [Calculator App](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/PlacementAssignment_MadhavSahi/calculator-react "Repo Link")
+- Live Site - [Calculator App](https://calculator-react-madhavsahi.netlify.app/ "Live Link")
