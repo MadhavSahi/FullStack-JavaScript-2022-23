@@ -9,7 +9,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 <hr>
 
-## 📌 Live Site : [Tic-Tac-Toe]( "Live Link")
+## 📌 Live Site : [Tic-Tac-Toe](https://tic-tac-toe-reactjs-madhavsahi.netlify.app/ "Live Link")
 
 <hr>
 
