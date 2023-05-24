@@ -9,7 +9,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 <hr>
 
-## 📌 Live Site : [Counter App]( "Live Link")
+## 📌 Live Site : [Counter App](https://counterapp-reactjs-madhavsahi.netlify.app/ "Live Link")
 
 <hr>
 
