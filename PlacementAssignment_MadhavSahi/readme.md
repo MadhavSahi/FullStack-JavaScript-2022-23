@@ -13,3 +13,8 @@
 
 - Repo Link - [Counter App](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/PlacementAssignment_MadhavSahi/counter-react "Repo Link")
 - Live Site - [Counter App](https://counterapp-reactjs-madhavsahi.netlify.app/ "Live Link")
+
+### Calculator App
+
+- Repo Link - [Calculator App]( "Repo Link")
+- Live Site - [Calculator App]( "Live Link")
