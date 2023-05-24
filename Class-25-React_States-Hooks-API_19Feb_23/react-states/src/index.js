@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';//the CSS of App will have preference over index bcz it is below
 import reportWebVitals from './reportWebVitals';
+import Counter from './Counter';
 // import Practice from './practice';
 
 
