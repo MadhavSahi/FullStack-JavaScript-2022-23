@@ -1,0 +1,23 @@
+body {
+  background-color: blue;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+  cursor: pointer;
+  background-color: blue;
+}
+
+.box {
+  width: auto;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  font-size: 35px;
+  color: #ffffff;
+}
