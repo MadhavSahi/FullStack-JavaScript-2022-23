@@ -15,10 +15,10 @@ function App() {
   // console.log(count);
   
   let sub=()=>{
-    if(count-1<0){
-      return setCount(100);
-      // return;
-    }
+    // if(count-1<0){
+    //   return setCount(100);
+    //   // return;
+    // }
     return setCount(count-1);
     // console.log(count);
   };
