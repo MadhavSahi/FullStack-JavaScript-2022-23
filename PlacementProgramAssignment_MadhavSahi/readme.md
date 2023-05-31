@@ -23,3 +23,6 @@
 ## Assignment 6 - Arrays(2D)
 
 - Solutions Link -[Arrays(2D)-03]( "Solutions Link")
+## Assignment 7 - Strings
+
+- Solutions Link -[Strings-01]( "Solutions Link")
