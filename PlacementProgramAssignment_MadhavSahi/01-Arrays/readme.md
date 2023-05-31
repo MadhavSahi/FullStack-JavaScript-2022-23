@@ -1,3 +1,3 @@
 # Assignment 1 - Arrays
 
-## Assignment Link - [Arrays - 01]( "All Solutions")
+## Assignment Link - [Arrays - 01](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/PlacementProgramAssignment_MadhavSahi/01-Arrays "All Solutions")

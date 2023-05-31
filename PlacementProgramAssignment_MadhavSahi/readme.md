@@ -2,7 +2,7 @@
 
 ## Assignment 1 - Arrays
 
-- Solutions Link -[Arrays-01]( "Solutions Link")
+- Solutions Link -[Arrays-01](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/PlacementProgramAssignment_MadhavSahi/01-Arrays "Solutions Link")
 
 ## Assignment 2 - Arrays
 
