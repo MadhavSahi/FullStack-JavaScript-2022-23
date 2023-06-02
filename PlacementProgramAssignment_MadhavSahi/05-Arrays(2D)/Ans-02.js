@@ -15,3 +15,15 @@
 // **Explanation:** Because the 3rd row is incomplete, we return 2.
 
 //Solution--->
+
+function countCompleteRows(coins) {
+    let currentrow = 1; 
+    while (coins >= currentrow) {
+      coins -= currentrow; 
+      currentrow++; 
+  }
+    return currentrow - 1; 
+  }
+  
+  console.log(countCompleteRows(5)); 
+  // Output: 2

@@ -43,3 +43,43 @@
 // **|8-8|=0 <= d=2**
 
 //Solution--->
+
+function calculateDistance(arr1, arr2, d) {
+    arr2.sort((a, b) => a - b); // Sort arr2 in ascending order
+  
+    let distance = 0;
+  
+    for (let i = 0; i < arr1.length; i++) {
+      const currentElement = arr1[i];
+      let left = 0;
+      let right = arr2.length - 1;
+      let found = false;
+  
+      while (left <= right) {
+        const middle = Math.floor((left + right) / 2);
+  
+        if (Math.abs(arr2[middle] - currentElement) <= d) {
+          found = true;
+          break;
+        } else if (arr2[middle] < currentElement) {
+          left = middle + 1;
+        } else {
+          right = middle - 1;
+        }
+      }
+  
+      if (!found) {
+        distance++;
+      }
+    }
+  
+    return distance;
+  }
+  const array1 = [4, 5, 8];
+  const array2 = [10, 9, 1, 8];
+  const threshold = 2;
+  
+  const result = calculateDistance(array1, array2, threshold);
+  console.log(result); 
+  // Output: 2
+  

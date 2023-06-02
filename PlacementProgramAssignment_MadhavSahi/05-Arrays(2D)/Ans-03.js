@@ -13,3 +13,13 @@
 // After sorting, it becomes [0,1,9,16,100].
 
 //Solution--->
+
+function sortedSquares(nums) {
+    const squaredArray = nums.map((num) => num ** 2);
+    squaredArray.sort((a, b) => a - b);
+    return (squaredArray);
+  }
+  const input = [-4, -1, 0, 3, 10];
+  const FinalArray = sortedSquares(input);
+  console.log(FinalArray); 
+  // Output: [0, 1, 9, 16, 100]

@@ -23,3 +23,22 @@ The original array was [1,2,3,4,5] rotated 3 times.
 */}
 
 //Solution--->
+
+function findMinimum(numbers) {
+    let start = 0;
+    let end = numbers.length - 1;  
+    while (start < end) {
+      let mid = Math.floor((start + end) / 2);
+      if (numbers[mid] > numbers[end]) {
+        start = mid + 1;
+      } else {
+        end = mid;
+      }
+    }
+    return numbers[start];
+  }
+  const numbers = [3, 4, 5, 1, 2];
+  const minNum = findMinimum(numbers);
+  console.log(minNum); 
+  // Output: 1
+  

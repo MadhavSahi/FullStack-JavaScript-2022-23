@@ -13,3 +13,21 @@
 // [2,3]
 
 //Solution--->
+
+function findDuplicateElements(nums) {
+  const duplicates = [];
+  for (let i = 0; i < nums.length; i++) {
+    const num = Math.abs(nums[i]);
+    if (nums[num - 1] < 0) {
+      duplicates.push(num);
+    } else {
+      nums[num - 1] = -nums[num - 1];
+    }
+  }
+  return duplicates;
+}
+
+const nums = [4, 3, 2, 7, 8, 2, 3, 1];
+const duplicateElements = findDuplicateElements(nums);
+console.log(duplicateElements);
+// Output: [2, 3]

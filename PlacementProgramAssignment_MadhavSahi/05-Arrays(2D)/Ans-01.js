@@ -23,3 +23,33 @@
 // The second group of n=2 elements in original, [3,4], becomes the second row in the constructed 2D array.
 
 //Solution--->
+
+function convert1DArrayTo2D(original, rows, columns) {
+    const length = original.length;
+    if (length !== rows * columns) {
+      return []; 
+    }
+  
+    const result = [];
+    let index = 0;
+  
+    for (let i = 0; i < rows; i++) {
+      const row = [];
+      for (let j = 0; j < columns; j++) {
+        row.push(original[index]);
+        index++;
+      }
+      result.push(row);
+    }
+  
+    return result;
+  }
+
+  const original = [1, 2, 3, 4];
+  const m = 2;
+  const n = 2;
+  
+  const result = convert1DArrayTo2D(original, m, n);
+  console.log(result);
+  //output - [[1, 2], [3, 4]]
+  
