@@ -28,7 +28,7 @@
 - Solutions Link -[Strings-01](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/PlacementProgramAssignment_MadhavSahi/07-Strings "Solutions Link")
 ## Assignment 8 - Strings
 
-- Solutions Link -[Strings-02]( "Solutions Link")
+- Solutions Link -[Strings-02](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/PlacementProgramAssignment_MadhavSahi/08-Strings "Solutions Link")
 ## Assignment 9 - Recursion
 
-- Solutions Link -[Recursion-01]( "Solutions Link")
+- Solutions Link -[Recursion-01](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/PlacementProgramAssignment_MadhavSahi/09-Recursion "Solutions Link")
