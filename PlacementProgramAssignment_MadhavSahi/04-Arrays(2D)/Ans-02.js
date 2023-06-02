@@ -20,3 +20,28 @@
 // For nums2, nums2[0] = 2 is present at index 1 of nums1, whereas nums2[1] = 4 and nums2[2] = 6 are not present in nums2. Therefore, answer[1] = [4,6].
 
 //Solution--->
+
+function findMissingNumbers(arr1, arr2) {
+  const distinctArr1 = getUniqueValues(arr1, arr2);
+  const distinctArr2 = getUniqueValues(arr2, arr1);
+
+  return [distinctArr1, distinctArr2];
+}
+
+function getUniqueValues(arr1, arr2) {
+  const set1 = new Set(arr1);
+  const set2 = new Set(arr2);
+  const distinctValues = [];
+
+  for (const num of set1) {
+    if (!set2.has(num)) {
+      distinctValues.push(num);
+    }
+  }
+
+  return distinctValues;
+}
+const nums1 = [1, 2, 3];
+const nums2 = [2, 4, 6];
+const answer = findMissingNumbers(nums1, nums2);
+console.log(answer);

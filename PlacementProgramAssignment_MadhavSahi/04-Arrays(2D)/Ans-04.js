@@ -18,3 +18,18 @@
 // So the maximum possible sum is 4.
 
 //Solution--->
+
+function maximizeSum(arr) {
+  const sortedArr = arr.slice().sort((a, b) => a - b);
+  let sum = 0;
+
+  for (let i = 0; i < sortedArr.length; i += 2) {
+    sum += sortedArr[i];
+  }
+  return sum;
+}
+
+// Example usage:
+const nums = [1, 4, 3, 2];
+console.log(maximizeSum(nums)); 
+// Output: 4

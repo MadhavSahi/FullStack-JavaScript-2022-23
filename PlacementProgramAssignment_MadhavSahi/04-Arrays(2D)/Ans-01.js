@@ -11,6 +11,28 @@
 
 //Solution--->
 
+function findCommonElements(array1, array2, array3) {
 
+  const commonnumbers = [];
 
+  const setA = new Set(array1);
+  const setB = new Set(array2);
+  const setC = new Set(array3);
 
+  for (const val of setA) {
+    if (setB.has(val) && setC.has(val)) {
+      commonnumbers.push(val);
+    }
+  }
+
+  return commonnumbers;
+}
+
+// Example usage:
+const array1 = [1, 2, 3, 4, 5];
+const array2 = [1, 2, 5, 7, 9];
+const array3 = [1, 3, 4, 5, 8];
+
+const result = findCommonElements(array1, array2, array3);
+console.log(result); 
+// Output: [1, 5]

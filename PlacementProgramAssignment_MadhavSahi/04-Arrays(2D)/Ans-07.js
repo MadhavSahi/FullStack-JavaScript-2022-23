@@ -5,8 +5,6 @@
 
 // **Example 1:**
 
-// ![q4.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4d0890d0-7bc7-4f59-be8e-352d9f3c1c52/q4.jpg)
-
 // **Input:** m = 3, n = 3, ops = [[2,2],[3,3]]
 
 // **Output:** 4
@@ -15,3 +13,21 @@
 
 //Solution--->
 
+function countMaxIntegers(r, c, ops) {
+    let minX = r;
+    let minY = c;
+    
+    for (let operation of ops) {
+      minX = Math.min(minX, operation[0]);
+      minY = Math.min(minY, operation[1]);
+    }
+    
+    return (minX * minY);
+  }
+  const rows = 3;
+  const cols = 3;
+  const operations = [[2, 2], [3, 3]];
+  const result = countMaxIntegers(rows, cols, operations);
+  console.log(result); 
+  // Output: 4
+  
