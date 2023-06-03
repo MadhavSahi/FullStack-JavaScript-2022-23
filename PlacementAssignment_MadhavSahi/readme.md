@@ -26,6 +26,11 @@
 
 ## CSS Code Solutions
 
+### Periodic Table
+
+- Repo Link - [Periodic Table]( "Repo Link")
+- Live Link - [Periodic Table]( "Live Link")
+
 <hr>
 
 ## JavaScript Solutions
