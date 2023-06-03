@@ -28,8 +28,8 @@
 
 ### Periodic Table
 
-- Repo Link - [Periodic Table]( "Repo Link")
-- Live Link - [Periodic Table]( "Live Link")
+- Repo Link - [Periodic Table](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/PlacementAssignment_MadhavSahi/CSS-Solutions/periodic_table-css "Repo Link")
+- Live Link - [Periodic Table](https://periodic-table-css-madhavsahi.netlify.app/ "Live Link")
 
 <hr>
 
