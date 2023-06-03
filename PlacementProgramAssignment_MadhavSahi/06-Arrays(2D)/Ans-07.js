@@ -11,3 +11,46 @@
 // **Output:** [[1,2,3],[8,9,4],[7,6,5]]
 
 //Solution--->
+
+function SpiralMatrix(n) {
+  const Newmatrix = Array(n)
+    .fill()
+    .map(() => Array(n).fill(0));
+
+  let startNum = 1;
+  let topRow = 0;
+  let bottomRow = n - 1;
+  let leftColumn = 0;
+  let rightColumn = n - 1;
+
+  while (startNum <= n * n) {
+    for (let i = leftColumn; i <= rightColumn; i++) {
+      Newmatrix[topRow][i] = startNum++;
+    }
+    topRow++;
+
+    for (let i = topRow; i <= bottomRow; i++) {
+      Newmatrix[i][rightColumn] = startNum++;
+    }
+    rightColumn--;
+
+    for (let i = rightColumn; i >= leftColumn; i--) {
+      Newmatrix[bottomRow][i] = startNum++;
+    }
+    bottomRow--;
+
+    for (let i = bottomRow; i >= topRow; i--) {
+      Newmatrix[i][leftColumn] = startNum++;
+    }
+    leftColumn++;
+  }
+
+  return Newmatrix;
+}
+const n = 3;
+const Spiral = SpiralMatrix(n);
+console.log(Spiral);
+//output -
+//   [[1, 2, 3],
+//  [8, 9, 4],
+//  [7, 6, 5]]

@@ -19,3 +19,36 @@
 // Other original arrays could be [4,3,1] or [3,1,4].
 
 //Solution--->
+
+function findOriginalArrayChanged(changedArray) {
+  if (changedArray.length % 2 !== 0) {
+    return [];
+  }
+
+  const frequencyMap = {};
+  for (let num of changedArray) {
+    if (!frequencyMap[num]) {
+      frequencyMap[num] = 0;
+    }
+    frequencyMap[num]++;
+  }
+
+  const originalArray = [];
+  for (let num of changedArray) {
+    if (!frequencyMap[num]) {
+      continue;
+    }
+    if (!frequencyMap[num * 2]) {
+      return [];
+    }
+    originalArray.push(num);
+    frequencyMap[num]--;
+    frequencyMap[num * 2]--;
+  }
+
+  return originalArray;
+}
+const changedArray = [1, 3, 4, 2, 6, 8];
+const originalArray = findOriginalArrayChanged(changedArray);
+console.log(originalArray);
+//Output - [1, 3, 4];

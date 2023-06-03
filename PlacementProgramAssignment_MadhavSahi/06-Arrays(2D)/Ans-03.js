@@ -1,4 +1,4 @@
-{/*Question 3**
+/*Question 3**
 
 Given an array of integers arr, return *true if and only if it is a valid mountain array*.
 
@@ -17,6 +17,31 @@ Recall that arr is a mountain array if and only if:
 
 **Output:**
 
-false*/}
+false*/
+
 
 //Solution--->
+
+function MountainArray(array) {
+  if (array.length < 3) {
+    return false;
+  }
+
+  let index = 0;
+
+  while (index < array.length - 1 && array[index] < array[index + 1]) {
+    index++;
+  }
+
+  if (index === 0 || index === array.length - 1) {
+    return false;
+  }
+
+  while (index < array.length - 1 && array[index] > array[index + 1]) {
+    index++;
+  }
+
+  return index === array.length - 1;
+}
+console.log(MountainArray([2, 1]));
+// Output: false

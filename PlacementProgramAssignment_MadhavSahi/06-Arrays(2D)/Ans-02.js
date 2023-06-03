@@ -18,3 +18,48 @@
 // **Output:** true
 
 //Solution--->
+function searchInSortedMatrix(matrix, target) {
+  const rowCount = matrix.length;
+  const colCount = matrix[0].length;
+  let start = 0;
+  let end = rowCount - 1;
+
+  while (start <= end) {
+    const mid = Math.floor((start + end) / 2);
+    const rowStartValue = matrix[mid][0];
+    const rowEndValue = matrix[mid][colCount - 1];
+
+    if (rowStartValue <= target && target <= rowEndValue) {
+      let left = 0;
+      let right = colCount - 1;
+
+      while (left <= right) {
+        const colMid = Math.floor((left + right) / 2);
+        const midValue = matrix[mid][colMid];
+
+        if (midValue === target) {
+          return true;
+        } else if (midValue < target) {
+          left = colMid + 1;
+        } else {
+          right = colMid - 1;
+        }
+      }
+      return false;
+    } else if (rowStartValue > target) {
+      end = mid - 1;
+    } else {
+      start = mid + 1;
+    }
+  }
+  return false;
+}
+const matrix = [
+  [1, 3, 5, 7],
+  [10, 11, 16, 20],
+  [23, 30, 34, 60],
+];
+const target = 3;
+let answer = searchInSortedMatrix(matrix, target);
+console.log(answer);
+// Output: true
