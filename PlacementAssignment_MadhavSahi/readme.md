@@ -36,8 +36,8 @@
 - Live Link - [Flex Layout](https://flex-layout-css-madhavsahi.netlify.app/ "Live Link")
 ### Responsive Layout
 
-- Repo Link - [Responsive Layout]( "Repo Link")
-- Live Link - [Responsive Layout]( "Live Link")
+- Repo Link - [Responsive Layout](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/PlacementAssignment_MadhavSahi/CSS-Solutions/responsive_layout-css "Repo Link")
+- Live Link - [Responsive Layout](https://responsive-layout-css-madhavsahi.netlify.app/ "Live Link")
 
 <hr>
 
