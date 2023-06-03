@@ -13,7 +13,7 @@
 // [[7,0,0],[-7,0,3]]
 
 //Solution--->
-function multiplySparseMatrices(matrix1, matrix2) {
+function MatrixMultiply(matrix1, matrix2) {
     const numRows = matrix1.length;
     const commonDim = matrix1[0].length;
     const numCols = matrix2[0].length;
@@ -37,6 +37,6 @@ function multiplySparseMatrices(matrix1, matrix2) {
   }
   const matrix1 = [[1, 0, 0], [-1, 0, 3]];
   const matrix2 = [[7, 0, 0], [0, 0, 0], [0, 0, 1]];
-  const result = multiplySparseMatrices(matrix1, matrix2);
+  const result = MatrixMultiply(matrix1, matrix2);
   console.log(result);
   //output - [[7,0,0],[-7,0,3]]
