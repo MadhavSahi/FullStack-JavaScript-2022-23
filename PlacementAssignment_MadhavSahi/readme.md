@@ -14,7 +14,7 @@
 ### Music Player
 
 - Repo Link -[Music Player]( "Repo Link")
-- Live Link -[Music Player]( "Live Link")
+- Live Link -[Music Player](https://music-player-html-madhavsahi.netlify.app/ "Live Link")
 
 <hr>
 
