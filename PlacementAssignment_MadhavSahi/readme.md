@@ -17,6 +17,11 @@
 - Repo Link -[Music Player](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/PlacementAssignment_MadhavSahi/HTML-Solutions/music-player-html "Repo Link")
 - Live Link -[Music Player](https://music-player-html-madhavsahi.netlify.app/ "Live Link")
 
+### Table - Q10
+
+- Repo Link - [Table Q10 - HTML](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/PlacementAssignment_MadhavSahi/HTML-Solutions/table-Q10-html "Repo Link")
+- Live Link - [Table Q10 - HTML](https://table-html-madhavsahi.netlify.app/ "Live Link")
+
 <hr>
 
 ## CSS Code Solutions
