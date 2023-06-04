@@ -1,0 +1,45 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.div-hero{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.div-app{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.form-app{
+    font-weight: 600;
+    font-size: 19px;
+    /* float: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    text-align: center;
+    background-color: pink;
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 55vh;
+    height: 50vh;
+}
+.btn-form{
+    cursor: pointer;
+    height: 30px;
+    font-weight: 600;
+    color: blueviolet;
+    width: 10vh;
+    /* margin-top: -50px; */
+}
+/* body{
+    padding: 0px;
+    margin: 0px;
+
+} */
