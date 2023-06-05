@@ -4,7 +4,7 @@ import React from 'react';
 function ToDos({todos}) {
   return (
     <>
-        <p>Hey ToDo App</p>
+        <p>Hey Task Manager App</p>
         <ul>
             {todos.map(val=>{
                 return (

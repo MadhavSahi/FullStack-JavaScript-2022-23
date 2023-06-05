@@ -6,7 +6,7 @@ import Form from './Form';
 function App() {
   return (
     <>
-        <h1>ToDo App</h1>
+        <h1>Task Manager App</h1>
         <Form></Form>
     </>
   )
