@@ -69,7 +69,7 @@
 ### Task Manager App
 
 - Repo Link - [Calculator App](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/PlacementAssignment_MadhavSahi/React-Solutions/task_manager-react "Repo Link")
-- Live Site - [Calculator App]( "Live Link")
+- Live Site - [Calculator App](https://task-manager-react-madhavsahi.netlify.app/ "Live Link")
 
 <hr>
 
