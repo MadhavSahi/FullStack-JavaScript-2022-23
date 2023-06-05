@@ -20,24 +20,24 @@
 
 //Solution--->
 
-function firstUniqChar(s) {
-  let charCount = {}; // Object to store the count of each character
-
-  // Count the occurrences of each character
-  for (let char of s) {
-    charCount[char] = (charCount[char] || 0) + 1;
+function findFirstUniqueChar(str) {
+  let charCount = {};
+  for (let s of str) {
+    // console.log(charCount[s]);
+    charCount[s] = (charCount[s] || 0) + 1;
+    // charCount[s]++;
   }
-
-  // Find the first non-repeating character and return its index
-  for (let i = 0; i < s.length; i++) {
-    if (charCount[s[i]] === 1) {
+  for (let i = 0; i < str.length; i++) {
+    if (charCount[str[i]] === 1) {
       return i;
     }
   }
-
-  // No non-repeating characters found
   return -1;
 }
-console.log(firstUniqChar("leetcode")); // Output: 0
-console.log(firstUniqChar("loveleetcode")); // Output: 2
-console.log(firstUniqChar("aabb")); // Output: -1
+
+console.log(findFirstUniqueChar("leetcode"));
+// Output: 0
+console.log(findFirstUniqueChar("loveleetcode"));
+// Output: 2
+console.log(findFirstUniqueChar("aabb"));
+// Output: -1
