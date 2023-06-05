@@ -5,6 +5,7 @@ import Header from "./components/Header";
 // import HeroSection from "./components/HeroSection";
 import UserCard from "./components/UserCard";
 import './App.css';
+import { ThemeProvider } from "./ThemeContext"; 
 
 // eslint-disable-next-line
 export const MyContext=createContext();//we need to export from here only as we can't export default more than 1 at bottom.
@@ -37,6 +38,7 @@ function App() {
 
   return (
     <>
+     <ThemeProvider>
       <MyContext.Provider value={{name,color,colortwo,mobile,boool,setColor}}>
         <Header></Header>
 
@@ -87,6 +89,7 @@ function App() {
         </div>
         <Footer></Footer>
       </MyContext.Provider>
+      </ThemeProvider>
     </>
   );
 };

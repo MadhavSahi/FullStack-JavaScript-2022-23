@@ -1,0 +1,28 @@
+.dark {
+  background-color: gainsboro;
+  color: #fff;
+}
+.light {
+  background-color: burlywood;
+  color: #333;
+}
+.header-nav {
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  font-size: larger;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  height: 30px;
+  overflow-x: hidden;
+}
+.li-header:hover {
+  font-weight: 600;
+  cursor: pointer;
+  transform: scale(1.1);
+}
