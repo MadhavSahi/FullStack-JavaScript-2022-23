@@ -49,8 +49,8 @@
 
 ### Context API Project
 
-- Repo Link - [Context API App]( "Repo Link")
-- Live Site - [Context API App]( "Live Link")
+- Repo Link - [Context API App](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/PlacementAssignment_MadhavSahi/React-Solutions/context_api-react "Repo Link")
+- Live Site - [Context API App](https://context-api-react-madhavsahi.netlify.app/ "Live Link")
 ### Tic-Tac-Toe
 
 - Repo Link - [Tic-Tac-Toe](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/PlacementAssignment_MadhavSahi/React-Solutions/tic-tac-toe-react "Repo Link")
