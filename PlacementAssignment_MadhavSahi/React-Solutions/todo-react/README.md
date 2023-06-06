@@ -1,5 +1,5 @@
-## Task Manager App using ReactJS
+## ToDo App using useReducer
 
-- Live Site : [Task Manager App]( "Live Link")
+- Live Site : [ToDo App](https://todo-usereducer-react-madhavsahi.netlify.app/ "Live Link")
 
 
