@@ -1,41 +1,9 @@
-# PLACEMENT ASSIGNMENT - Madhav Sahi
+# Express Solutions
+## Backend Server 20 posts
 
-## HTML Code Solutions
+- Repo Link - [Backend Server](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/PlacementAssignment_MadhavSahi/Express-Solutions/Q1-express "Repo Link")
+## GitHub Project
 
-### Resume
-
-- Repo Link -[Resume-Madhav Sahi](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/PlacementAssignment_MadhavSahi/HTML-Solutions/resume-html "Repo Link")
-- Live Link -[Resume-Madhav Sahi](https://html-only-resume-madhavsahi.netlify.app/ "Live Link")
-
-<hr>
-
-## CSS Code Solutions
-
-<hr>
-
-## JavaScript Solutions
-
-<hr>
-
-## React Code Solutions
-
-### Tic-Tac-Toe
-
-- Repo Link - [Tic-Tac-Toe](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/PlacementAssignment_MadhavSahi/React-Solutions/tic-tac-toe-react "Repo Link")
-- Live Site - [Tic-Tac-Toe](https://tic-tac-toe-reactjs-madhavsahi.netlify.app/ "Live Link")
-
-### Counter App
-
-- Repo Link - [Counter App](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/PlacementAssignment_MadhavSahi/React-Solutions/counter-react "Repo Link")
-- Live Site - [Counter App](https://counterapp-reactjs-madhavsahi.netlify.app/ "Live Link")
-
-### Calculator App
-
-- Repo Link - [Calculator App](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/PlacementAssignment_MadhavSahi/React-Solutions/calculator-react "Repo Link")
-- Live Site - [Calculator App](https://calculator-react-madhavsahi.netlify.app/ "Live Link")
-
-<hr>
-
-## Express Solutions
+- Repo Link - [GitHub Project](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/PlacementAssignment_MadhavSahi/Express-Solutions/fullstack-express "Repo Link")
 
 <hr>
