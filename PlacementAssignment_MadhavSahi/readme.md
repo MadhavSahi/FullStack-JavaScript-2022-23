@@ -42,6 +42,10 @@
 <hr>
 
 ## JavaScript Solutions
+### Blog Web App
+
+- Repo Link - [Blog Web App]( "Repo Link")
+- Live Link - [Blog Web App]( "Live Link")
 
 <hr>
 
