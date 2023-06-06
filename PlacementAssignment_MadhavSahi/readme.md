@@ -1,6 +1,6 @@
 # PLACEMENT ASSIGNMENT - Madhav Sahi
 
-## HTML Code Solutions
+<h2 align="center"> HTML Code Solutions </h2>
 
 ### Resume
 
@@ -24,7 +24,7 @@
 
 <hr>
 
-## CSS Code Solutions
+<h2 align="center"> CSS Code Solutions </h2>
 
 ### Periodic Table
 
@@ -41,7 +41,7 @@
 
 <hr>
 
-## JavaScript Solutions
+<h2 align="center"> JavaScript Code Solutions </h2>
 
 ### Debouncing Mini Project
 
@@ -88,7 +88,7 @@
 
 <hr>
 
-## Express Solutions
+<h2 align="center"> Express Code Solutions </h2>
 
 ### Backend Server 20 posts
 
