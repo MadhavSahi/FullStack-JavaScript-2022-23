@@ -1,4 +1,4 @@
-# PLACEMENT ASSIGNMENT - Madhav Sahi
+<h1 align="center"> PLACEMENT ASSIGNMENT - Madhav Sahi </h1>
 
 <h2 align="center"> HTML Code Solutions </h2>
 
@@ -97,5 +97,6 @@
 ### GitHub Project
 
 - Repo Link - [GitHub Project](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/PlacementAssignment_MadhavSahi/Express-Solutions/fullstack-express "Repo Link")
+- Live Link - [GitHub Project](https://react-github-firebase-madhavsahi.netlify.app/ "Live Link")
 
 <hr>
