@@ -17,3 +17,51 @@
 // The substring with start index = 6 is "bac", which is an anagram of "abc".
 
 //Solution--->
+
+function findAnagramIndices(s, p) {
+    const result = [];
+    const targetFreq = new Map();
+    let windowStart = 0;
+    let matchedCount = 0;
+  
+    for (let char of p) {
+      targetFreq.set(char, (targetFreq.get(char) || 0) + 1);
+    }
+  
+    for (let windowEnd = 0; windowEnd < s.length; windowEnd++) {
+      const endChar = s[windowEnd];
+  
+      if (targetFreq.has(endChar)) {
+        targetFreq.set(endChar, targetFreq.get(endChar) - 1);
+        if (targetFreq.get(endChar) === 0) {
+          matchedCount++;
+        }
+      }
+  
+      if (matchedCount === targetFreq.size) {
+        result.push(windowStart);
+      }
+  
+      if (windowEnd >= p.length - 1) {
+        const startChar = s[windowStart];
+  
+        if (targetFreq.has(startChar)) {
+          if (targetFreq.get(startChar) === 0) {
+            matchedCount--;
+          }
+          targetFreq.set(startChar, targetFreq.get(startChar) + 1);
+        }
+  
+        windowStart++;
+      }
+    }
+  
+    return result;
+  }
+  
+  const s = "cbaebabacd";
+  const p = "abc";
+  const indices = findAnagramIndices(s, p);
+  console.log(indices); 
+  // Output: [0, 6]
+  

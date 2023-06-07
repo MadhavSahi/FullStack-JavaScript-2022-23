@@ -18,3 +18,50 @@
 // true
 
 //Solution--->
+function ISString(s) {
+  let leftBracketCount = 0;
+  let starCount = 0;
+
+  for (let i = 0; i < s.length; i++) {
+    if (s[i] === "(") {
+        leftBracketCount++;
+    } else if (s[i] === "*") {
+      starCount++;
+    } else {
+      if (leftBracketCount > 0) {
+        leftBracketCount--;
+      } else if (starCount > 0) {
+        starCount--;
+      } else {
+        return false;
+      }
+    }
+  }
+  
+  starCount = 0;
+
+  let rightBracketCount = 0;
+
+  for (let i = s.length - 1; i >= 0; i--) {
+    if (s[i] === ")") {
+        rightBracketCount++;
+    } else if (s[i] === "*") {
+      starCount++;
+    } else {
+      if (rightBracketCount > 0) {
+        rightBracketCount--;
+      } else if (starCount > 0) {
+        starCount--;
+      } else {
+        return false;
+      }
+    }
+  }
+
+  return true;
+}
+
+const str = "()";
+let answer=ISString(str);
+console.log(answer);
+// Output: true

@@ -24,3 +24,37 @@
 // The groups are "aa", "bb", and "ccc". This compresses to "a2b2c3".
 
 //Solution--->
+
+function compressCharacters(chars) {
+  let writePtr = 0;
+  let count = 1;
+
+  for (let readPtr = 1; readPtr <= chars.length; readPtr++) {
+    if (readPtr < chars.length && chars[readPtr] === chars[readPtr - 1]) {
+      count++;
+    } else {
+      chars[writePtr] = chars[readPtr - 1];
+      writePtr++;
+
+      if (count > 1) {
+        const countStr = count.toString();
+
+        for (let digit of countStr) {
+          chars[writePtr] = digit;
+          writePtr++;
+        }
+      }
+
+      count = 1;
+    }
+  }
+
+  return writePtr;
+}
+
+const characters = ["a", "a", "b", "b", "c", "c", "c"];
+const newLength = compressCharacters(characters);
+console.log("New Array-", characters.slice(0, newLength));
+// Output: ["a", "2", "b", "2", "c", "3"]
+console.log("New Length-", newLength);
+// Output: 6

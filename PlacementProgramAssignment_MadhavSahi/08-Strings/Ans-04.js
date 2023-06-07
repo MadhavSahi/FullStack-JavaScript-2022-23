@@ -12,3 +12,5 @@
 // **Output:** [4,2,6,3,1,5]
 
 //Solution--->
+
+//COULDN't DO

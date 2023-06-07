@@ -15,3 +15,38 @@
 // **Output:** "aaabcbc"
 
 //Solution--->
+
+function decodeString(encodedStr) {
+  const stack = [];
+
+  for (let char of encodedStr) {
+    if (char !== "]") {
+      stack.push(char);
+    } else {
+      let decoded = "";
+
+      while (stack[stack.length - 1] !== "[") {
+        decoded = stack.pop() + decoded;
+      }
+
+      stack.pop();
+
+      let repeatCount = "";
+
+      while (!isNaN(stack[stack.length - 1])) {
+        repeatCount = stack.pop() + repeatCount;
+      }
+
+      repeatCount = parseInt(repeatCount);
+
+      stack.push(decoded.repeat(repeatCount));
+    }
+  }
+
+  return stack.join("");
+}
+
+const encodedStr = "3[a]2[bc]";
+const decodedStr = decodeString(encodedStr);
+console.log("Decoded String:", decodedStr);
+// Output: "aaabcbc"
