@@ -15,3 +15,30 @@
 // Both s and t become "ac".
 
 //Solution--->
+
+function EditSTR(str) {
+  const stack = [];
+
+  for (let char of str) {
+    if (char === "#") {
+      stack.pop();
+    } else {
+      stack.push(char);
+    }
+  }
+  return stack.join("");
+}
+
+function backspace(str1, str2) {
+  const finalStr1 = EditSTR(str1);
+  const finalStr2 = EditSTR(str2);
+
+  if (finalStr1 === finalStr2) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+console.log(backspace("ab#c", "ad#c"));
+// true

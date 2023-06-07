@@ -15,3 +15,20 @@
 // true
 
 //Solution--->
+
+function Shifts(s, goal) {
+  if (s.length !== goal.length) {
+    return false;
+  }
+
+  const combinedString = s + s;
+
+  if (combinedString.includes(goal)) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+console.log(Shifts("abcde", "cdeab"));
+// true
