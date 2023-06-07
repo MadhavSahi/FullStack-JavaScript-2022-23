@@ -5,12 +5,38 @@
 // **Examples:**
 
 //  Input: str = “cd”
- 
- 
+
 //  **Output:** cd dc
- 
+
 //  **Input:** str = “abb”
- 
+
 //  **Output:** abb abb bab bba bab bba
- 
+
 //Solution--->
+function generatePermutations(str) {
+  const permutations = [];
+
+  function backtrack(currentStr, visited, remaining) {
+    if (currentStr.length === str.length) {
+      permutations.push(currentStr);
+      return;
+    }
+
+    for (let i = 0; i < str.length; i++) {
+      if (visited[i]) continue;
+
+      visited[i] = true;
+      backtrack(currentStr + str[i], visited, remaining - 1);
+      visited[i] = false;
+    }
+  }
+
+  const visited = new Array(str.length).fill(false);
+  backtrack("", visited, str.length);
+  return permutations;
+}
+
+const inputStr = "abc";
+const result = generatePermutations(inputStr);
+console.log(result);
+//Output : abb abb bab bba bab bba

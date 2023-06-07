@@ -12,3 +12,23 @@
 // Output : 12
 
 //Solution--->
+
+
+function countConsonants(str) {
+  let vowels = ['a', 'e', 'i', 'o', 'u'];
+  let consonant = 0;
+
+  for (let i = 0; i < str.length; i++) {
+    const char = str[i].toLowerCase();
+
+    if (!vowels.includes(char) && char >= 'a' && char <= 'z') {
+        consonant++;
+    }
+  }
+  return consonant;
+}
+
+const str = 'geeksforgeeks portal';
+const consonants = countConsonants(str);
+console.log(consonants);
+//Output : 12

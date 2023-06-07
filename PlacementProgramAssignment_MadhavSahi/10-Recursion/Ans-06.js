@@ -30,5 +30,25 @@
 // as follows in the example and total
 // 7 steps will be taken.
 
-
 //Solution--->
+
+function towerOfHanoi(n, source, destination, auxiliary) {
+  if (n === 0) {
+    return 0;
+  }
+
+  const moves = towerOfHanoi(n - 1, source, auxiliary, destination);
+  console.log(`move disk ${n} from rod ${source} to rod ${destination}`);
+  return moves + 1 + towerOfHanoi(n - 1, auxiliary, destination, source);
+}
+
+const n = 3;
+const moves = towerOfHanoi(n, "A", "C", "B");
+console.log(moves);
+// move disk 1 from rod 1 to rod 3
+// move disk 2 from rod 1 to rod 2
+// move disk 1 from rod 3 to rod 2
+// move disk 3 from rod 1 to rod 3
+// move disk 1 from rod 2 to rod 1
+// move disk 2 from rod 2 to rod 3
+// move disk 1 from rod 1 to rod 3

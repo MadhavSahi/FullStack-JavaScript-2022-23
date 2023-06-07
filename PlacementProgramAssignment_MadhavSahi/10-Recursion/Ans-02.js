@@ -1,4 +1,5 @@
-{/* Question 2**
+{
+  /* Question 2**
 
 You have a list `arr` of all integers in the range `[1, n]` sorted in a strictly increasing order. Apply the following algorithm on `arr`:
 
@@ -22,6 +23,36 @@ arr = [6]
 ```
 
 **Example 2:**
-*/}
+Input: n = 1
+Output: 1
+*/
+}
 
 //Solution--->
+function findLastRemainingNumber(n) {
+  if (n <= 0) {
+    return -1; 
+  }
+
+  let isLeftToRight = true;
+  let currentHead = 1;
+  let currentStep = 1;
+  let remainingCount = n;
+
+  while (remainingCount > 1) {
+    if (isLeftToRight || remainingCount % 2 === 1) {
+      currentHead += currentStep;
+    }
+
+    currentStep *= 2;
+    remainingCount = Math.floor(remainingCount / 2);
+    isLeftToRight = !isLeftToRight;
+  }
+
+  return currentHead;
+}
+
+console.log(findLastRemainingNumber(9));
+// Output: 6
+console.log(findLastRemainingNumber(1));
+// Output: 1

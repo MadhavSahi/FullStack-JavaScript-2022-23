@@ -1,4 +1,5 @@
-{/*
+{
+  /*
     Question 1**
 
 Given an integer `n`, return *`true` if it is a power of three. Otherwise, return `false`*.
@@ -23,6 +24,26 @@ Explanation: There is no x where 3x = 0.
 ```
 
 **Example 3:**
-*/}
+*/
+}
 
 //Solution--->
+
+function isPowerOfThree(n) {
+  if (n <= 0) {
+    return false;
+  }
+
+  while (n >= 3) {
+    if (n % 3 !== 0) {
+      return false;
+    }
+    n = n / 3;
+  }
+  return true;
+}
+
+console.log(isPowerOfThree(27));
+// Output: true
+console.log(isPowerOfThree(0));
+// Output: false
