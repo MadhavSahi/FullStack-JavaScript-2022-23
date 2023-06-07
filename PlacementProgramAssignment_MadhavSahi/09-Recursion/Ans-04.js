@@ -15,3 +15,18 @@
 
 //Solution--->
 
+function exponentiation(N, P) {
+    let result = 1;
+  
+    for (let i = 1; i <= P; i++) {
+      result = result* N;
+    }
+  
+    return result;
+  }
+  
+  console.log(exponentiation(5, 2)); 
+  // Output: 25
+  console.log(exponentiation(2, 5)); 
+  // Output: 32
+  

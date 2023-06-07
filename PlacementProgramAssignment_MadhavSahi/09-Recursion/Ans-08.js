@@ -13,3 +13,17 @@
 
 //Solution--->
 
+function getProduct(arr) {
+  let product = 1;
+
+  for (let i = 0; i < arr.length; i++) {
+    product = product * arr[i];
+  }
+  return product;
+}
+
+// Test the function
+console.log(getProduct([1, 2, 3, 4, 5]));
+// Output: 120
+console.log(getProduct([1, 6, 3]));
+// Output: 18

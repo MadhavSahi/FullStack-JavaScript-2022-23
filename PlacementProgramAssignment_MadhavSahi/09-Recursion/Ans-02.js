@@ -4,14 +4,23 @@
 
 // **Example 1:**
 
-// Input: n = 3 
+// Input: n = 3
 
 // Output: 6
 
 // **Example 2:**
 
-// Input  : 5 
+// Input  : 5
 
 // Output : 15
 
 //Solution--->
+function sumofNumbers(n) {
+  const sum = (n * (n + 1)) / 2;
+  return sum;
+}
+
+console.log(sumofNumbers(3));
+// Output: 6
+console.log(sumofNumbers(5));
+// Output: 15

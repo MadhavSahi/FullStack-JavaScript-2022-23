@@ -15,4 +15,11 @@
 // The 10th term of the series is : 23
 
 //Solution--->
+function NthTerm(a, d, N) {
+  return a + (N - 1) * d;
+}
 
+console.log(NthTerm(2, 1, 5));
+// Output: 6
+console.log(NthTerm(5, 2, 10));
+// Output: 23
