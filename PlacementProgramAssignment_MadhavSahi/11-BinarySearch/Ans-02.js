@@ -18,3 +18,28 @@
 // Input: nums = [1,2,1,3,5,6,4]
 // Output: 5
 // Explanation: Your function can return either index number 1 where the peak element is 2, or index number 5 where the peak element is 6.
+
+//Solution--->
+
+function PeakIndex(nums) {
+  let low = 0;
+  let high = nums.length - 1;
+
+  while (low < high) {
+    const mid = Math.floor((low + high) / 2);
+
+    if (nums[mid] < nums[mid + 1]) {
+      low = mid + 1;
+    } else {
+      high = mid;
+    }
+  }
+
+  return low;
+}
+
+console.log(PeakIndex([1, 2, 3, 1]));
+//Output: 2
+
+console.log(PeakIndex([1, 2, 1, 3, 5, 6, 4]));
+//Output: 5

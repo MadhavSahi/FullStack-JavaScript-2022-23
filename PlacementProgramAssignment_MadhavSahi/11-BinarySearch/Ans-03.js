@@ -24,3 +24,22 @@
 // Explanation: n = 9 since there are 9 numbers, so all numbers are in the range [0,9]. 8 is the missing number in the range since it does not appear in nums.
 
 //Solution--->
+
+function MissingEle(nums) {
+  let actualSum = 0;
+  const size = nums.length;
+  let expectedSum = (size * (size + 1)) / 2;
+
+  for (let i = 0; i < size; i++) {
+    actualSum += nums[i];
+  }
+  let result = expectedSum - actualSum;
+  return result;
+}
+
+console.log(MissingEle([3, 0, 1]));
+// Output: 2
+console.log(MissingEle([0, 1]));
+// Output: 2
+console.log(MissingEle([9, 6, 4, 2, 3, 5, 7, 0, 1]));
+// Output: 8

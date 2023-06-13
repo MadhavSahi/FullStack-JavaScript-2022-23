@@ -10,3 +10,35 @@
 // Explanation: [9,4] is also accepted.
 
 //Solution--->
+
+const getIntersection = (nums1, nums2) => {
+  const freqMap = new Map();
+  const interArray = [];
+
+  for (const num of nums1) {
+    if (freqMap.has(num)) {
+      freqMap.set(num, freqMap.get(num) + 1);
+    } else {
+      freqMap.set(num, 1);
+    }
+  }
+
+  for (const num of nums2) {
+    if (freqMap.has(num) && freqMap.get(num) > 0) {
+        interArray.push(num);
+      freqMap.set(num, freqMap.get(num) - 1);
+    }
+  }
+
+  return interArray;
+};
+
+const nums1 = [1, 2, 2, 1];
+const nums2 = [2, 2];
+console.log(getIntersection(nums1, nums2)); 
+// Output: [2, 2]
+
+const nums3 = [4, 9, 5];
+const nums4 = [9, 4, 9, 8, 4];
+console.log(getIntersection(nums3, nums4)); 
+// Output: [4, 9]

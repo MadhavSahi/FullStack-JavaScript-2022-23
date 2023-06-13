@@ -29,3 +29,44 @@
 // Explanation: The original array was [11,13,15,17] and it was rotated 4 times.
 
 //Solution--->
+
+const findMinimum = (arr) => {
+  let left = 0;
+  let right = arr.length - 1;
+
+  if (arr[left] <= arr[right]) {
+    return arr[left];
+  }
+
+  while (left < right) {
+    let mid = Math.floor((left + right) / 2);
+
+    if (arr[mid] > arr[mid + 1]) {
+      return arr[mid + 1];
+    }
+
+    if (arr[mid - 1] > arr[mid]) {
+      return arr[mid];
+    }
+
+    if (arr[left] < arr[mid]) {
+      left = mid + 1;
+    } else {
+      right = mid - 1;
+    }
+  }
+
+  return -1;
+};
+
+const nums1 = [3, 4, 5, 1, 2];
+console.log(findMinimum(nums1));
+// Output: 1
+
+const nums2 = [4, 5, 6, 7, 0, 1, 2];
+console.log(findMinimum(nums2));
+// Output: 0
+
+const nums3 = [11, 13, 15, 17];
+console.log(findMinimum(nums3));
+// Output: 11
