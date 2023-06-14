@@ -25,3 +25,54 @@
 // any loop.
 
 //Solution--->
+class Node {
+  constructor(value) {
+    this.value = value;
+    this.next = null;
+  }
+}
+
+class LinkedList {
+  constructor() {
+    this.head = null;
+  }
+
+  addNode(value) {
+    const newNode = new Node(value);
+    if (!this.head) {
+      this.head = newNode;
+    } else {
+      let currentNode = this.head;
+      while (currentNode.next) {
+        currentNode = currentNode.next;
+      }
+      currentNode.next = newNode;
+    }
+  }
+
+  hasLoop() {
+    let slowPointer = this.head;
+    let fastPointer = this.head;
+
+    while (slowPointer && fastPointer && fastPointer.next) {
+      slowPointer = slowPointer.next;
+      fastPointer = fastPointer.next.next;
+
+      if (slowPointer === fastPointer) {
+        return true;
+      }
+    }
+
+    return false;
+  }
+}
+
+const list = new LinkedList();
+list.addNode(1);
+list.addNode(3);
+list.addNode(4);
+
+list.head.next.next.next = list.head.next;
+
+console.log(list.hasLoop());
+// Output: true

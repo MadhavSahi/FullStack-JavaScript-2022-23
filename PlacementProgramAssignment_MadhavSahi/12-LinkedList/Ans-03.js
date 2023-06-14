@@ -22,3 +22,77 @@
 // linked list, the output is -1.
 
 //Solution--->
+
+class Node {
+  constructor(value) {
+    this.value = value;
+    this.next = null;
+  }
+}
+
+class LinkedList {
+  constructor() {
+    this.head = null;
+  }
+
+  addNode(value) {
+    const newNode = new Node(value);
+    if (!this.head) {
+      this.head = newNode;
+    } else {
+      let currentNode = this.head;
+      while (currentNode.next) {
+        currentNode = currentNode.next;
+      }
+      currentNode.next = newNode;
+    }
+  }
+
+  findNthNodeFromEnd(n) {
+    if (n <= 0 || !this.head) {
+      return -1;
+    }
+
+    let fastPointer = this.head;
+    let slowPointer = this.head;
+    let count = 1;
+
+    while (count <= n) {
+      if (!fastPointer) {
+        return -1;
+      }
+      fastPointer = fastPointer.next;
+      count++;
+    }
+
+    while (fastPointer) {
+      fastPointer = fastPointer.next;
+      slowPointer = slowPointer.next;
+    }
+
+    return slowPointer.value;
+  }
+}
+
+const list = new LinkedList();
+list.addNode(1);
+list.addNode(2);
+list.addNode(3);
+list.addNode(4);
+list.addNode(5);
+list.addNode(6);
+list.addNode(7);
+list.addNode(8);
+list.addNode(9);
+
+console.log(list.findNthNodeFromEnd(2)); 
+// Output: 8
+
+const newList = new LinkedList();
+newList.addNode(10);
+newList.addNode(5);
+newList.addNode(100);
+newList.addNode(5);
+
+console.log(newList.findNthNodeFromEnd(5)); 
+// Output: -1
