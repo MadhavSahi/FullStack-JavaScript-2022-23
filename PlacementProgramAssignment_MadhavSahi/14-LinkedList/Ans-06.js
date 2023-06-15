@@ -17,3 +17,52 @@
 // Output:5 6 7 8 1 2 3 4
 
 // Solution--->
+
+class ListNode {
+  constructor(val) {
+    this.val = val;
+    this.next = null;
+  }
+}
+
+function leftShiftLinkedList(head, k) {
+  if (!head || !head.next || k === 0) return head;
+
+  let current = head;
+  let count = 1;
+
+  while (count < k && current !== null) {
+    current = current.next;
+    count++;
+  }
+
+  if (!current) return head;
+
+  let kthNode = current;
+
+  while (current.next !== null) {
+    current = current.next;
+  }
+
+  current.next = head;
+  head = kthNode.next;
+  kthNode.next = null;
+
+  return head;
+}
+
+const headNode = new ListNode(2);
+headNode.next = new ListNode(4);
+headNode.next.next = new ListNode(7);
+headNode.next.next.next = new ListNode(8);
+headNode.next.next.next.next = new ListNode(9);
+
+const k = 3;
+
+const shiftedList = leftShiftLinkedList(headNode, k);
+
+let current = shiftedList;
+while (current !== null) {
+  console.log(current.val);
+  current = current.next;
+}

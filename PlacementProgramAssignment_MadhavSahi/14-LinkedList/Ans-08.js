@@ -18,3 +18,39 @@
 // Output: [1]
 
 // Solution--->
+function removeZeroSumSequences(head) {
+  function Node(val) {
+    this.val = val;
+    this.next = null;
+  }
+
+  const dummy = new Node(0);
+  dummy.next = head;
+
+  const map = new Map();
+  let prefixSum = 0;
+  let currentNode = dummy;
+
+  while (currentNode) {
+    prefixSum += currentNode.val;
+
+    if (map.has(prefixSum)) {
+      let prevNode = map.get(prefixSum).next;
+      let currSum = prefixSum + prevNode.val;
+
+      while (prevNode !== currentNode) {
+        map.delete(currSum);
+        prevNode = prevNode.next;
+        currSum += prevNode.val;
+      }
+
+      map.get(prefixSum).next = currentNode.next;
+    } else {
+      map.set(prefixSum, currentNode);
+    }
+
+    currentNode = currentNode.next;
+  }
+
+  return dummy.next;
+}

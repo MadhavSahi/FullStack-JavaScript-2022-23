@@ -15,3 +15,42 @@
 // Output: [2,3,6,7,1,5,4]
 
 // Solution--->
+
+class Node {
+  constructor(value) {
+    this.value = value;
+    this.nextNode = null;
+  }
+}
+
+function rearrangeLinkedList(head) {
+  if (!head || !head.nextNode) return head;
+
+  let oddNode = head;
+  let evenNode = head.nextNode;
+  let evenHead = evenNode;
+
+  while (evenNode && evenNode.nextNode) {
+    oddNode.nextNode = evenNode.nextNode;
+    oddNode = oddNode.nextNode;
+    evenNode.nextNode = oddNode.nextNode;
+    evenNode = evenNode.nextNode;
+  }
+
+  oddNode.nextNode = evenHead;
+  return head;
+}
+
+const headNode = new Node(1);
+headNode.nextNode = new Node(2);
+headNode.nextNode.nextNode = new Node(3);
+headNode.nextNode.nextNode.nextNode = new Node(4);
+headNode.nextNode.nextNode.nextNode.nextNode = new Node(5);
+
+const rearrangedList = rearrangeLinkedList(headNode);
+
+let currentNode = rearrangedList;
+while (currentNode !== null) {
+  console.log(currentNode.value);
+  currentNode = currentNode.nextNode;
+}

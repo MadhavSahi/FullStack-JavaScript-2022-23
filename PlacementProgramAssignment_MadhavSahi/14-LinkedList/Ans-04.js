@@ -38,3 +38,61 @@
 // above example, the output will be 1.
 
 //Solution--->
+
+class Node {
+  constructor(value) {
+    this.value = value;
+    this.nextNode = null;
+    this.randomNode = null;
+  }
+}
+
+function cloneLinkedList(headNode) {
+  if (!headNode) return null;
+
+  const cloneMap = new Map();
+
+  let current = headNode;
+  while (current) {
+    cloneMap.set(current, new Node(current.value));
+    current = current.nextNode;
+  }
+
+  current = headNode;
+  while (current) {
+    const cloneNode = cloneMap.get(current);
+    cloneNode.nextNode = cloneMap.get(current.nextNode);
+    cloneNode.randomNode = cloneMap.get(current.randomNode);
+    current = current.nextNode;
+  }
+
+  return cloneMap.get(headNode);
+}
+
+const originalHead = new Node(1);
+const nodeA = new Node(2);
+const nodeB = new Node(3);
+const nodeC = new Node(4);
+
+originalHead.nextNode = nodeA;
+nodeA.nextNode = nodeB;
+nodeB.nextNode = nodeC;
+
+originalHead.randomNode = nodeB;
+nodeA.randomNode = nodeC;
+nodeC.randomNode = nodeA;
+
+const clonedList = cloneLinkedList(originalHead);
+
+let currentNode = clonedList;
+while (currentNode !== null) {
+  console.log(`Value: ${currentNode.value}`);
+  console.log(
+    `Next: ${currentNode.nextNode ? currentNode.nextNode.value : null}`
+  );
+  console.log(
+    `Random: ${currentNode.randomNode ? currentNode.randomNode.value : null}`
+  );
+  console.log("---");
+  currentNode = currentNode.nextNode;
+}

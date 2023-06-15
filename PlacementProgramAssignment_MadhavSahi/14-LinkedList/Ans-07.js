@@ -12,3 +12,5 @@
 // Output: [7,0,5,5,0]
 
 // Solution--->
+
+//DIDN'T UNDERSTAND
