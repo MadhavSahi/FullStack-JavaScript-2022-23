@@ -20,3 +20,72 @@
 // the resultant linked list is 3->2->1->5->4.
 
 //Solution--->
+class Node {
+  constructor(data) {
+    this.data = data;
+    this.next = null;
+  }
+}
+
+class LinkedList {
+  constructor() {
+    this.head = null;
+  }
+
+  addNode(data) {
+    const newNode = new Node(data);
+    if (this.head === null) {
+      this.head = newNode;
+    } else {
+      let current = this.head;
+      while (current.next !== null) {
+        current = current.next;
+      }
+      current.next = newNode;
+    }
+  }
+
+  reverseKGroup(k) {
+    this.head = this.reverseKGroupUtil(this.head, k);
+  }
+
+  reverseKGroupUtil(head, k) {
+    let current = head;
+    let next = null;
+    let prev = null;
+    let count = 0;
+
+    while (current !== null && count < k) {
+      next = current.next;
+      current.next = prev;
+      prev = current;
+      current = next;
+      count++;
+    }
+
+    if (next !== null) {
+      head.next = this.reverseKGroupUtil(next, k);
+    }
+
+    return prev;
+  }
+}
+
+const linkedList = new LinkedList();
+linkedList.addNode(1);
+linkedList.addNode(2);
+linkedList.addNode(2);
+linkedList.addNode(4);
+linkedList.addNode(5);
+linkedList.addNode(6);
+linkedList.addNode(7);
+linkedList.addNode(8);
+
+const k = 4;
+linkedList.reverseKGroup(k);
+
+let current = linkedList.head;
+while (current !== null) {
+  console.log(current.data);
+  current = current.next;
+}
