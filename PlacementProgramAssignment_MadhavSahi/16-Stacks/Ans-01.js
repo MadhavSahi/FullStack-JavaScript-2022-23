@@ -31,3 +31,37 @@
 // Output : [2, 2, 2, -1, -1, -1, -1, 3, -1, -1]
 
 // Solution--->
+
+function findNearestGreaterFrequency(arr) {
+  const frequencyMap = new Map();
+  const result = [];
+
+  for (let i = 0; i < arr.length; i++) {
+    if (frequencyMap.has(arr[i])) {
+      frequencyMap.set(arr[i], frequencyMap.get(arr[i]) + 1);
+    } else {
+      frequencyMap.set(arr[i], 1);
+    }
+  }
+
+  for (let i = 0; i < arr.length; i++) {
+    let found = false;
+    for (let j = i + 1; j < arr.length; j++) {
+      if (frequencyMap.get(arr[j]) > frequencyMap.get(arr[i])) {
+        result.push(arr[j]);
+        found = true;
+        break;
+      }
+    }
+    if (!found) {
+      result.push(-1);
+    }
+  }
+
+  return result;
+}
+
+const inputArr = [1, 1, 2, 3, 4, 2, 1];
+const output = findNearestGreaterFrequency(inputArr);
+console.log(output);
+// Output: [-1, -1, 1, 2, 2, 1, -1]

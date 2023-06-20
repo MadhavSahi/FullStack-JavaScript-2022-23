@@ -23,3 +23,31 @@
 // *word.*
 
 // Solution--->
+
+function countRemainingWords(sequence) {
+    
+  const wordStack = [];
+
+  for (let i = 0; i < sequence.length; i++) {
+    const currentWord = sequence[i];
+
+    if (
+      wordStack.length > 0 &&
+      currentWord === wordStack[wordStack.length - 1]
+    ) {
+      wordStack.pop();
+    } else {
+      wordStack.push(currentWord);
+    }
+  }
+
+  return wordStack.length;
+}
+
+const inputSequence1 = ["ab", "aa", "aa", "bcd", "ab"];
+console.log(countRemainingWords(inputSequence1)); 
+// Output: 3
+
+const inputSequence2 = ["tom", "jerry", "jerry", "tom"];
+console.log(countRemainingWords(inputSequence2)); 
+// Output: 0
