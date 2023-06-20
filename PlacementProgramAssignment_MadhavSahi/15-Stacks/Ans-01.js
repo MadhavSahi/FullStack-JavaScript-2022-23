@@ -10,7 +10,6 @@
 // to 1 is 3 , 3 is 4 , 2 is 4 and for 4 ?
 // since it doesn't exist, it is -1.
 
-
 // Example 2:
 // Input:
 // N = 5, arr[] [6 8 0 1 3]
@@ -24,3 +23,28 @@
 // element on right and hence -1.
 
 // Solution---->
+
+function findNextGreater(arr) {
+  const resultArray = [];
+  const stack = [];
+  for (let i = arr.length - 1; i >= 0; i--) {
+    while (stack.length > 0 && stack[stack.length - 1] <= arr[i]) {
+      stack.pop();
+    }
+    if (stack.length === 0) {
+      resultArray.unshift(-1);
+    } else {
+      resultArray.unshift(stack[stack.length - 1]);
+    }
+    stack.push(arr[i]);
+  }
+  return resultArray;
+}
+
+const array1 = [1, 3, 2, 4];
+console.log(findNextGreater(array1));
+// Output: [3, 4, 4, -1]
+
+const array2 = [6, 8, 0, 1, 3];
+console.log(findNextGreater(array2));
+// Output: [8, -1, 1, 3, -1]

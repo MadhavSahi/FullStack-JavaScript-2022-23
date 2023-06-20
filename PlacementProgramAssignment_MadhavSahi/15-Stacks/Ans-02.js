@@ -17,3 +17,30 @@
 // is closest. Similary for 5 it is 4.
 
 // Solution---->
+
+function findNearestSmallerNumbers(arrLength, arr) {
+  let stack = [];
+  let resultArray = [];
+
+  for (let i = 0; i < arrLength; i++) {
+    while (stack.length > 0 && stack[stack.length - 1] >= arr[i]) {
+      stack.pop();
+    }
+
+    if (stack.length === 0) {
+      resultArray.push(-1);
+    } else {
+      resultArray.push(stack[stack.length - 1]);
+    }
+
+    stack.push(arr[i]);
+  }
+
+  return resultArray;
+}
+
+const length = 6;
+const nums = [1, 5, 0, 3, 4, 5];
+const result = findNearestSmallerNumbers(length, nums);
+console.log(result);
+// Output: -1 1 -1 0 3 4

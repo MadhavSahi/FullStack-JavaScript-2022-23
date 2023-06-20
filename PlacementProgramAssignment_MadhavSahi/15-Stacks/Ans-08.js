@@ -10,3 +10,38 @@
 // Output: 9
 
 // Solution---->
+function calculateTrappedWater(height) {
+  let totalWater = 0;
+  const len = height.length;
+
+  if (len === 0) {
+    return totalWater;
+  }
+
+  const leftMax = new Array(len);
+  const rightMax = new Array(len);
+
+  leftMax[0] = height[0];
+  for (let i = 1; i < len; i++) {
+    leftMax[i] = Math.max(leftMax[i - 1], height[i]);
+  }
+
+  rightMax[len - 1] = height[len - 1];
+  for (let i = len - 2; i >= 0; i--) {
+    rightMax[i] = Math.max(rightMax[i + 1], height[i]);
+  }
+
+  for (let i = 0; i < len; i++) {
+    totalWater += Math.min(leftMax[i], rightMax[i]) - height[i];
+  }
+
+  return totalWater;
+}
+
+const elevationMap1 = [0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1];
+console.log(calculateTrappedWater(elevationMap1));
+// Output: 6
+
+const elevationMap2 = [4, 2, 0, 3, 2, 5];
+console.log(calculateTrappedWater(elevationMap2));
+// Output: 9

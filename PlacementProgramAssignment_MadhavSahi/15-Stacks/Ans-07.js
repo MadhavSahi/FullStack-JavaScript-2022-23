@@ -29,3 +29,48 @@
 // minStack.getMin(); // return -2
 
 // Solution---->
+
+class MinStack {
+  constructor() {
+    this.stackData = [];
+    this.stackMin = [];
+  }
+
+  push(value) {
+    this.stackData.push(value);
+
+    const currentMin = this.getMin();
+    if (currentMin === undefined || value <= currentMin) {
+      this.stackMin.push(value);
+    }
+  }
+
+  pop() {
+    const poppedValue = this.stackData.pop();
+
+    const currentMin = this.getMin();
+    if (currentMin === poppedValue) {
+      this.stackMin.pop();
+    }
+  }
+
+  peek() {
+    return this.stackData[this.stackData.length - 1];
+  }
+
+  getMin() {
+    return this.stackMin[this.stackMin.length - 1];
+  }
+}
+
+const myStack = new MinStack();
+myStack.push(-2);
+myStack.push(0);
+myStack.push(-3);
+console.log(myStack.getMin());
+// Output: -3
+myStack.pop();
+console.log(myStack.peek());
+// Output: 0
+console.log(myStack.getMin());
+// Output: -2

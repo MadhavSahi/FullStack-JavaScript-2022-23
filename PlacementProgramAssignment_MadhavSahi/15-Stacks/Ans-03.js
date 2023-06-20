@@ -25,3 +25,39 @@
 // Output:2 -1
 
 // Solution---->
+
+class Stack {
+  constructor() {
+    this.queue1 = [];
+    this.queue2 = [];
+  }
+
+  push(element) {
+    this.queue1.push(element);
+  }
+
+  pop() {
+    if (this.queue1.length === 0) {
+      return -1; 
+    }
+
+    while (this.queue1.length > 1) {
+      this.queue2.push(this.queue1.shift());
+    }
+
+    const poppedElement = this.queue1.shift();
+
+    const temp = this.queue1;
+    this.queue1 = this.queue2;
+    this.queue2 = temp;
+
+    return poppedElement;
+  }
+}
+
+const stack = new Stack();
+stack.push(2);
+stack.push(3);
+console.log(stack.pop());
+stack.push(4);
+console.log(stack.pop());
