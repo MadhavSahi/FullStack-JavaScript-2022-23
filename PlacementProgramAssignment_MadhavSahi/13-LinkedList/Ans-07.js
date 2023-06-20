@@ -47,6 +47,7 @@ node3.prev = node2;
 const reversedHead = reverseDoublyLinkedList(headNode);
 
 let currentNode = reversedHead;
+
 while (currentNode !== null) {
   console.log(currentNode.data);
   currentNode = currentNode.next;

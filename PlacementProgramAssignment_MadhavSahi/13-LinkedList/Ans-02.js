@@ -76,6 +76,7 @@ linkedList.addNode(60);
 
 const newList = removeDuplicateNodes(linkedList);
 
+
 if (newList !== null) {
   let current = newList.head;
   while (current !== null) {

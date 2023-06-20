@@ -50,6 +50,7 @@ function deleteNodeFromPosition(head, pos) {
 
   current.prev.next = current.next;
   if (current.next !== null) {
+    
     current.next.prev = current.prev;
   }
 

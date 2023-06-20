@@ -74,6 +74,7 @@ listB.addNode(5);
 
 const newList = createNewLinkedList(listA, listB);
 
+
 if (newList !== null) {
   let current = newList.head;
   while (current !== null) {
