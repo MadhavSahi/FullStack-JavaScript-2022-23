@@ -76,7 +76,6 @@ linkedList.addNode(8);
 linkedList.addNode(9);
 
 const k = 3;
-
 linkedList.reverseAlternateKGroup(k);
 
 let current = linkedList.head;

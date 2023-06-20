@@ -25,9 +25,8 @@ function mergeLinkedLists(a, b) {
   if (b === null) {
     return a;
   }
-
   let mergedHead = null;
-  
+
   let mergedTail = null;
 
   if (a.data <= b.data) {

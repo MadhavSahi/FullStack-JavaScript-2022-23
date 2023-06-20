@@ -73,6 +73,5 @@ linkedList.addNode(2);
 linkedList.addNode(10);
 
 const key = 2;
-
 linkedList.deleteLastKeyOccurrence(key);
 linkedList.printLinkedList();
