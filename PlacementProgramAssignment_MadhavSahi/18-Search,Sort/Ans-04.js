@@ -20,3 +20,50 @@
 // - `0 <= nums[i] <= 10^9`
 
 // Solution--->
+function findMaximumGap(numbers) {
+  if (numbers.length < 2) {
+    return 0;
+  }
+
+  let maxGap = 0;
+  let length = numbers.length;
+  let minValue = Math.min(...numbers);
+  let maxValue = Math.max(...numbers);
+  let bucketSize = Math.max(
+    1,
+    Math.floor((maxValue - minValue) / (length - 1))
+  );
+  let bucketCount = Math.floor((maxValue - minValue) / bucketSize) + 1;
+
+  let buckets = Array(bucketCount)
+    .fill(null)
+    .map(() => ({
+      minimum: Infinity,
+      maximum: -Infinity,
+    }));
+
+  for (let number of numbers) {
+    let index = Math.floor((number - minValue) / bucketSize);
+    buckets[index].minimum = Math.min(buckets[index].minimum, number);
+    buckets[index].maximum = Math.max(buckets[index].maximum, number);
+  }
+
+  let previousMax = minValue;
+  for (let i = 0; i < bucketCount; i++) {
+    if (buckets[i].minimum === Infinity) {
+      continue;
+    }
+    maxGap = Math.max(maxGap, buckets[i].minimum - previousMax);
+    previousMax = buckets[i].maximum;
+  }
+
+  return maxGap;
+}
+
+const numbers1 = [3, 6, 9, 1];
+console.log(findMaximumGap(numbers1)); 
+// Output: 3
+
+const numbers2 = [10];
+console.log(findMaximumGap(numbers2)); 
+// Output: 0

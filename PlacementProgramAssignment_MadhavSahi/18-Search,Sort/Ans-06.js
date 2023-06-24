@@ -32,3 +32,49 @@
 // - `231 <= xstart < xend <= 2^31 - 1`
 
 // Solution--->
+function burstBalloons(points) {
+  if (points.length === 0) {
+    return 0;
+  }
+
+  points.sort((a, b) => a[1] - b[1]);
+
+  let arrowCount = 1;
+  let burstEnd = points[0][1];
+
+  for (let i = 1; i < points.length; i++) {
+    if (points[i][0] > burstEnd) {
+      arrowCount++;
+      burstEnd = points[i][1];
+    }
+  }
+
+  return arrowCount;
+}
+
+const balloons1 = [
+  [10, 16],
+  [2, 8],
+  [1, 6],
+  [7, 12],
+];
+console.log(burstBalloons(balloons1)); 
+// Output: 2
+
+const balloons2 = [
+  [1, 2],
+  [3, 4],
+  [5, 6],
+  [7, 8],
+];
+console.log(burstBalloons(balloons2)); 
+// Output: 4
+
+const balloons3 = [
+  [1, 2],
+  [2, 3],
+  [3, 4],
+  [4, 5],
+];
+console.log(burstBalloons(balloons3)); 
+// Output: 2

@@ -20,3 +20,34 @@
 // Explanation: There are three 132 patterns in the sequence: [-1, 3, 2], [-1, 3, 0] and [-1, 2, 0].
 
 //Solution--->
+
+function has132Pattern(arr) {
+  const stack = [];
+  let num3 = -Infinity;
+
+  for (let i = arr.length - 1; i >= 0; i--) {
+    if (arr[i] < num3) {
+      return true;
+    }
+
+    while (stack.length > 0 && arr[i] > stack[stack.length - 1]) {
+      num3 = stack.pop();
+    }
+
+    stack.push(arr[i]);
+  }
+
+  return false;
+}
+
+const nums1 = [1, 2, 3, 4];
+console.log(has132Pattern(nums1)); 
+// Output: false
+
+const nums2 = [3, 1, 4, 2];
+console.log(has132Pattern(nums2)); 
+// Output: true
+
+const nums3 = [-1, 3, 2, 0];
+console.log(has132Pattern(nums3)); 
+// Output: true

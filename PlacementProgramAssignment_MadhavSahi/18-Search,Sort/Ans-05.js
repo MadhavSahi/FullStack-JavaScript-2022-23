@@ -20,3 +20,27 @@
 // - `109 <= nums[i] <= 10^9`
 
 // Solution--->
+function hasDuplicateElements(array) {
+  let uniqueElements = new Set();
+
+  for (let element of array) {
+    if (uniqueElements.has(element)) {
+      return true;
+    }
+    uniqueElements.add(element);
+  }
+
+  return false;
+}
+
+const arr1 = [1, 2, 3, 1];
+console.log(hasDuplicateElements(arr1)); 
+// Output: true
+
+const arr2 = [1, 2, 3, 4];
+console.log(hasDuplicateElements(arr2)); 
+// Output: false
+
+const arr3 = [1, 1, 1, 3, 3, 4, 3, 2, 4, 2];
+console.log(hasDuplicateElements(arr3)); 
+// Output: true
