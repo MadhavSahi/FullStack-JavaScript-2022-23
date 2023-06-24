@@ -20,3 +20,35 @@
 // Explanation: Subarray [-2] has maximum sum -2.
 
 // Solution--->
+function findMaxSumCircular(nums) {
+  let maxSum = nums[0];
+  let currentMax = nums[0];
+
+  for (let i = 1; i < nums.length; i++) {
+    currentMax = Math.max(nums[i], currentMax + nums[i]);
+    maxSum = Math.max(maxSum, currentMax);
+  }
+
+  return maxSum;
+}
+
+function findMaxSubarraySumCircular(nums) {
+  const maxKadane = findMaxSumCircular(nums);
+  let totalSum = 0;
+
+  for (let i = 0; i < nums.length; i++) {
+    totalSum += nums[i];
+    nums[i] = -nums[i];
+  }
+
+  const maxWrap = totalSum + findMaxSumCircular(nums);
+
+  return Math.max(maxKadane, maxWrap);
+}
+
+console.log(findMaxSubarraySumCircular([1, -2, 3, -2]));
+// Output: 3
+console.log(findMaxSubarraySumCircular([5, -3, 5]));
+// Output: 10
+console.log(findMaxSubarraySumCircular([-3, -2, -3]));
+// Output: -2

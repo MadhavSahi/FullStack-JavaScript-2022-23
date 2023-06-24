@@ -30,3 +30,25 @@
 // Explanation: The friends leave in this order: 5, 4, 6, 2, 3. The winner is friend 1.
 
 // Solution--->
+
+function determineWinner(numFriends, countStep) {
+  const friendCircle = [];
+
+  for (let i = 1; i <= numFriends; i++) {
+    friendCircle.push(i);
+  }
+
+  let currentIndex = 0;
+
+  while (friendCircle.length > 1) {
+    currentIndex = (currentIndex + countStep - 1) % friendCircle.length;
+    friendCircle.splice(currentIndex, 1);
+  }
+
+  return friendCircle[0];
+}
+
+console.log(determineWinner(5, 2));
+// Output: 3
+console.log(determineWinner(6, 5));
+// Output: 1

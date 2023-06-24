@@ -23,3 +23,27 @@
 
 // Solution--->
 
+function findFirstUniqueCharacterIndex(str) {
+  const frequencyMap = new Map();
+
+  for (let i = 0; i < str.length; i++) {
+    const char = str[i];
+    frequencyMap.set(char, (frequencyMap.get(char) || 0) + 1);
+  }
+
+  for (let i = 0; i < str.length; i++) {
+    const char = str[i];
+    if (frequencyMap.get(char) === 1) {
+      return i;
+    }
+  }
+
+  return -1;
+}
+
+console.log(findFirstUniqueCharacterIndex("leetcode"));
+// Output: 0
+console.log(findFirstUniqueCharacterIndex("loveleetcode"));
+// Output: 2
+console.log(findFirstUniqueCharacterIndex("aabb"));
+// Output: -1

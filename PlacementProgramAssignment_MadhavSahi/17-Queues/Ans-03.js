@@ -27,4 +27,26 @@
 // Input: students = [1,1,1,0,0,1], sandwiches = [1,0,0,0,1,1]
 // Output: 3
 
-// Solutio--->
+// Solution--->
+
+function findUnableToEatCount(queue, stack) {
+  let count = 0;
+
+  while (queue.length > 0 && count < queue.length) {
+    if (queue[0] === stack[0]) {
+      queue.shift();
+      stack.shift();
+      count = 0;
+    } else {
+      queue.push(queue.shift());
+      count++;
+    }
+  }
+
+  return queue.length;
+}
+
+console.log(findUnableToEatCount([1, 1, 0, 0], [0, 1, 0, 1]));
+// Output: 0
+console.log(findUnableToEatCount([1, 1, 1, 0, 0, 1], [1, 0, 0, 0, 1, 1]));
+// Output: 3

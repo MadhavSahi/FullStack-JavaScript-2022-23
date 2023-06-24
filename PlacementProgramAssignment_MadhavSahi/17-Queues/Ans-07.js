@@ -35,3 +35,50 @@
 // q.popFront();     // return -1 -> [] (The queue is empty)
 
 // Solution--->
+class CustomQueue {
+  constructor() {
+    this.data = [];
+  }
+
+  pushToFront(val) {
+    this.data.unshift(val);
+  }
+
+  pushToMiddle(val) {
+    const midIndex = Math.floor(this.data.length / 2);
+    this.data.splice(midIndex, 0, val);
+  }
+
+  pushToBack(val) {
+    this.data.push(val);
+  }
+
+  popFromFront() {
+    return this.data.shift() || -1;
+  }
+
+  popFromMiddle() {
+    const midIndex = Math.floor((this.data.length - 1) / 2);
+    return this.data.splice(midIndex, 1)[0] || -1;
+  }
+
+  popFromBack() {
+    return this.data.pop() || -1;
+  }
+}
+
+const queue = new CustomQueue();
+queue.pushToFront(1);
+queue.pushToBack(2);
+queue.pushToMiddle(3);
+queue.pushToMiddle(4);
+console.log(queue.popFromFront());
+// Output: 1
+console.log(queue.popFromMiddle());
+// Output: 3
+console.log(queue.popFromMiddle());
+// Output: 4
+console.log(queue.popFromBack());
+// Output: 2
+console.log(queue.popFromFront());
+// Output: -1

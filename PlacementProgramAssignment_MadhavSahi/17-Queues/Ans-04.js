@@ -22,4 +22,34 @@
 // recentCounter.ping(3002);  // requests = [1,100,3001,3002], range is [2,3002], return 3
 
 // Solution--->
-
+class RequestCounter {
+    constructor() {
+      this.recordedRequests = [];
+    }
+  
+    addRequest(timestamp) {
+      this.recordedRequests.push(timestamp);
+      const lowerBound = timestamp - 3000;
+      const upperBound = timestamp;
+      let requestCount = 0;
+  
+      for (let i = 0; i < this.recordedRequests.length; i++) {
+        if (this.recordedRequests[i] >= lowerBound && this.recordedRequests[i] <= upperBound) {
+          requestCount++;
+        }
+      }
+  
+      return requestCount;
+    }
+  }
+  
+  const counter = new RequestCounter();
+  console.log(counter.addRequest(1)); 
+  // Output: 1
+  console.log(counter.addRequest(100)); 
+  // Output: 2
+  console.log(counter.addRequest(3001)); 
+  // Output: 3
+  console.log(counter.addRequest(3002)); 
+  // Output: 3
+  

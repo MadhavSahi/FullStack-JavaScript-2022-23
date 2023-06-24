@@ -22,3 +22,29 @@
 //                       // Since 3 is not equal to value, it returns False.
 
 // Solution--->
+class IntegerStreamChecker {
+  constructor(targetValue, sequenceLength) {
+    this.integerStream = [];
+    this.targetValue = targetValue;
+    this.sequenceLength = sequenceLength;
+  }
+
+  checkSequence(num) {
+    this.integerStream.push(num);
+    if (this.integerStream.length < this.sequenceLength) {
+      return false;
+    }
+    const lastSequence = this.integerStream.slice(-this.sequenceLength);
+    return lastSequence.every((n) => n === this.targetValue);
+  }
+}
+
+const streamChecker = new IntegerStreamChecker(4, 3);
+console.log(streamChecker.checkSequence(4));
+// Output: false
+console.log(streamChecker.checkSequence(4));
+// Output: false
+console.log(streamChecker.checkSequence(4));
+// Output: true
+console.log(streamChecker.checkSequence(3));
+// Output: false

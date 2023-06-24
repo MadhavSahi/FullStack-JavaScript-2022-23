@@ -32,3 +32,20 @@
 // Output: [1,1000]
 
 // Solution--->
+function revealOrderedDeck(cards) {
+  cards.sort((x, y) => x - y);
+  const revealed = [cards.pop()];
+
+  while (cards.length > 0) {
+    revealed.unshift(revealed.pop());
+    revealed.unshift(cards.pop());
+  }
+
+  return revealed;
+}
+
+console.log(revealOrderedDeck([17, 13, 11, 2, 3, 5, 7]));
+// Output: [2,13,3,11,5,17,7]
+
+console.log(revealOrderedDeck([1, 1000]));
+// Output: [1,1000]
