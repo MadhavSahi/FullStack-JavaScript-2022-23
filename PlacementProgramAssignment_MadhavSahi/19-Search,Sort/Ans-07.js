@@ -16,3 +16,28 @@
 // - `0 <= nums1[i], nums2[i] <= 1000`
 
 // Solution--->
+
+function getArrayIntersection(nums1, nums2) {
+  const set1 = new Set(nums1);
+  const set2 = new Set(nums2);
+
+  const result = [];
+
+  for (const num of set1) {
+    if (set2.has(num)) {
+      result.push(num);
+    }
+  }
+
+  return result;
+}
+
+const arrayA = [1, 2, 2, 1];
+const arrayB = [2, 2];
+console.log(getArrayIntersection(arrayA, arrayB));
+// Output: [2]
+
+const arrayC = [4, 9, 5];
+const arrayD = [9, 4, 9, 8, 4];
+console.log(getArrayIntersection(arrayC, arrayD));
+// Output: [4, 9]

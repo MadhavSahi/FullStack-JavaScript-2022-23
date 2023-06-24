@@ -34,6 +34,7 @@
 // - The sum of `lists[i].length` will not exceed `10000`.
 
 // Solution--->
+
 function mergeSortedLists(lists) {
   if (lists.length === 0) {
     return null;
@@ -94,6 +95,7 @@ const lists1 = [
   new ListNode(1, new ListNode(3, new ListNode(4))),
   new ListNode(2, new ListNode(6)),
 ];
+
 console.log(mergeSortedLists(lists1));
 // Output: [1,1,2,3,4,4,5,6]
 

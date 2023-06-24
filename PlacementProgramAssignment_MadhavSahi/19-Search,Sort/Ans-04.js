@@ -10,3 +10,29 @@
 // Output : arr[] = {1, 2, 3, 6, 0, 0, 0};
 
 // Solution--->
+
+function moveZeroesToEnd(arr) {
+  let count = 0;
+
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] !== 0) {
+      arr[count] = arr[i];
+      count++;
+    }
+  }
+
+  while (count < arr.length) {
+    arr[count] = 0;
+    count++;
+  }
+
+  return arr;
+}
+
+const nums1 = [1, 2, 0, 4, 3, 0, 5, 0];
+console.log(moveZeroesToEnd(nums1));
+// Output: [1, 2, 4, 3, 5, 0, 0, 0]
+
+const nums2 = [1, 2, 0, 0, 0, 3, 6];
+console.log(moveZeroesToEnd(nums2));
+// Output: [1, 2, 3, 6, 0, 0, 0]

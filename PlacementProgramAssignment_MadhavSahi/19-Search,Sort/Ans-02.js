@@ -25,3 +25,47 @@
 // - `-10000 <= nums[i] <= 10000`
 
 //Solution--->
+
+function findSmallerCounts(arr) {
+  const len = arr.length;
+  const counts = new Array(len).fill(0);
+  const sortedArr = [];
+
+  for (let i = len - 1; i >= 0; i--) {
+    const num = arr[i];
+    const insertIndex = searchInsertIndex(sortedArr, num);
+    sortedArr.splice(insertIndex, 0, num);
+    counts[i] = insertIndex;
+  }
+
+  return counts;
+}
+
+function searchInsertIndex(arr, target) {
+  let left = 0;
+  let right = arr.length;
+
+  while (left < right) {
+    const mid = Math.floor((left + right) / 2);
+
+    if (arr[mid] < target) {
+      left = mid + 1;
+    } else {
+      right = mid;
+    }
+  }
+
+  return left;
+}
+
+const nums1 = [5, 2, 6, 1];
+console.log(findSmallerCounts(nums1)); 
+// Output: [2, 1, 1, 0]
+
+const nums2 = [-1];
+console.log(findSmallerCounts(nums2)); 
+// Output: [0]
+
+const nums3 = [-1, -1];
+console.log(findSmallerCounts(nums3)); 
+// Output: [0, 0]

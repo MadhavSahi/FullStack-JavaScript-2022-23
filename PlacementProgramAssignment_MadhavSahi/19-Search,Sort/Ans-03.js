@@ -20,3 +20,51 @@
 // - `-5 * 104 <= nums[i] <= 5 * 10000`
 
 // Solution--->
+
+function customSortArray(arr) {
+  if (arr.length <= 1) {
+    return arr;
+  }
+
+  const middle = Math.floor(arr.length / 2);
+  const left = arr.slice(0, middle);
+  const right = arr.slice(middle);
+
+  return merge(customSortArray(left), customSortArray(right));
+}
+
+function merge(arr1, arr2) {
+  const mergedArray = [];
+  let i = 0;
+  let j = 0;
+
+  while (i < arr1.length && j < arr2.length) {
+    if (arr1[i] <= arr2[j]) {
+      mergedArray.push(arr1[i]);
+      i++;
+    } else {
+      mergedArray.push(arr2[j]);
+      j++;
+    }
+  }
+
+  while (i < arr1.length) {
+    mergedArray.push(arr1[i]);
+    i++;
+  }
+
+  while (j < arr2.length) {
+    mergedArray.push(arr2[j]);
+    j++;
+  }
+
+  return mergedArray;
+}
+
+const nums1 = [5, 2, 3, 1];
+console.log(customSortArray(nums1)); 
+// Output: [1, 2, 3, 5]
+
+const nums2 = [5, 1, 1, 2, 0, 0];
+console.log(customSortArray(nums2)); 
+// Output: [0, 0, 1, 1, 2, 5]
