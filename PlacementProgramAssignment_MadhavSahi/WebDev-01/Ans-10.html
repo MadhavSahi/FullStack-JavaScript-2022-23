@@ -1,0 +1,70 @@
+// Q.10 Write Html code so that it looks like the below image 
+
+// https://pwskills.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F365d0427-ccce-4f03-8f68-f71394cb86b5%2FUntitled.png?id=bc83e227-e490-4173-966b-be20296428d1&table=block&spaceId=6fae2e0f-dedc-48e9-bc59-af2654c78209&width=1320&userId=&cache=v2
+
+//Solution-
+
+//Live -  https://table-html-madhavsahi.netlify.app/
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table - HTML</title>
+  </head>
+  <body>
+    <table border="1">
+      <tr>
+        <th rowspan="3">Day</th>
+        <th colspan="3">Seminar</th>
+      </tr>
+      <tr>
+        <th colspan="2">Schedule</th>
+        <th rowspan="2">Topic</th>
+      </tr>
+      <tr>
+        <th>Begin</th>
+        <th>End</th>
+      </tr>
+
+      <tr>
+        <td rowspan="2">Monday</td>
+        <td rowspan="2">8:00 a.m.</td>
+        <td rowspan="2">5:00 p.m.</td>
+        <td>Introduction to XML</td>
+      </tr>
+      <tr>
+        <td>Validity: DTD and Relax NG</td>
+      </tr>
+      <tr>
+        <td rowspan="3">Tuesday</td>
+        <td>8:00 a.m.</td>
+        <td>11:00 a.m.</td>
+        <td rowspan="1">XPath</td>
+      </tr>
+
+      <tr>
+        <td>11:00 a.m.</td>
+        <td>2:00 p.m.</td>
+        <td rowspan="2">XSL Transformations</td>
+      </tr>
+
+      <tr>
+        <td>2:00 p.m.</td>
+        <td>5:00 p.m.</td>
+      </tr>
+      <tr></tr>
+
+      <tr>
+        <td rowspan="2">Wednesday</td>
+        <td rowspan="2">8:00 a.m.</td>
+        <td rowspan="2">12:00 p.m.</td>
+      </tr>
+      <tr>
+        <td rowspan="2">XSL Formatting Objects</td>
+      </tr>
+    </table>
+  </body>
+</html>

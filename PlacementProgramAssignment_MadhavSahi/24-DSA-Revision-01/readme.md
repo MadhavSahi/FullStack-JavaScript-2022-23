@@ -1,3 +1,3 @@
 # Assignment 24 - DSA Revision
 
-## Solutions :- [Heaps,Hashing]( "All Solutions")
+## Solutions :- [DSA Revision]( "All Solutions")
