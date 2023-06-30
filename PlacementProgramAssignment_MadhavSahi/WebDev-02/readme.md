@@ -5,4 +5,4 @@
 
 <hr>
 
-## Solutions :- [Web Development-02]( "All Solutions")
+## Solutions :- [Web Development-02](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/PlacementProgramAssignment_MadhavSahi/WebDev-02 "All Solutions")
