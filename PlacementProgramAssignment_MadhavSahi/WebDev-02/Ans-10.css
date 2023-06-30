@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 1.5rem;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.navbar {
+    height: 15vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1.5rem;
+}
+
+.logo {
+    background-color: blue;
+}
+
+.nav {
+    background-color: lightgray;
+}
+
+.main {
+    height: 40vh;
+    background-color: gray;
+}
+
+.hero {
+    height: 40vh;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 1.5rem;
+}
+
+.content {
+    background-color: skyblue;
+}
+
+.footer {
+    height: 40vh;
+    background-color: lightgray;
+}
+
+
+/* media queries for mobile */
+
+@media screen and (max-width: 1400px) {
+
+    body {
+        padding: 0.8rem;
+    }
+
+    .navbar {
+        gap: 0.6rem;
+    }
+
+    .container {
+        gap: 0.5rem;
+    }
+
+    .main {
+        height: 25vh;
+    }
+
+    .hero {
+        grid-template-columns: repeat(1, auto);
+        gap: 1rem;
+    }
+}
