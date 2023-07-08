@@ -1,3 +1,7 @@
+<h1 align="center"> Placement Program Assignment (PPT)</h1>
+
+<br>
+
 <h1 align="center"> DSA in JavaScript - Solutions</h1>
 
 ## Assignment 1 - Arrays
