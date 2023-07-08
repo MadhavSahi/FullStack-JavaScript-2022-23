@@ -1,4 +1,4 @@
-# DSA in JavaScript - Solutions
+<h1 align="center"> DSA in JavaScript - Solutions</h1>
 
 ## Assignment 1 - Arrays
 
@@ -78,7 +78,7 @@
 
 - Solutions Link -[DSA Revision](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/PlacementProgramAssignment_MadhavSahi/24-DSA-Revision-01 "Solutions Link")
 
-# Core Module (Web Dev) - Solutions
+<h1 align="center"> Core Module (Web Dev) - Solutions</h1>
 
 ## Assignment 1 - Web Dev
 
