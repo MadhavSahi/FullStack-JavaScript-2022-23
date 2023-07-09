@@ -8,8 +8,8 @@
 ## Ans-06 [Solution](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/blob/main/PlacementProgramAssignment_MadhavSahi/WebDev-08/Ans-06.md "Solution Link")
 ## Ans-07 [Solution](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/blob/main/PlacementProgramAssignment_MadhavSahi/WebDev-08/Ans-07.md "Solution Link")
 ## Ans-08 [Counter Web App](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/PlacementProgramAssignment_MadhavSahi/WebDev-08/Ans-08 "Solution Link")
-## Ans-09 [Solution](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/PlacementProgramAssignment_MadhavSahi/WebDev-08/Ans-09 "Solution Link")
-## Ans-10 [Solution](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/PlacementProgramAssignment_MadhavSahi/WebDev-08/Ans-10 "Solution Link")
+## Ans-09 [GitHub User Finder](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/PlacementProgramAssignment_MadhavSahi/WebDev-08/Ans-09 "Solution Link")
+## Ans-10 [FakeStore Web App](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/PlacementProgramAssignment_MadhavSahi/WebDev-08/Ans-10 "Solution Link")
 
 <hr>
 
