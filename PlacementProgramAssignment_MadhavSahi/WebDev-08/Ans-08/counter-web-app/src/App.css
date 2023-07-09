@@ -1,0 +1,29 @@
+.reddiv{
+  margin: 50px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  border: 10px solid red;
+  border-radius: 10px;
+}
+.text-counter{
+  color: white;
+  font-size: 30px;
+}
+.buttons{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+.btn{
+  padding: 10px;
+  color: black;
+  font-size: 20px;
+  background-color: white;
+  border: 0px none;
+}
