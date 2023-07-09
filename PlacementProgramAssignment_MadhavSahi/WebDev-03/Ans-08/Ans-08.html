@@ -1,3 +1,116 @@
-<!-- Q.8 In this coding challenge, your task is to create an information section for the previously built OneCard webpage clone, focusing on the different modes like dark and light modes. The webpage should look different depending on the screen size: dark mode for larger screens and light mode for smaller devices. The reference images are attached below. -->
+<!-- Q.8 In this coding challenge, your task is to create an information section for the previously built OneCard webpage clone, focusing on the different modes like dark and light modes. The webpage should look different depending on the screen size: dark mode for larger screens and light mode for smaller devices. The reference images are attached below. 
+    
+    //Solution--->
 
-//Solution-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OneCard Homepage</title>
+    <link rel="stylesheet" type="text/css" href="./Ans-08.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="image-logo">
+        <img src="./assets/Logo-image.svg" />
+      </div>
+      <div class="texts">
+        <ul class="texts-h">
+          <li>Home</li>
+          <li>Blog</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+      <div class="login-h">
+        <button class="login-button">LOGIN</button>
+      </div>
+      <div class="hamburger-menu">&#9776;</div>
+    </div>
+    <div class="hero-1">
+      <div class="left-section">
+        <h4 class="text-1">Say Hii To</h4>
+        <h1 class="text-2">One Card</h1>
+        <h6 class="text-3">Co-branded Card issuers :</h6>
+        <div class="images-top">
+          <img height="250px" width="600px" src="./assets/SBM-image.png" />
+          <!-- <img height="100px" width="100px" src="./assets/SouthIndia-image.png" >
+          <img height="100px" width="100px" src="./assets/CSB-image.png" > -->
+          <!-- </div>
+        <div class="images-bottom">
+          <img height="100px" width="100px" src="./assets/Federal-image.png" >
+          <img height="100px" width="100px" src="./assets/BOB-image.png" > -->
+        </div>
+        <p class="long-text-1">
+          India's best metal credit card. Built with full-stack tech. Backed by
+          the principle's of simplicity, transparency, and giving back control
+          to the user.
+        </p>
+      </div>
+      <div class="right-section">
+        <video width="320" height="640px" controls>
+          <source src="./assets/video.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+    <div class="hero-2">
+      <div class="texts-div">
+        <div class="upper-text">
+          <p class="hidden">No Hidden Fees Ever</p>
+        </div>
+        <div class="botton-text">
+          <p>No Joining Fees.</p>
+          <p>No Annual Fees.</p>
+          <p>No Rewards Redemption Fees.</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="col-1">
+        <h3 class="heading-footer">One Card</h3>
+        <p class="col-2-text">
+          India's best metal credit card. Built with full-stack tech. Backed by
+          the principle's of simplicity, transparency, and giving back control
+          to the user.
+        </p>
+      </div>
+      <div class="col-2">
+        <h3 class="heading-footer">Navigation</h3>
+        <div class="col-2-div">
+          <p>Home</p>
+          <p>About Us</p>
+          <p>Careers</p>
+          <p>Offers</p>
+        </div>
+      </div>
+      <div class="col-3">
+        <h3 class="heading-footer">Support</h3>
+        <div class="col-2-div">
+          <p>F.A.Q</p>
+          <p>Cookies Policy</p>
+          <p>Terms Of Service</p>
+          <p>Support</p>
+        </div>
+      </div>
+      <div class="col-4">
+        <h3 class="heading-footer">Newsletter</h3>
+        <div class="buttons-div">
+          <input type="email" placeholder="Your email id here" class="email" />
+          <button class="subscribe">Subscribe</button>
+        </div>
+      </div>
+    </div>
+    <script>
+      const hamburgerMenu = document.querySelector(".hamburger-menu");
+      const texts = document.querySelector(".texts-h");
+      const loginH = document.querySelector(".login-h");
+
+      hamburgerMenu.addEventListener("click", function () {
+        texts.classList.toggle("show");
+        loginH.classList.toggle("show");
+      });
+    </script>
+  </body>
+</html>

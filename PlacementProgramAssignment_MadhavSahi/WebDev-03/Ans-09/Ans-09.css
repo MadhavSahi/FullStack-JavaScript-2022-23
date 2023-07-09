@@ -1,0 +1,258 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    padding: 30px;
+  }
+  
+  .image-logo {
+    background-color: white;
+  }
+  
+  .texts {
+    margin-top: 20px;
+  }
+  
+  .texts-h {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+    list-style: none;
+    cursor: pointer;
+  }
+  
+  .login-h {
+    display: flex;
+    align-items: center;
+  }
+  
+  .login-button {
+    background-color: blue;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    cursor: pointer;
+    border: 0;
+  }
+  
+  .hamburger-menu {
+    display: none;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .hero-1 {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .left-section {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    margin-left: 30px;
+    margin-top: 100px;
+  }
+  
+  .text-1 {
+    font-size: 40px;
+  }
+  
+  .text-2 {
+    font-size: 80px;
+    color: blue;
+  }
+  
+  .text-3 {
+    margin-top: 20px;
+    font-size: 20px;
+    color: blue;
+  }
+  
+  .images-top {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .images-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .long-text-1 {
+    margin-top: 40px;
+    color: black;
+    font-size: 20px;
+    width: 45vw;
+  }
+  
+  .right-section {
+    width: 40%;
+    margin-right: 20px;
+    margin-left: 200px;
+  }
+  
+  .hero-2 {
+    padding-top: 100px;
+    background-color: black;
+    color: white;
+    font-size: 50px;
+  }
+  
+  .hidden {
+    color: blue;
+  }
+  
+  .texts-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .botton-text {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    font-size: 30px;
+  }
+  
+  .footer {
+    color: white;
+    background-color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .col-1,
+  .col-2,
+  .col-3,
+  .col-4 {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    color: grey;
+    gap: 15px;
+  }
+  
+  .col-2-text {
+    color: grey;
+    width: 20vw;
+    line-height: 35px;
+  }
+  
+  .heading-footer {
+    font-weight: 600;
+    font-size: larger;
+    color: white;
+  }
+  
+  .col-2-div {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    gap: 20px;
+    cursor: pointer;
+  }
+  
+  .buttons-div {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 5px;
+  }
+  
+  .email {
+    background-color: white;
+    padding: 10px;
+    color: gray;
+    border-radius: 5px;
+    border: 0px;
+  }
+  
+  .subscribe {
+    background-color: blue;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .show {
+      display: block !important;
+    }
+    
+  /* Media Queries */
+  
+  @media only screen and (max-width: 70em) {
+    .header {
+      flex-wrap: wrap;
+    }
+    .show .texts-h,
+    .show .login-h {
+      display: block;
+    }
+    .texts-h,
+    .login-h {
+      display: none;
+    }
+  
+    .image-logo {
+      margin-right: 30px;
+    }
+  
+    .hamburger-menu {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .hero-2 {
+      background-color: white;
+      color: black;
+      margin-bottom: 30px;
+    }
+  
+    .bottom-text {
+      color: black;
+    }
+  
+    .footer {
+      flex-direction: column;
+      gap:80px;
+      align-items: center;
+      text-align: center;
+    }
+  }
+  
