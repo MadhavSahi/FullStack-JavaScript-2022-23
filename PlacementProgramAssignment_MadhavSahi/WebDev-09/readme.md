@@ -7,9 +7,9 @@
 ## Ans-05 : [Solution](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/blob/main/PlacementProgramAssignment_MadhavSahi/WebDev-09/Ans-05.md "Solution Link")
 ## Ans-06 : [Solution](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/blob/main/PlacementProgramAssignment_MadhavSahi/WebDev-09/Ans-06.md "Solution Link")
 ## Ans-07 : [Solution](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/blob/main/PlacementProgramAssignment_MadhavSahi/WebDev-09/Ans-07.md "Solution Link")
-## Ans-08 : [ToDo Web App]( "Solution Link")
-## Ans-09 : [ToDo Web App]( "Solution Link")
-## Ans-10 : [Calculator Web App]( "Solution Link")
+## Ans-08 : [ToDo Web App](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/PlacementProgramAssignment_MadhavSahi/WebDev-09/Ans-08 "Solution Link")
+## Ans-09 : [ToDo Web App](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/PlacementProgramAssignment_MadhavSahi/WebDev-09/Ans-09 "Solution Link")
+## Ans-10 : [Calculator Web App](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/PlacementProgramAssignment_MadhavSahi/WebDev-09/Ans-10 "Solution Link")
 
 <hr>
 
