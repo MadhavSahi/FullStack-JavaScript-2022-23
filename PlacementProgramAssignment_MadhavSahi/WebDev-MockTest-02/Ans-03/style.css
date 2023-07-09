@@ -1,0 +1,24 @@
+.container {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .loader {
+    width: 100px;
+    height: 20px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    animation: loaderAnimation 1s infinite;
+  }
+
+  @keyframes loaderAnimation {
+    0% { opacity: 0.2; }
+    50% { opacity: 0.5; }
+    100% { opacity: 0.2; }
+  }
+
+  .post {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }

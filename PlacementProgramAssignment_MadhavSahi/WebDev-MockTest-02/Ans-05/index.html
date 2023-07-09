@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation - Madhav Sahi</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Form Validation</h1>
+        <form id="form" onsubmit="validateForm(event)">
+          <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+          </div>
+          <div>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" required>
+          </div>
+          <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" required>
+          </div>
+          <div>
+            <label for="age">Age:</label>
+            <input type="number" id="age" required>
+          </div>
+          <div>
+            <label for="gender">Gender:</label>
+            <select id="gender" required>
+              <option value="">Select Gender</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" required>
+          </div>
+          <div>
+            <label for="color">Favorite Color:</label>
+            <input type="color" id="color" required>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
