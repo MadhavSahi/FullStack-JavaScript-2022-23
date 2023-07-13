@@ -1,6 +1,6 @@
 # FakeStore Web App using HTML,CSS,JavaScript
 
-## FakeStore Web App - [Live Link]( "Live Link")
+## FakeStore Web App - [Live Link](https://fakestore-javascript-madhavsahi.netlify.app/ "Live Link")
 
 ## Product List Website Documentation
 
@@ -11,7 +11,7 @@ The Product List website is a simple web application that fetches and displays p
 To access the Product List website, follow these steps:
 
 1. Open your web browser (Google Chrome, Mozilla Firefox, etc.).
-2. Enter the URL for the Product List website: [URL]
+2. Enter the URL for the Product List website: [URL](https://fakestore-javascript-madhavsahi.netlify.app/)
 3. Press Enter to load the website.
 
 ### Website Features
