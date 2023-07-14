@@ -10,7 +10,7 @@
 
 ## Ans-05 : [Solution]( "Solution Link")
 
-## Ans-06 : [Solution]( "Solution Link")
+## Ans-06 : [Solution]("Solution Link")
 
 ## Ans-07 : [Solution]( "Solution Link")
 

@@ -6,7 +6,7 @@ REST (Representational State Transfer) is an architectural style that defines a 
 
 In a RESTful API, resources are represented as URLs (Uniform Resource Locators), and interactions with these resources are performed using standard HTTP methods such as GET, POST, PUT, PATCH, and DELETE. The API follows a client-server model, where the client initiates requests to the server to perform actions on the resources.
 
-Key characteristics of RESTful APIs include:
+Key characteristics of RESTful APIs:
 
 Stateless: Each request from the client to the server contains all the information needed to process the request. The server does not store any client state between requests, which allows for scalability and simplifies the architecture.
 

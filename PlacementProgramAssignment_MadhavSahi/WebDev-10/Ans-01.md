@@ -4,7 +4,6 @@ Solution--->
 
 In Node.js, middleware refers to a piece of code or a function that sits between the client request and the server response in an application's request-response cycle. It allows you to add additional functionality to your application's HTTP processing pipeline. Middleware functions can intercept incoming requests, perform specific tasks, modify the request or response objects, and invoke the next middleware in the chain.
 
-
 1. Request-response cycle: When a client makes an HTTP request to a Node.js server, the server processes the request and generates a response. The request-response cycle represents this interaction.
 
 2. Middleware function: A middleware function has access to the request object (`req`), the response object (`res`), and the `next` function in the application's request-response cycle. It can perform operations on the request, modify the response, or pass control to the next middleware in the chain.

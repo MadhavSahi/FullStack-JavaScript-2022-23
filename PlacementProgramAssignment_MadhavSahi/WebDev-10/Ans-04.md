@@ -4,7 +4,7 @@ Solution--->
 
 MongoDB is a popular NoSQL database management system (DBMS) that is used to store and manage data in a flexible and scalable manner.
 
-1. Document-Oriented: MongoDB is a document-oriented database, which means it stores data in a flexible, semi-structured document format (typically JSON-like documents). This allows for easy and dynamic schema design, making it suitable for handling evolving and complex data structures.
+1. Document-Oriented: MongoDB is a document oriented database, which means it stores data in a flexible, semi-structured document format (typically JSON-like documents). This allows for easy and dynamic schema design, making it suitable for handling evolving and complex data structures.
 
 2. Scalability and Performance: MongoDB is designed to scale horizontally, allowing for the distribution of data across multiple servers. It supports automatic sharding, which enables seamless scaling as data volumes and traffic increase. This distributed architecture helps in achieving high performance and handling large amounts of data.
 

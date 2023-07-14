@@ -2,7 +2,7 @@
 
 Solution--->
 
-Express is a web application framework for Node.js, which means it is built on top of Node.js and provides additional functionality and structure for developing web applications.
+Express is a web application framework for Node.js, which means it is built on top of Node.JS and provides additional functionality and structure for developing web applications.
 
 1. Simplicity: Express simplifies the process of building web applications in Node.js by providing a high-level framework with built-in features and utilities. It abstracts away many of the low-level details of Node.js, making it easier and faster to develop web applications.
 
