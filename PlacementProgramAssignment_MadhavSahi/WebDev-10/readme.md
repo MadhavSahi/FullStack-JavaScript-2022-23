@@ -1,14 +1,14 @@
-# Assignment - Web Development - 09
+# Assignment - Web Development - 10
 
-## Ans-01 : [Solution]( "Solution Link")
+## Ans-01 : [Solution](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/blob/main/PlacementProgramAssignment_MadhavSahi/WebDev-10/Ans-01.md "Solution Link")
 
-## Ans-02 : [Solution]( "Solution Link")
+## Ans-02 : [Solution](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/blob/main/PlacementProgramAssignment_MadhavSahi/WebDev-10/Ans-02.md "Solution Link")
 
-## Ans-03 : [Solution]( "Solution Link")
+## Ans-03 : [Solution](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/blob/main/PlacementProgramAssignment_MadhavSahi/WebDev-10/Ans-03.md "Solution Link")
 
-## Ans-04 : [Solution]( "Solution Link")
+## Ans-04 : [Solution](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/blob/main/PlacementProgramAssignment_MadhavSahi/WebDev-10/Ans-04.md "Solution Link")
 
-## Ans-05 : [Solution]( "Solution Link")
+## Ans-05 : [Solution](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/blob/main/PlacementProgramAssignment_MadhavSahi/WebDev-10/Ans-05.md "Solution Link")
 
 ## Ans-06 : [Solution]("Solution Link")
 

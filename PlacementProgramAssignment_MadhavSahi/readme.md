@@ -111,3 +111,6 @@
 ## Assignment 9 - Web Dev
 
 - Solutions Link -[WebDev-09](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/PlacementProgramAssignment_MadhavSahi/WebDev-09 "Solutions Link")
+## Assignment 10 - Web Dev
+
+- Solutions Link -[WebDev-10](https://github.com/MadhavSahi/FullStack-JavaScript-2022-23/tree/main/PlacementProgramAssignment_MadhavSahi/WebDev-10 "Solutions Link")
