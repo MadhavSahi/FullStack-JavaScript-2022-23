@@ -2,7 +2,7 @@ let stocks = {
   fruits: ["Strawberry", "Orange", "Mango"],
   liquid: ["water", "ice"],
   holder: ["cup", "cup", "stick"],
-  toppings: ["chocolate", "peanuts", "butterscotch"],
+  toppings: ["chocolate","mango", "peanuts", "butterscotch"],
 };
 let is_shop_open = true;
 
