@@ -31,7 +31,7 @@ let order = (work, time) => {
     }
   });
 };
-console.log("hiii");
+//console.log("hiii");
 order(() => {
   console.log(stocks.fruits[0] + " was selected");
 }, 2000)
