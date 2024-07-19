@@ -10,7 +10,7 @@
 // //     console.log("hey1");
 // // },0)
 
-// // console.log("hey4");
+console.log("hey4");
 
 let stocks = {
   fruits: ["Strawberry", "Orange", "Mango"],
