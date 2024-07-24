@@ -13,7 +13,7 @@ app.get("/",(req,res)=>{
 
     // res.send("<h1>Heyy FSJS</h1>");//it's like FrontEnd....but we don't write frontend here like this.
     //We don;t send data like res.send("xyz")...we always use status code while sending... res.status(200).send("Hello world")
-    res.status(200).send("<h1>Hey backend</h1>");
+    res.status(200).send("<h1>Hey Backend</h1>");
 })
 
 app.get("/insta",(req,res)=>{
