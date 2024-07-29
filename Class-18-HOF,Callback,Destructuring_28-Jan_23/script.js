@@ -40,7 +40,7 @@ const arry=[1,2,3,4,5,6,8,9];
 const newarr=arry.map((num)=>{
     return num*num;
 });
-// console.log(newarr);
+console.log(newarr);
 
 // if we want to not write return word...then we don;t need to add {} in callback
 //filter
