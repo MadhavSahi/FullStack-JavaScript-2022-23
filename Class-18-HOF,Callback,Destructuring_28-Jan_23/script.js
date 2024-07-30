@@ -44,7 +44,7 @@ console.log(newarr);
 
 // if we want to not write return word...then we don;t need to add {} in callback
 //filter
-const countries=['India','England','NewZealand','Finland','Australia'];
+const countries=['India','England','NewZealand','Finland','Australia', 'Russia'];
 const newcoun=countries.filter((name)=>{
      return !name.includes('land');
     //  return name.includes('land');
